@@ -9,7 +9,10 @@ header_pages:
   - who-we-are.md
   - what-we-do.md
   - members.md
+  - news.md
   - contact.md
+
+permalink: /news/:year/:month/:day/:title/
 
 plugins:
   - jekyll-seo-tag
