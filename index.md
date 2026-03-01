@@ -16,6 +16,11 @@ title: Home
     <p>Learn more about the NMTE.</p>
   </a>
 
+  <a href="/members/" class="card">
+    <h3>Members</h3>
+    <p>Learn more about NMTE members.</p>
+  </a>
+
   <a href="/contact/" class="card">
     <img src="/assets/images/card-contact.jpg" alt="Contact">
     <h3>Contact</h3>
