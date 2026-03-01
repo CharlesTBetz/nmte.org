@@ -8,7 +8,6 @@ theme: minima
 header_pages:
   - who-we-are.md
   - what-we-do.md
-  - members.md
   - contact.md
 
 plugins:

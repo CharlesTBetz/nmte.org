@@ -33,38 +33,6 @@
   p { color: #555; font-size: 0.9rem; }
 }
 
-// Members grid
-.members-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 1.5rem;
-  margin-top: 1rem;
-}
-
-.member-card {
-  text-align: center;
-  padding: 1rem;
-
-  img {
-    width: 120px;
-    height: 120px;
-    object-fit: cover;
-    border-radius: 50%;
-  }
-
-  h3 { margin: 0.5rem 0 0.25rem; }
-
-  .member-shows {
-    list-style: none;
-    padding: 0;
-    font-size: 0.85rem;
-    color: #555;
-
-    li { margin-bottom: 0.5rem; }
-    .show-credits { font-size: 0.8rem; color: #777; }
-  }
-}
-
 // Contact form
 .contact-form {
   max-width: 500px;
