@@ -1,0 +1,20 @@
+title: New Musical Theatre Exchange
+description: "Bringing together committed musical theatre writers in the Twin Cities"
+url: "https://nmte.org"
+baseurl: ""
+
+theme: minima
+
+header_pages:
+  - who-we-are.md
+  - what-we-do.md
+  - members.md
+  - contact.md
+
+plugins:
+  - jekyll-seo-tag
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
