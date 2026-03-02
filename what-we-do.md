@@ -4,6 +4,8 @@ title: What We Do
 permalink: /what-we-do/
 ---
 
+<img src="/assets/images/what-we-do-event-1.jpg" alt="NMTE workshop event" class="who-we-are-photo">
+
 The New Musical Theatre Exchange meets the second Sunday of most months. If you are in the Twin Cities area and want more information, you can reach us via the [Contact](/contact/) page.
 
 ## Monthly Workshop
