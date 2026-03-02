@@ -1,16 +1,19 @@
 ---
 layout: post
-title: "NMTE Sold Out at Crooners!"
+title: "NMTE's 2026 New Works Cabaret — Sold Out at Crooners!"
 date: 2026-03-01
 categories: events
+image: /assets/images/nmte-cabaret-flyer.jpg
 ---
 
-The New Musical Theatre Exchange is thrilled to announce that our cabaret evening at **Crooners Supper Club** was a complete sellout! NMTE members filled the intimate **Dunsmore Room** for a night of new musical theater featuring original songs, scenes, and works-in-progress from our talented writers.
+On Monday, February 23rd, the New Musical Theatre Exchange presented its **2026 New Works Cabaret** at [Crooners Supper Club](https://www.croonersmn.com/) in Minneapolis — and sold out the house.
 
-The evening showcased the breadth of work being developed in our monthly workshops — from polished numbers ready for the stage to exciting glimpses of musicals in development. The Dunsmore Room's cabaret atmosphere was the perfect setting for this kind of up-close, personal presentation of new work.
+The evening took place in Crooners' intimate **Dunsmore Jazz Room**, where NMTE members shared original songs, scenes, and works-in-progress with a packed audience. Doors opened at 5:30 for food and drink, with the show kicking off at 6:30 PM.
 
-This sold-out event is a testament to the growing interest in new musical theater in the Twin Cities and the quality of work our members are producing. It also demonstrates that audiences are hungry for original musical theater beyond the standard repertoire.
+The cabaret format is a natural fit for new musical theater: audiences get an up-close look at work in development, and writers get to hear their material in front of a live crowd — often for the first time. The Dunsmore Room's warm acoustics and supper-club atmosphere made it the perfect venue for the kind of raw, exciting performances that define NMTE events.
 
-We're grateful to everyone who came out to support new work, and to Crooners for hosting us in their beautiful space. Stay tuned for future NMTE events — and if you missed this one, make sure to follow us so you don't miss the next!
+The sellout confirms what NMTE members have known for a while: Twin Cities audiences are hungry for original musical theater. Not revivals, not jukebox musicals — new work from local writers and composers pushing the art form forward.
 
-**Want to be part of the next one?** [Learn about membership →](/membership/) or [contact us →](/contact/)
+We're grateful to the Crooners team for hosting, and to everyone who came out to support new work. NMTE expects to be back at Crooners — stay tuned for announcements.
+
+**Interested in new musical theater?** [Learn about NMTE membership →](/membership/) or [contact us →](/contact/)
