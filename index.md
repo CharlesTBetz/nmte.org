@@ -3,6 +3,10 @@ layout: home
 title: Home
 ---
 
+<div style="text-align: center; margin-bottom: 2.5rem;">
+  <img src="{{ '/assets/images/nmte-logo-gold.jpg' | relative_url }}" alt="New Musical Theatre Exchange" style="max-width: 400px; width: 100%;">
+</div>
+
 <div class="news-feature">
   <h2>NMTE News</h2>
   {% for post in site.posts limit:3 %}

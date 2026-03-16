@@ -1,7 +1,7 @@
 title: New Musical Theatre Exchange
 description: "Bringing together committed musical theatre writers in the Twin Cities"
-url: "https://nmte.org"
-baseurl: ""
+url: "https://charlestbetz.github.io"
+baseurl: "/nmte.org"
 
 theme: minima
 
