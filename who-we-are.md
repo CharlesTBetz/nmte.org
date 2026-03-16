@@ -4,7 +4,7 @@ title: Who We Are
 permalink: /who-we-are/
 ---
 
-<img src="/assets/images/who-we-are-photo.jpg" alt="NMTE members" class="who-we-are-photo">
+<img src="{{ site.baseurl }}/assets/images/who-we-are-photo.jpg" alt="NMTE members" class="who-we-are-photo">
 
 The New Musical Theatre Exchange is a nonprofit 501(c) that exists to bring together committed librettists, lyricists, and composers of musical theatre in the Twin Cities to have their work read and workshopped, find collaborators, share useful information, and support efforts to get members' work produced.
 

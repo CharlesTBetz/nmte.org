@@ -12,24 +12,24 @@ title: Home
     <p>{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
   </article>
   {% endfor %}
-  <p><a href="/news/">View all news →</a></p>
+  <p><a href="{{ site.baseurl }}/news/">View all news →</a></p>
 </div>
 
 <div class="home-cards">
-  <a href="/who-we-are/" class="card">
-    <img src="/assets/images/card-who.jpg" alt="Who We Are">
+  <a href="{{ site.baseurl }}/who-we-are/" class="card">
+    <img src="{{ site.baseurl }}/assets/images/card-who.jpg" alt="Who We Are">
     <h3>Who We Are</h3>
     <p>The New Musical Theatre Exchange exists to bring together committed musical theatre writers.</p>
   </a>
 
-  <a href="/what-we-do/" class="card">
-    <img src="/assets/images/card-what.jpg" alt="What We Do">
+  <a href="{{ site.baseurl }}/what-we-do/" class="card">
+    <img src="{{ site.baseurl }}/assets/images/card-what.jpg" alt="What We Do">
     <h3>What We Do</h3>
     <p>Learn more about the NMTE.</p>
   </a>
 
-  <a href="/contact/" class="card">
-    <img src="/assets/images/card-contact.jpg" alt="Contact">
+  <a href="{{ site.baseurl }}/contact/" class="card">
+    <img src="{{ site.baseurl }}/assets/images/card-contact.jpg" alt="Contact">
     <h3>Contact</h3>
     <p>Want to know more about NMTE meetings or membership?</p>
   </a>
