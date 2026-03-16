@@ -26,4 +26,4 @@ If you are in the Twin Cities and looking to check out our monthly workshops or 
 
 ### Find Us on Facebook
 
-Join our [Facebook group](https://www.facebook.com/groups/311900578864001/) for updates and community discussion.
+Join our <a href="https://www.facebook.com/groups/311900578864001/" target="_blank">Facebook group</a> for updates and community discussion.

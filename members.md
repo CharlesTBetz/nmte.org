@@ -2,45 +2,25 @@
 layout: page
 title: Members
 permalink: /members/
+nav_exclude: true
 ---
 
-<div class="members-grid">
+## Current Members
 
-<div class="member-card">
-  <img src="/assets/images/member-maureen-kane-berg.jpg" alt="Maureen Kane Berg">
-  <h3>Maureen Kane Berg</h3>
-</div>
+- <a href="https://pwcenter.org/profile/keith-benson/" target="_blank">Keith Benson</a>
+- <a href="https://pwcenter.org/profile/charles-betz/" target="_blank">Charles Betz</a>
+- <a href="https://pwcenter.org/profile/kevin-bowen/" target="_blank">Kevin Bowen</a>
+- <a href="https://pwcenter.org/profile/robert-derus/" target="_blank">Bob Derus</a>
+- <a href="https://pwcenter.org/profile/robert-elhai/" target="_blank">Robert Elhai</a>
+- <a href="https://pwcenter.org/profile/eric-heltemes/" target="_blank">Eric Heltemes</a>
+- <a href="https://pwcenter.org/profile/maureen-kane-berg/" target="_blank">Maureen Kane Berg</a>
+- <a href="https://pwcenter.org/profile/marienne-kreitlow/" target="_blank">Marienne Kreitlow</a>
+- <a href="https://pwcenter.org/profile/ben-larson/" target="_blank">Ben Larson</a>
+- <a href="https://pwcenter.org/profile/mike-nilles/" target="_blank">Mike Nilles</a>
+- <a href="https://pwcenter.org/profile/janet-preus/" target="_blank">Janet Preus</a>
+- <a href="https://pwcenter.org/profile/rd-rhobajt/" target="_blank">R.D. Rhobajt</a>
+- <a href="https://pwcenter.org/profile/brenda-varda/" target="_blank">Brenda Varda</a>
 
-<div class="member-card">
-  <img src="/assets/images/member-bob-thomas.jpg" alt="Bob Thomas">
-  <h3>Bob Thomas</h3>
-</div>
+*Member bios link to <a href="https://pwcenter.org/member-directory/" target="_blank">Playwrights' Center</a> profiles where available.*
 
-<div class="member-card">
-  <img src="/assets/images/member-janet-preus.jpg" alt="Janet Preus">
-  <h3>Janet Preus</h3>
-</div>
-
-<div class="member-card">
-  <img src="/assets/images/member-marienne-kreitlow.jpg" alt="Marienne Kreitlow">
-  <h3>Marienne Kreitlow</h3>
-</div>
-
-<div class="member-card">
-  <img src="/assets/images/member-charles-betz.jpg" alt="Charles Betz">
-  <h3>Charles Betz</h3>
-</div>
-
-<div class="member-card">
-  <img src="/assets/images/member-rd-rhobajt.jpg" alt="R.D. Rhobajt">
-  <h3>R.D. Rhobajt</h3>
-</div>
-
-<div class="member-card">
-  <img src="/assets/images/member-paul-lavrakas.jpg" alt="Paul A Lavrakas">
-  <h3>Paul A Lavrakas</h3>
-</div>
-
-</div>
-
-Interested in joining? [Learn about membership →](/membership/)
+Interested in learning more? [Contact us →](/contact/)

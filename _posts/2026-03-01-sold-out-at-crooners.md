@@ -6,7 +6,7 @@ categories: events
 image: /assets/images/nmte-cabaret-flyer.jpg
 ---
 
-On Monday, February 23rd, the New Musical Theatre Exchange presented its **2026 New Works Cabaret** at [Crooners Supper Club](https://www.croonersmn.com/) in Minneapolis — and sold out the house.
+On Monday, February 23rd, the New Musical Theatre Exchange presented its **2026 New Works Cabaret** at <a href="https://www.croonersmn.com/" target="_blank">Crooners Supper Club</a> in Minneapolis — and sold out the house.
 
 The evening took place in Crooners' intimate **Dunsmore Jazz Room**, where NMTE members shared original songs, scenes, and works-in-progress with a packed audience. Doors opened at 5:30 for food and drink, with the show kicking off at 6:30 PM.
 

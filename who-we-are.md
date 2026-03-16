@@ -10,4 +10,8 @@ The New Musical Theatre Exchange is a nonprofit 501(c) that exists to bring toge
 
 The New Musical Theatre Exchange was founded in 2012 by a diverse group of Twin Cities playwrights, composers, and lyricists dedicated to launching new musicals in the Twin Cities and beyond. We provide a place to develop musicals and foster a community for serious-minded local musical theatre writers who believe that new musicals can be developed outside of New York City and in particular, here in the Twin Cities, where there is a wealth of talent and resources available. Bringing a musical to full fruition is always a long and challenging road, even for the most experienced Broadway veterans; we created our workshop as a first step where writers can receive feedback to refine ideas, identify potential problems, and correct mistakes before a show goes into the difficult and expensive production process.
 
-Read more about the New Musical Theatre Exchange and its [unique place in the Twin Cities](http://dramatistsguild.tumblr.com/post/123590074435/dg-national-report-minneapolisst-paul-by-laurie) theatre community in *The Dramatist*, the newsletter for the Dramatists Guild of America.
+We meet on the third Sunday of each month, usually at the Playwrights' Center.
+
+[Meet our members →](/members/)
+
+Read more about the New Musical Theatre Exchange and its <a href="http://dramatistsguild.tumblr.com/post/123590074435/dg-national-report-minneapolisst-paul-by-laurie" target="_blank">unique place in the Twin Cities</a> theatre community in *The Dramatist*, the newsletter for the Dramatists Guild of America.

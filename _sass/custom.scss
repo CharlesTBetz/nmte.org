@@ -1,18 +1,26 @@
-// NMTE Custom Styles — Theatrical/Vibrant
+// NMTE Custom Styles — Black & Gold, matching nmte.org Wix design
 
 // Override minima variables
-$brand-color: #8B1A1A;
-$text-color: #2d2d2d;
+$brand-color: #c4a843;
+$text-color: #e0dcd6;
+$background-color: #111111;
 
-// Hero / home page header
+// Global dark background
+body {
+  background-color: #111111;
+  color: #e0dcd6;
+}
+
+// Header
 .site-header {
-  background: #1a1a2e;
-  border-bottom: 3px solid #8B1A1A;
+  background: #000000;
+  border-bottom: 2px solid #c4a843;
 
   .site-title, .site-title:visited {
-    color: #f0d060 !important;
+    color: #c4a843 !important;
     font-size: 1.4rem;
-    letter-spacing: 0.02em;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
   }
 
   .page-link {
@@ -21,23 +29,49 @@ $text-color: #2d2d2d;
     font-size: 0.85rem;
     letter-spacing: 0.06em;
 
-    &:hover { color: #f0d060 !important; }
+    &:hover { color: #c4a843 !important; }
   }
+
+  // Hamburger menu icon
+  .menu-icon > svg { fill: #e0d4c0; }
+}
+
+// Wrapper background
+.page-content {
+  background-color: #111111;
+
+  h1, h2, h3, h4, h5, h6 {
+    color: #c4a843;
+  }
+
+  p, li {
+    color: #d4cfc6;
+  }
+
+  a {
+    color: #c4a843;
+    &:hover { color: #e0c850; }
+  }
+}
+
+.post-content {
+  color: #d4cfc6;
 }
 
 // Home page news feature
 .news-feature {
-  background: linear-gradient(135deg, #1a1a2e 0%, #2d1b3d 100%);
+  background: #1a1a1a;
   color: #e8e0d4;
   padding: 2.5rem;
   border-radius: 10px;
   margin-bottom: 2.5rem;
+  border: 1px solid #333;
 
   h2 {
-    color: #f0d060;
+    color: #c4a843;
     font-size: 1.6rem;
     margin-bottom: 1.5rem;
-    border-bottom: 2px solid rgba(240, 208, 96, 0.3);
+    border-bottom: 2px solid rgba(196, 168, 67, 0.3);
     padding-bottom: 0.5rem;
   }
 
@@ -46,12 +80,12 @@ $text-color: #2d2d2d;
     padding-bottom: 1rem;
     border-bottom: 1px solid rgba(255,255,255,0.1);
 
-    h3 a { color: #f0d060; text-decoration: none; &:hover { color: #fff; } }
+    h3 a { color: #c4a843; text-decoration: none; &:hover { color: #fff; } }
     time { color: #a89e8f; font-size: 0.85rem; }
     p { color: #c8c0b4; }
   }
 
-  > p > a { color: #f0d060; }
+  > p > a { color: #c4a843; }
 }
 
 // Home page cards
@@ -65,17 +99,18 @@ $text-color: #2d2d2d;
 .card {
   text-decoration: none;
   color: inherit;
-  background: #fff;
-  border: none;
+  background: #1a1a1a;
+  border: 1px solid #333;
   border-radius: 10px;
   overflow: hidden;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
   transition: transform 0.2s, box-shadow 0.2s;
 
   &:hover {
     transform: translateY(-3px);
-    box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+    box-shadow: 0 8px 24px rgba(0,0,0,0.5);
     text-decoration: none;
+    border-color: #c4a843;
   }
 
   img {
@@ -86,13 +121,13 @@ $text-color: #2d2d2d;
 
   h3 {
     padding: 0.75rem 1.2rem 0;
-    color: #8B1A1A;
+    color: #c4a843;
     font-size: 1.15rem;
   }
 
   p {
     padding: 0.25rem 1.2rem 1.2rem;
-    color: #555;
+    color: #a89e8f;
     font-size: 0.9rem;
     line-height: 1.5;
   }
@@ -108,13 +143,17 @@ $text-color: #2d2d2d;
 
 .member-card {
   text-align: center;
-  background: #fff;
+  background: #1a1a1a;
+  border: 1px solid #333;
   border-radius: 10px;
   padding: 1.5rem 1rem;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
   transition: transform 0.2s;
 
-  &:hover { transform: translateY(-2px); }
+  &:hover {
+    transform: translateY(-2px);
+    border-color: #c4a843;
+  }
 
   img {
     width: 140px;
@@ -122,12 +161,12 @@ $text-color: #2d2d2d;
     border-radius: 50%;
     object-fit: cover;
     margin-bottom: 0.75rem;
-    border: 3px solid #8B1A1A;
+    border: 3px solid #c4a843;
   }
 
   h3 {
     font-size: 1rem;
-    color: #2d2d2d;
+    color: #e0dcd6;
     margin: 0;
   }
 }
@@ -137,12 +176,12 @@ $text-color: #2d2d2d;
   .news-item {
     margin-bottom: 2rem;
     padding-bottom: 2rem;
-    border-bottom: 1px solid #e0dcd6;
+    border-bottom: 1px solid #333;
 
     h2 a {
-      color: #8B1A1A;
+      color: #c4a843;
       text-decoration: none;
-      &:hover { color: #c62828; }
+      &:hover { color: #e0c850; }
     }
 
     time {
@@ -163,27 +202,29 @@ $text-color: #2d2d2d;
       display: block;
       margin-bottom: 0.3rem;
       font-weight: 600;
-      color: #444;
+      color: #c4a843;
     }
 
     input, textarea {
       width: 100%;
       padding: 0.7rem;
-      border: 2px solid #ddd;
+      border: 2px solid #444;
       border-radius: 6px;
       font-size: 1rem;
+      background: #1a1a1a;
+      color: #e0dcd6;
       transition: border-color 0.2s;
 
       &:focus {
         outline: none;
-        border-color: #8B1A1A;
+        border-color: #c4a843;
       }
     }
   }
 
   button {
-    background: #8B1A1A;
-    color: white;
+    background: #c4a843;
+    color: #111;
     border: none;
     padding: 0.75rem 2.5rem;
     border-radius: 6px;
@@ -191,27 +232,20 @@ $text-color: #2d2d2d;
     cursor: pointer;
     text-transform: uppercase;
     letter-spacing: 0.05em;
+    font-weight: 700;
     transition: background 0.2s;
 
-    &:hover { background: #c62828; }
-  }
-}
-
-// Page content improvements
-.page-content {
-  h2 {
-    color: #8B1A1A;
-    margin-top: 2rem;
+    &:hover { background: #e0c850; }
   }
 }
 
 // Footer
 .site-footer {
-  background: #1a1a2e;
+  background: #000000;
   color: #a89e8f;
-  border-top: 3px solid #8B1A1A;
+  border-top: 2px solid #c4a843;
 
-  a { color: #f0d060; }
+  a { color: #c4a843; }
   .footer-heading { color: #e0d4c0; }
 }
 
@@ -222,6 +256,26 @@ $text-color: #2d2d2d;
   object-fit: cover;
   border-radius: 8px;
   margin-bottom: 1.5rem;
+}
+
+// Minima overrides for dark theme
+.wrapper { color: #d4cfc6; }
+.post-title, .post-header h1 { color: #c4a843; }
+.post-meta { color: #888; }
+
+// Code/pre blocks
+pre, code {
+  background: #1a1a1a;
+  border-color: #333;
+  color: #d4cfc6;
+}
+
+// Tables
+table {
+  color: #d4cfc6;
+  border-color: #444;
+  th { background: #1a1a1a; color: #c4a843; }
+  td { border-color: #333; }
 }
 
 // Responsive
