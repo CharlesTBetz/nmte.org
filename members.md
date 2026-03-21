@@ -23,4 +23,4 @@ nav_exclude: true
 
 *Member bios link to <a href="https://pwcenter.org/member-directory/" target="_blank">Playwrights' Center</a> profiles where available.*
 
-Interested in learning more? [Contact us →](/contact/)
+Interested in learning more? [Contact us →]({{ site.baseurl }}/contact/)

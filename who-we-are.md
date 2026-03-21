@@ -12,6 +12,6 @@ The New Musical Theatre Exchange was founded in 2012 by a diverse group of Twin 
 
 We meet on the third Sunday of each month, usually at the Playwrights' Center.
 
-[Meet our members →](/members/)
+[Meet our members →]({{ site.baseurl }}/members/)
 
 Read more about the New Musical Theatre Exchange and its <a href="http://dramatistsguild.tumblr.com/post/123590074435/dg-national-report-minneapolisst-paul-by-laurie" target="_blank">unique place in the Twin Cities</a> theatre community in *The Dramatist*, the newsletter for the Dramatists Guild of America.
