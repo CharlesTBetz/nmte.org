@@ -7,7 +7,7 @@ permalink: /events/
 ## Upcoming Events
 
 ### Monthly Workshop
-The NMTE meets the **second Sunday of most months** in the Twin Cities. Members share songs, scenes, and lyrics for feedback and development. [Contact us](/contact/) for location and details.
+The NMTE meets the **third Sunday of most months** in the Twin Cities. Members share songs, scenes, and lyrics for feedback and development. [Contact us](/contact/) for location and details.
 
 ### Readings
 The Exchange sponsors readings throughout the year to showcase new work being developed in the workshop.

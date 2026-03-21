@@ -1,0 +1,75 @@
+backend:
+  name: github
+  repo: CharlesTBetz/nmte.org
+  branch: main
+
+site_url: https://charlestbetz.github.io/nmte.org
+display_url: https://charlestbetz.github.io/nmte.org
+
+media_folder: "assets/images"
+public_folder: "/nmte.org/assets/images"
+
+collections:
+  - name: "posts"
+    label: "News Posts"
+    folder: "_posts"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Layout", name: "layout", widget: "hidden", default: "post" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Categories", name: "categories", widget: "string", required: false }
+      - { label: "Image", name: "image", widget: "image", required: false }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "pages"
+    label: "Pages"
+    files:
+      - label: "Home"
+        name: "home"
+        file: "index.md"
+        fields:
+          - { label: "Layout", name: "layout", widget: "hidden", default: "home" }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
+
+      - label: "Who We Are"
+        name: "who-we-are"
+        file: "who-we-are.md"
+        fields:
+          - { label: "Layout", name: "layout", widget: "hidden", default: "page" }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
+
+      - label: "What We Do"
+        name: "what-we-do"
+        file: "what-we-do.md"
+        fields:
+          - { label: "Layout", name: "layout", widget: "hidden", default: "page" }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
+
+      - label: "Events"
+        name: "events"
+        file: "events.md"
+        fields:
+          - { label: "Layout", name: "layout", widget: "hidden", default: "page" }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
+
+      - label: "Contact"
+        name: "contact"
+        file: "contact.md"
+        fields:
+          - { label: "Layout", name: "layout", widget: "hidden", default: "page" }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
+
+      - label: "Members"
+        name: "members"
+        file: "members.md"
+        fields:
+          - { label: "Layout", name: "layout", widget: "hidden", default: "page" }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }

@@ -16,4 +16,4 @@ The sellout confirms what NMTE members have known for a while: Twin Cities audie
 
 We're grateful to the Crooners team for hosting, and to everyone who came out to support new work. NMTE expects to be back at Crooners — stay tuned for announcements.
 
-**Interested in new musical theater?** [Learn about NMTE membership →](/membership/) or [contact us →](/contact/)
+**Interested in new musical theater?** [Learn about NMTE →](/nmte.org/who-we-are/) or [contact us →](/nmte.org/contact/)
