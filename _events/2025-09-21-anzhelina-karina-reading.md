@@ -30,6 +30,35 @@ After witnessing street women in dire situations and a tragic event in New York 
 
 The musical also featured in NMTE's 2026 Crooners Cabaret at Dunsmore Jazz Room, where **"With You"** was performed by Nicole Korbisch and Zakary Thomas Morton.
 
+## Cast
+
+| Character | Artist |
+|-----------|--------|
+| Anzhelina | Blanka Melbostad |
+| Karina | Ella Rose Katzenberger |
+| Sergei / Officers | Robert Banks |
+| Boris / Henry | Thomas Berg |
+| Mario | Michael Burton |
+| Nikolai | Eric Heltemes |
+| Rada / Louise | Nicole Korbisch |
+| Viktor / Officers | Zakary Morton |
+| Rose / Effie | Sri Peck |
+| Sadie / Anita | Jaezmyne Pheanious-Browne |
+
+## Creative Team
+
+| Role | Artist |
+|------|--------|
+| Composer, Lyricist, Arranger | Keith Benson |
+| Composer, Lyricist | Bob Derus |
+| Composer, Lyricist, Arranger | Marienne Kreitlow |
+| Composer, Lyricist | Mike Nilles |
+| Composer, Orchestrator | Bill Kelm |
+| Orchestrator | Eric Heltemes |
+| Arranger, Director, Pianist | Brenda Varda |
+| Dialog Editing | Bob Derus, Mike Nilles |
+| Recorded Tracks | Mike Niles |
+
 ---
 
 *This show is in development with NMTE and the reading is an NMTE-sanctioned event.*
