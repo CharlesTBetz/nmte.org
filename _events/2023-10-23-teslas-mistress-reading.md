@@ -4,8 +4,8 @@ title: "Tesla's Mistress — Staged Reading"
 event_date: 2023-10-23
 time: "7:00 PM (Oct 23 & 24)"
 venue: "Unity South Twin Cities, Bloomington MN"
-promo_image: /assets/images/teslas-mistress-2023-promo.png
-program_url: /assets/programs/teslas-mistress-2023-program.pdf
+promo_image: /assets/media/teslas-mistress-2023/promo-flyer.png
+program_url: /assets/media/teslas-mistress-2023/program.pdf
 ---
 
 The New Musical Theatre Exchange presented a two-night staged reading with songs from **Tesla's Mistress**, an original musical by **Marienne Kreitlow** (book, music, and lyrics).
