@@ -43,6 +43,12 @@ layout: default
     </p>
   </header>
 
+  {% if page.youtube_url %}
+  <div class="video-embed">
+    <iframe width="560" height="315" src="{{ page.youtube_url | replace: 'youtu.be/', 'www.youtube.com/embed/' | replace: 'watch?v=', 'embed/' }}" frameborder="0" allowfullscreen></iframe>
+  </div>
+  {% endif %}
+
   <div class="post-content">
     {{ content }}
   </div>
