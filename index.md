@@ -83,10 +83,6 @@ const heroCarousel = {
   
   next() {
     this.showSlide(this.currentSlide + 1);
-  },
-  
-  prev() {
-    this.showSlide(this.currentSlide - 1);
   }
 };
 
