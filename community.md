@@ -70,9 +70,6 @@ National organization supporting composers across all genres. Offers grants, pro
 ### [Minnesota Association of Songwriters](http://mnmas.org/){:target="_blank"}
 Supportive community for songwriters across all genres, including those working in musical theatre.
 
-### [ASCAP Minneapolis](https://www.ascap.com/){:target="_blank"}
-Local chapter of the American Society of Composers, Authors and Publishers. Networking and professional development for composers.
-
 ---
 
 *Know of an organization we should include? [Contact us](/about/contact/) with suggestions.*
