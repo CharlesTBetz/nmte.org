@@ -9,7 +9,7 @@ artist: "Lia Peros"
 composer: "Charles Betz"
 ---
 
-NMTE member Charles Betz has released the final demo version of "Earth Was The Dream!" featuring the extraordinary vocals of Lia Peros.
+NMTE member Charles Betz has released a working demo of "Earth Was The Dream!" featuring the extraordinary vocals of Lia Peros.
 
 The song, from Betz's musical-in-development *Five Minutes on the Low Road*, underwent extensive refinement before reaching this polished demo form. "Earth Was The Dream!" captures a pivotal moment in the story, exploring themes of transcendence and the difficulty of returning to ordinary consciousness after a profound spiritual experience.
 
