@@ -16,6 +16,11 @@ h2, h3, h4 {
   color: white;
 }
 
+.post-meta {
+  color: white !important;
+  font-style: italic;
+}
+
 .hero-overlay {
   h2, p, span {
     color: white !important;
@@ -66,7 +71,8 @@ h2, h3, h4 {
 
 .feature-meta {
   font-size: 0.9rem;
-  color: #666;
+  color: white;
+  font-style: italic;
   margin: 0;
 }
 
@@ -249,7 +255,8 @@ h2, h3, h4 {
 
 .event-meta {
   font-size: 0.9rem;
-  color: #666;
+  color: white;
+  font-style: italic;
   margin: 0.5rem 0;
   line-height: 1.4;
 }
@@ -324,7 +331,8 @@ h2, h3, h4 {
   gap: 1rem;
   margin: 0.5rem 0;
   font-size: 0.9rem;
-  color: #666;
+  color: white;
+  font-style: italic;
 }
 
 .type {
