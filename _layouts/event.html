@@ -5,7 +5,7 @@ layout: default
   <header>
     <h1>{{ page.title }}</h1>
     <div class="event-meta">
-      <time>{{ page.event_date | date: "%B %d, %Y" }}</time>
+      <time>{{ page.event_date | date: "%B %d, %Y" }}{% if page.end_date %} – {{ page.end_date | date: "%B %d, %Y" }}{% endif %}</time>
       {% if page.time %}<span class="event-time"> · {{ page.time }}</span>{% endif %}
       {% if page.venue %}<br><span class="event-venue">📍 {{ page.venue }}</span>{% endif %}
       {% if page.sold_out %}<span class="event-badge sold-out">SOLD OUT</span>{% endif %}
