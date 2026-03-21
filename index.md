@@ -49,10 +49,7 @@ title: Home
             <img src="{{ site.baseurl }}{{ image | strip }}" alt="{{ hero_event.title }}">
           </div>
         {% endfor %}
-        <div class="carousel-nav">
-          <button class="carousel-btn prev" onclick="heroCarousel.prev()">‹</button>
-          <button class="carousel-btn next" onclick="heroCarousel.next()">›</button>
-        </div>
+        <!-- Navigation removed - auto-advance only -->
       </div>
     {% elsif hero_event.promo_image %}
       <img src="{{ site.baseurl }}{{ hero_event.promo_image }}" alt="{{ hero_event.title }}">
