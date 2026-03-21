@@ -136,7 +136,43 @@ document.addEventListener('DOMContentLoaded', () => {
     {% endif %}
   </div>
   
-  <!-- Second featured slot removed for now -->
+  <!-- Featured News (non-event posts) -->
+  <div class="featured-news">
+    {% assign featured_news = nil %}
+    {% assign all_posts = site.posts | sort: 'date' | reverse %}
+    
+    <!-- Find most recent non-event post -->
+    {% for post in all_posts %}
+      {% unless post.event %}
+        {% if featured_news == nil %}
+          {% assign featured_news = post %}
+          {% break %}
+        {% endif %}
+      {% endunless %}
+    {% endfor %}
+    
+    {% if featured_news %}
+      <article class="feature-card">
+        <a href="{{ featured_news.url | relative_url }}">
+          {% if featured_news.youtube_url %}
+            <div class="video-thumbnail">
+              <img src="https://img.youtube.com/vi/{{ featured_news.youtube_url | split: '/' | last | replace: 'watch?v=', '' }}/mqdefault.jpg" alt="Video thumbnail">
+              <div class="play-button">▶</div>
+            </div>
+          {% elsif featured_news.promo_image %}
+            <img src="{{ site.baseurl }}{{ featured_news.promo_image }}" alt="{{ featured_news.title }}">
+          {% endif %}
+          <div class="feature-content">
+            <h3>{{ featured_news.title }}</h3>
+            <div class="feature-meta">
+              {{ featured_news.date | date: "%B %d, %Y" }}
+              {% if featured_news.category %} · {{ featured_news.category }}{% endif %}
+            </div>
+          </div>
+        </a>
+      </article>
+    {% endif %}
+  </div>
 </div>
 
 <!-- CTA Banner -->
