@@ -4,8 +4,6 @@ title: Updates
 permalink: /updates/
 ---
 
-# Updates
-
 Events, member news, and announcements — all in one place.
 
 <div class="updates-list">
