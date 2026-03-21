@@ -12,7 +12,7 @@ NMTE is part of a vibrant network of organizations supporting musical theatre cr
 
 ### [Playwrights' Center](https://pwcenter.org/){:target="_blank"}
 **Location:** 710 Raymond Ave, St. Paul  
-The nation's first organization devoted to playwrights and new play development. Offers workshops, fellowships, and readings for emerging and established writers.
+The nation's first organization devoted to playwrights and new play development. Offers workshops, fellowships, and readings for emerging and established writers. *Composers take note: this is where you might find your book writer.*
 
 ### [Nautilus Music-Theater](https://nautilusmusictheater.org/){:target="_blank"}
 **Location:** 308 Prince St, St. Paul  
@@ -68,7 +68,7 @@ National platform connecting playwrights, composers, lyricists, and librettists 
 National organization supporting composers across all genres. Offers grants, professional development, and networking opportunities for composers.
 
 ### [Minnesota Association of Songwriters](http://mnmas.org/){:target="_blank"}
-Supportive community for songwriters across all genres, including those working in musical theatre.
+Supportive community for songwriters across all genres, including those working in musical theatre. *Book writers take note: this is where you might find your composer.*
 
 ---
 
