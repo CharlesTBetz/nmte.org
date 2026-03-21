@@ -32,7 +32,7 @@ Following your presentation, current members vote on your acceptance to the grou
 
 **Our focus** is on developing musical theater for readings, workshops, and eventual staging. We're looking for artists who:
 
-- Are interested in creating **original musical theater** (not just songs or cabaret material)
+- Are interested in creating **original musical theater** — telling compelling stories with words and music
 - Want to **workshop and develop** their material with other creators
 - Are interested in **collaboration and feedback**
 - Have goals of getting their work **produced and performed**
