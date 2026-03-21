@@ -5,7 +5,7 @@ permalink: /events/
 ---
 
 {% assign today = site.time | date: "%Y-%m-%d" %}
-{% assign upcoming = site.events | where_exp: "event", "event.event_date >= today" | sort: "event_date" %}
+{% assign upcoming = site.events | where_exp: "event", "event.event_date | date: '%Y-%m-%d' >= today" | sort: "event_date" %}
 {% assign has_upcoming = false %}
 
 {% for event in upcoming %}

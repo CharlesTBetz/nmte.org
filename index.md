@@ -4,7 +4,7 @@ title: Home
 ---
 
 {% assign today = site.time | date: "%Y-%m-%d" %}
-{% assign upcoming = site.events | where_exp: "event", "event.event_date >= today" | sort: "event_date" %}
+{% assign upcoming = site.events | where_exp: "event", "event.event_date | date: '%Y-%m-%d' >= today" | sort: "event_date" %}
 
 {% if upcoming.size > 0 %}
 <div class="upcoming-events-feature">
