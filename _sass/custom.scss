@@ -21,6 +21,11 @@ h2, h3, h4 {
   font-style: italic;
 }
 
+// Body text on dark theme
+p, li, dd, dt, td, th, label, .page-content {
+  color: #e0e0e0;
+}
+
 .hero-overlay {
   h2, p, span {
     color: white !important;
