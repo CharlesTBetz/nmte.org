@@ -34,7 +34,7 @@ What made this Rough Cuts extraordinary was the format: Monday's open rehearsal 
 - **Ken Takata** — "Sonnet 18," featuring Yvonne Freese, Momoko Tanno, Josh Row, and Jake Endres
 - **Sara Brownson and Andrea Leap** — "But Most of All," featuring Daniel Greco, Momoko Tanno, Vanessa Gamble, and Norah Long
 - **Yan Pang** — "The Swallow Bird," featuring Yvonne Freese and Momoko Tanno
-- **Dan Rieva** — Excerpt from *The Molead*, featuring Yvonne Freese and Jake Endres
+- **Dan Rieva** — Excerpt from *The Mpliad*, featuring Yvonne Freese and Jake Endres
 - **Marya Hart** — "Lamento," featuring Norah Long
 
 **Musical Director:** Sonja Thompson
