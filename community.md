@@ -54,10 +54,11 @@ Community theatre specializing in musicals, from Broadway classics to contempora
 **Location:** 818 2nd St S, Minneapolis  
 The Twin Cities' premier regional theatre, regularly featuring musicals in their mainstage and thrust theater programming.
 
-## Resources for Creators
-
 ### [Hennepin Theatre Trust](https://hennepintheatretrust.org/)
-Operates the historic Orpheum, State, and Pantages Theatres. Offers education programs and supports local theatre development.
+**Location:** Orpheum, State, and Pantages Theatres, Minneapolis  
+Operates the historic theaters presenting touring Broadway productions and major musical theater works.
+
+## Resources for Creators
 
 ### [Minnesota Association of Songwriters](http://mnmas.org/)
 Supportive community for songwriters across all genres, including those working in musical theatre.
