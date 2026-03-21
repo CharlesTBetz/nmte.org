@@ -9,13 +9,18 @@ collections:
   events:
     output: true
     permalink: /events/:path/
+  news:
+    output: true
+    permalink: /news/:path/
 
 header_pages:
-  - news-and-events.md
+  - events.md
+  - news.md
   - about.md
-  - contact.md
+  - blog.md
+  - community.md
 
-permalink: /news/:year/:month/:day/:title/
+permalink: /blog/:year/:month/:day/:title/
 
 plugins:
   - jekyll-seo-tag

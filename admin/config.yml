@@ -30,8 +30,27 @@ collections:
       - { label: "Program PDF", name: "program_url", widget: "file", required: false, hint: "Upload program PDF" }
       - { label: "Body", name: "body", widget: "markdown" }
 
+  - name: "news"
+    label: "News"
+    folder: "_news"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    sortable_fields: ["date", "title"]
+    fields:
+      - { label: "Layout", name: "layout", widget: "hidden", default: "post" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "datetime", format: "YYYY-MM-DD", date_format: "YYYY-MM-DD" }
+      - { label: "Type", name: "type", widget: "string", hint: "e.g. Demo Release, Member Update, Industry News" }
+      - { label: "Featured", name: "featured", widget: "boolean", required: false, default: false, hint: "Feature on homepage" }
+      - { label: "Featured Until", name: "featured_until", widget: "datetime", required: false, hint: "Auto-expire featuring" }
+      - { label: "YouTube URL", name: "youtube_url", widget: "string", required: false }
+      - { label: "Artist", name: "artist", widget: "string", required: false }
+      - { label: "Composer", name: "composer", widget: "string", required: false }
+      - { label: "Image", name: "image", widget: "image", required: false }
+      - { label: "Body", name: "body", widget: "markdown" }
+
   - name: "posts"
-    label: "News Posts"
+    label: "Blog Posts"
     folder: "_posts"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
@@ -39,7 +58,10 @@ collections:
       - { label: "Layout", name: "layout", widget: "hidden", default: "post" }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Author", name: "author", widget: "string", required: false }
       - { label: "Categories", name: "categories", widget: "string", required: false }
+      - { label: "Featured", name: "featured", widget: "boolean", required: false, default: false, hint: "Feature on homepage" }
+      - { label: "Featured Until", name: "featured_until", widget: "datetime", required: false, hint: "Auto-expire featuring" }
       - { label: "Image", name: "image", widget: "image", required: false }
       - { label: "Body", name: "body", widget: "markdown" }
 
@@ -89,6 +111,38 @@ collections:
       - label: "Members"
         name: "members"
         file: "members.md"
+        fields:
+          - { label: "Layout", name: "layout", widget: "hidden", default: "page" }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
+
+      - label: "News"
+        name: "news-page"
+        file: "news.md"
+        fields:
+          - { label: "Layout", name: "layout", widget: "hidden", default: "page" }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
+
+      - label: "Blog"
+        name: "blog-page"
+        file: "blog.md"
+        fields:
+          - { label: "Layout", name: "layout", widget: "hidden", default: "page" }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
+
+      - label: "Events"
+        name: "events-page"
+        file: "events.md"
+        fields:
+          - { label: "Layout", name: "layout", widget: "hidden", default: "page" }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
+
+      - label: "Community"
+        name: "community-page"
+        file: "community.md"
         fields:
           - { label: "Layout", name: "layout", widget: "hidden", default: "page" }
           - { label: "Title", name: "title", widget: "string" }
