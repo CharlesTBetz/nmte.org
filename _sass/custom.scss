@@ -9,14 +9,14 @@
 }
 
 .feature-card {
-  border: 1px solid #e1e8ed;
+  border: 1px solid #444;
   border-radius: 8px;
   overflow: hidden;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
   
   &:hover {
     transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
   }
   
   a {
@@ -124,7 +124,7 @@
 
 // Event Styling
 .event-item {
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #333;
   padding: 1.5rem 0;
   
   &:last-child {
@@ -136,10 +136,11 @@
     
     a {
       text-decoration: none;
-      color: #1a1a2e;
+      color: #DAA520; // Gold color for visibility on dark background
       
       &:hover {
         text-decoration: underline;
+        color: #B8860B; // Darker gold on hover
       }
     }
   }
@@ -199,7 +200,7 @@
 
 .news-item, .blog-item {
   padding: 1.5rem;
-  border: 1px solid #e1e8ed;
+  border: 1px solid #444;
   border-radius: 8px;
   
   h2 {
@@ -207,10 +208,11 @@
     
     a {
       text-decoration: none;
-      color: #1a1a2e;
+      color: #DAA520; // Gold color for visibility on dark background
       
       &:hover {
         text-decoration: underline;
+        color: #B8860B; // Darker gold on hover
       }
     }
   }
@@ -244,12 +246,13 @@
 .read-more {
   display: inline-block;
   margin-top: 1rem;
-  color: #1a1a2e;
+  color: #DAA520;
   font-weight: 500;
   text-decoration: none;
   
   &:hover {
     text-decoration: underline;
+    color: #B8860B;
   }
 }
 
