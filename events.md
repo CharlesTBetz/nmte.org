@@ -4,23 +4,32 @@ title: Events
 permalink: /events/
 ---
 
-## Upcoming Events
+{% assign today = site.time | date: "%Y-%m-%d" %}
+{% assign upcoming = site.events | where_exp: "event", "event.event_date >= today" | sort: "event_date" %}
+{% assign has_upcoming = false %}
 
-### Monthly Workshop
-The NMTE meets the **third Sunday of most months** in the Twin Cities. Members share songs, scenes, and lyrics for feedback and development. [Contact us]({{ site.baseurl }}/contact/) for location and details.
+{% for event in upcoming %}
+{% assign has_upcoming = true %}
+<article class="event-item">
+  <h2><a href="{{ event.url | relative_url }}">{{ event.title }}</a></h2>
+  <div class="event-meta">
+    <time>{{ event.event_date | date: "%B %d, %Y" }}</time>
+    {% if event.time %} · {{ event.time }}{% endif %}
+    {% if event.venue %}<br>📍 {{ event.venue }}{% endif %}
+    {% if event.sold_out %} <span class="event-badge sold-out">SOLD OUT</span>{% endif %}
+  </div>
+  <p>{{ event.excerpt | strip_html | truncatewords: 30 }}</p>
+</article>
+{% endfor %}
 
-### Readings
-The Exchange sponsors readings throughout the year to showcase new work being developed in the workshop.
+{% unless has_upcoming %}
+## Monthly Workshop
+
+The NMTE meets the **third Sunday of most months** at the <a href="https://www.google.com/maps/place/710+Raymond+Ave,+St+Paul,+MN" target="_blank">Playwrights' Center, 710 Raymond Ave, St. Paul</a>. Members share songs, scenes, and lyrics for feedback and development.
+
+[Contact us]({{ site.baseurl }}/contact/) for details on the next meeting.
+{% endunless %}
 
 ---
 
-## Past Events
-
-### 2026
-
-**NMTE at Crooners — SOLD OUT!**
-March 2026 — The NMTE filled the Dunsmore Room at Crooners for a cabaret evening of new musical theater. [Read more →]({{ site.baseurl }}/news/2026/03/01/sold-out-at-crooners/)
-
----
-
-Want to attend an event? [Get in touch →]({{ site.baseurl }}/contact/)
+Looking for earlier events? [View past events →]({{ site.baseurl }}/past-events/)

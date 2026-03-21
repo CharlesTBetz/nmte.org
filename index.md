@@ -3,6 +3,29 @@ layout: home
 title: Home
 ---
 
+{% assign today = site.time | date: "%Y-%m-%d" %}
+{% assign upcoming = site.events | where_exp: "event", "event.event_date >= today" | sort: "event_date" %}
+
+{% if upcoming.size > 0 %}
+<div class="upcoming-events-feature">
+  <h2>Upcoming Events</h2>
+  {% for event in upcoming limit:3 %}
+  <article class="event-item featured">
+    <h3><a href="{{ event.url | relative_url }}">{{ event.title }}</a></h3>
+    <div class="event-meta">
+      <time>{{ event.event_date | date: "%B %d, %Y" }}</time>
+      {% if event.time %} · {{ event.time }}{% endif %}
+      {% if event.venue %}<br>📍 {{ event.venue }}{% endif %}
+      {% if event.sold_out %} <span class="event-badge sold-out">SOLD OUT</span>{% endif %}
+      {% if event.ticket_url %}<br><a href="{{ event.ticket_url }}" target="_blank">🎟 Get Tickets</a>{% endif %}
+    </div>
+    <p>{{ event.excerpt | strip_html | truncatewords: 25 }}</p>
+  </article>
+  {% endfor %}
+  <p><a href="{{ site.baseurl }}/events/">All events →</a></p>
+</div>
+{% endif %}
+
 <div class="news-feature">
   <h2>NMTE News</h2>
   {% for post in site.posts limit:3 %}

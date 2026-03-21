@@ -278,6 +278,87 @@ table {
   td { border-color: #333; }
 }
 
+// Events
+.upcoming-events-feature {
+  background: #1a1a1a;
+  padding: 2.5rem;
+  border-radius: 10px;
+  margin-bottom: 2.5rem;
+  border: 1px solid #333;
+
+  h2 {
+    color: #c4a843;
+    font-size: 1.6rem;
+    margin-bottom: 1.5rem;
+    border-bottom: 2px solid rgba(196, 168, 67, 0.3);
+    padding-bottom: 0.5rem;
+  }
+
+  > p > a { color: #c4a843; }
+}
+
+.event-item {
+  margin-bottom: 1.5rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+
+  h2 a, h3 a {
+    color: #c4a843;
+    text-decoration: none;
+    &:hover { color: #fff; }
+  }
+
+  .event-meta {
+    color: #a89e8f;
+    font-size: 0.9rem;
+    margin-top: 0.25rem;
+  }
+
+  p { color: #c8c0b4; }
+}
+
+.event-badge.sold-out {
+  display: inline-block;
+  background: #c4a843;
+  color: #111;
+  font-size: 0.7rem;
+  font-weight: 700;
+  padding: 0.15em 0.5em;
+  border-radius: 3px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-left: 0.5em;
+  vertical-align: middle;
+}
+
+.event-detail {
+  .event-meta {
+    color: #a89e8f;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+    line-height: 1.8;
+  }
+
+  .event-tickets {
+    display: inline-block;
+    background: #c4a843;
+    color: #111;
+    padding: 0.4em 1em;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 700;
+    margin-top: 0.5em;
+    &:hover { background: #e0c850; }
+  }
+
+  .event-footer {
+    margin-top: 3rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid #333;
+    a { color: #c4a843; }
+  }
+}
+
 // Responsive
 @media (max-width: 600px) {
   .members-grid {

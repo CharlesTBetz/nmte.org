@@ -10,6 +10,24 @@ media_folder: "assets/images"
 public_folder: "/nmte.org/assets/images"
 
 collections:
+  - name: "events"
+    label: "Events"
+    folder: "_events"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    sortable_fields: ["event_date", "title"]
+    fields:
+      - { label: "Layout", name: "layout", widget: "hidden", default: "event" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Event Date", name: "event_date", widget: "datetime", format: "YYYY-MM-DD", date_format: "YYYY-MM-DD", time_format: false }
+      - { label: "Time", name: "time", widget: "string", required: false, hint: "e.g. 7:00 PM or 5:30 PM doors, 6:30 PM show" }
+      - { label: "Venue", name: "venue", widget: "string", required: false }
+      - { label: "Capacity", name: "capacity", widget: "number", required: false }
+      - { label: "Sold Out", name: "sold_out", widget: "boolean", required: false, default: false }
+      - { label: "Ticket URL", name: "ticket_url", widget: "string", required: false }
+      - { label: "Image", name: "image", widget: "image", required: false }
+      - { label: "Body", name: "body", widget: "markdown" }
+
   - name: "posts"
     label: "News Posts"
     folder: "_posts"

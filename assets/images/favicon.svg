@@ -2,11 +2,10 @@
   <defs>
     <mask id="note-mask">
       <rect width="64" height="64" fill="white"/>
-      <!-- Eighth note knockout - fits inside MN silhouette -->
-      <g transform="translate(17,12) scale(0.21)" fill="black">
-        <ellipse cx="30" cy="170" rx="18" ry="12" transform="rotate(-20 30 170)"/>
-        <rect x="46" y="30" width="4" height="145"/>
-        <path d="M50 30 C65 45, 70 65, 55 90 C65 70, 60 50, 50 40 Z"/>
+      <g transform="translate(15,5) scale(0.26)" fill="black">
+        <ellipse cx="30" cy="170" rx="20" ry="14" transform="rotate(-20 30 170)"/>
+        <rect x="46" y="28" width="5" height="148"/>
+        <path d="M51 28 C68 44, 74 66, 57 92 C68 72, 63 50, 51 40 Z"/>
       </g>
     </mask>
   </defs>

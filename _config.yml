@@ -5,11 +5,17 @@ baseurl: "/nmte.org"
 
 theme: minima
 
+collections:
+  events:
+    output: true
+    permalink: /events/:path/
+
 header_pages:
   - who-we-are.md
   - what-we-do.md
   - events.md
   - news.md
+  - past-events.md
   - contact.md
 
 permalink: /news/:year/:month/:day/:title/
