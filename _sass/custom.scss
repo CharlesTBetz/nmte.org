@@ -14,6 +14,14 @@ h1, .page-heading {
 
 h2, h3, h4 {
   color: white;
+  
+  a {
+    color: #F0C14B !important;
+    
+    &:hover {
+      color: #fff !important;
+    }
+  }
 }
 
 // Links — bright gold for readability on dark background
