@@ -138,6 +138,8 @@ title: Home
               <img src="https://img.youtube.com/vi/{{ featured_news.youtube_url | split: '/' | last | replace: 'watch?v=', '' }}/mqdefault.jpg" alt="Video thumbnail">
               <div class="play-button">▶</div>
             </div>
+          {% elsif featured_news.image %}
+            <img src="{{ site.baseurl }}{{ featured_news.image }}" alt="{{ featured_news.title }}">
           {% endif %}
           <div class="feature-content">
             <h3>{{ featured_news.title }}</h3>

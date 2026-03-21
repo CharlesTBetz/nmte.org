@@ -4,6 +4,7 @@ title: "Keith Benson's \"Anzhelina & Karina\" Presented at Center for Performing
 date: 2025-09-21
 featured: true
 featured_until: 2026-05-01
+image: /assets/media/anzhelina-karina-2025/promo-image.jpg
 composer: "Keith Benson"
 collaborators: "Bob Derus, Marienne Kreitlow, Mike Nilles, Bill Kelm, Eric Heltemes, Brenda Varda"
 type: "Reading"
