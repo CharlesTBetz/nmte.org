@@ -21,3 +21,8 @@ Casting is by direct outreach rather than open auditions. Video auditions will u
 - **Male / Reporter / Additional Roles** — swing
 
 If you know actors who may be good candidates, please send their contact information to Kevin directly.
+
+### About the Show
+
+- [Watch the full 2023 production on YouTube](/news/2023/12/04/foshay-video-release/)
+- [Read about the world premiere at Open Window Theatre](/events/2023/07/21/foshay-open-window/)
