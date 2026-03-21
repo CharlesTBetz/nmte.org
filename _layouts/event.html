@@ -13,7 +13,7 @@ layout: default
     </div>
     {% if page.promo_image %}
     <figure class="event-promo-figure">
-      <img src="{{ page.promo_image | relative_url }}" alt="{{ page.title }}" class="event-promo-image">
+      <img src="{{ site.baseurl }}{{ page.promo_image }}" alt="{{ page.title }}" class="event-promo-image">
       {% if page.promo_caption %}<figcaption>{{ page.promo_caption }}</figcaption>{% endif %}
     </figure>
     {% endif %}

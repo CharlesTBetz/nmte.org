@@ -115,10 +115,53 @@
   }
 }
 
+// Event Page Styling
+.event-promo-figure {
+  margin: 1.5rem 0;
+  text-align: center;
+  
+  .event-promo-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  }
+  
+  figcaption {
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    color: #666;
+    font-style: italic;
+  }
+}
+
+.event-detail {
+  .event-meta {
+    margin-bottom: 1rem;
+    line-height: 1.6;
+  }
+  
+  .event-badge {
+    display: inline-block;
+    padding: 0.25rem 0.5rem;
+    background: #dc3545;
+    color: white;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 0.5rem;
+  }
+}
+
 // Responsive Design Updates
 @media (max-width: 768px) {
   .hero-carousel {
     height: 250px;
+  }
+  
+  .event-promo-figure .event-promo-image {
+    border-radius: 4px;
   }
 }
 
