@@ -25,11 +25,11 @@ h2, h3, h4 {
 }
 
 // Links — bright gold for readability on dark background
-a {
-  color: #F0C14B;
+a, a:visited, a:link {
+  color: #F0C14B !important;
   
   &:hover {
-    color: #fff;
+    color: #fff !important;
   }
 }
 
