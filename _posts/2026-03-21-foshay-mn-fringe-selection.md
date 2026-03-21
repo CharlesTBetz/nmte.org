@@ -12,7 +12,7 @@ Congratulations to NMTE member **Kevin Bowen**, whose musical *Foshay!* has been
 
 *Foshay!* tells the story of Wilbur Foshay, the ambitious Minneapolis businessman whose iconic tower became a symbol of both aspiration and the excesses that led to the Great Depression. The musical originally premiered at Open Window Theatre in July 2023 with a 10-performance run.
 
-Kevin developed *Foshay!* through NMTE workshops, where members provided feedback and support throughout the creative process. The musical features a collaboration between Kevin and **Lynn Bowen**, exploring themes of ambition, legacy, and the cost of unchecked growth.
+The musical features a collaboration between Kevin and **Lynn Bowen**, exploring themes of ambition, legacy, and the cost of unchecked growth.
 
 The Minnesota Fringe Festival is one of the largest theater festivals in the United States, attracting audiences of over 50,000 annually. Selection for the festival represents significant recognition for new musical theater work and provides valuable exposure to diverse audiences.
 
