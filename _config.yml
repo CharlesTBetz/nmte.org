@@ -11,11 +11,8 @@ collections:
     permalink: /events/:path/
 
 header_pages:
-  - who-we-are.md
-  - what-we-do.md
-  - events.md
-  - news.md
-  - past-events.md
+  - news-and-events.md
+  - about.md
   - contact.md
 
 permalink: /news/:year/:month/:day/:title/

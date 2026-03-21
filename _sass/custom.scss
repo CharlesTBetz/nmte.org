@@ -278,6 +278,113 @@ table {
   td { border-color: #333; }
 }
 
+// Hero banner
+.hero-banner {
+  margin: -1rem -1rem 2rem -1rem;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+
+  a {
+    display: block;
+    text-decoration: none;
+    color: white;
+  }
+
+  img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.3s;
+  }
+
+  &:hover img { transform: scale(1.02); }
+
+  .hero-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 2rem 1.5rem 1.5rem;
+    background: linear-gradient(transparent, rgba(0,0,0,0.85));
+
+    h2 {
+      color: #fff;
+      font-size: 1.5rem;
+      margin: 0 0 0.25rem 0;
+      text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+    }
+
+    p {
+      color: #ccc;
+      font-size: 0.95rem;
+      margin: 0;
+    }
+  }
+}
+
+// Image grid (3-up)
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin-bottom: 2.5rem;
+}
+
+.grid-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+  text-decoration: none;
+  display: block;
+
+  img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.3s;
+  }
+
+  &:hover img { transform: scale(1.05); }
+
+  .grid-caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 1.5rem 0.75rem 0.6rem;
+    background: linear-gradient(transparent, rgba(0,0,0,0.8));
+    color: #fff;
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-shadow: 0 1px 3px rgba(0,0,0,0.5);
+  }
+}
+
+@media (max-width: 600px) {
+  .image-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-banner img { height: 220px; }
+
+  .hero-banner .hero-overlay h2 { font-size: 1.2rem; }
+}
+
+// Home intro
+.home-intro {
+  background: #1a1a1a;
+  padding: 2rem 2.5rem;
+  border-radius: 10px;
+  margin-bottom: 2.5rem;
+  border: 1px solid #333;
+
+  p { color: #c8c0b4; margin-bottom: 0.5rem; }
+  a { color: #c4a843; }
+}
+
 // Events
 .upcoming-events-feature {
   background: #1a1a1a;

@@ -3,6 +3,36 @@ layout: home
 title: Home
 ---
 
+<div class="hero-banner">
+  <a href="{{ site.baseurl }}/events/2026-02-23-new-works-cabaret-crooners/">
+    <img src="{{ site.baseurl }}/assets/media/crooners-cabaret-2026/dunsmore-room-performance.jpg" alt="NMTE New Works Cabaret at Crooners — Sold Out">
+    <div class="hero-overlay">
+      <h2>New Works Cabaret at Crooners — Sold Out!</h2>
+      <p>NMTE packed the Dunsmore Jazz Room with original musical theater</p>
+    </div>
+  </a>
+</div>
+
+<div class="image-grid">
+  <a href="{{ site.baseurl }}/events/2026-02-23-new-works-cabaret-crooners/" class="grid-card">
+    <img src="{{ site.baseurl }}/assets/media/crooners-cabaret-2026/cabaret-02.jpg" alt="Performance at Crooners">
+    <div class="grid-caption">Crooners Cabaret Performances</div>
+  </a>
+  <a href="{{ site.baseurl }}/events/2026-03-16-rough-cuts-nautilus/" class="grid-card">
+    <img src="{{ site.baseurl }}/assets/media/rough-cuts-2026-03/performance.jpg" alt="Rough Cuts at Nautilus">
+    <div class="grid-caption">Rough Cuts at Nautilus — March 2026</div>
+  </a>
+  <a href="{{ site.baseurl }}/events/2023-10-23-teslas-mistress-reading/" class="grid-card">
+    <img src="{{ site.baseurl }}/assets/media/teslas-mistress-2023/promo-flyer.png" alt="Tesla's Mistress">
+    <div class="grid-caption">Tesla's Mistress — Staged Reading</div>
+  </a>
+</div>
+
+<div class="home-intro">
+  <p>The <strong>New Musical Theatre Exchange</strong> brings together committed composers, lyricists, and librettists in the Twin Cities to workshop new musicals, find collaborators, and get original work produced. We meet monthly and present public showcases of work in development.</p>
+  <p><a href="{{ site.baseurl }}/about/">Learn more about us →</a></p>
+</div>
+
 {% assign today = site.time | date: "%Y%m%d" | plus: 0 %}
 {% assign sorted_events = site.events | sort: "event_date" %}
 {% assign has_upcoming = false %}
@@ -22,48 +52,15 @@ title: Home
       {% if event.time %} · {{ event.time }}{% endif %}
       {% if event.venue %}<br>📍 {{ event.venue }}{% endif %}
       {% if event.sold_out %} <span class="event-badge sold-out">SOLD OUT</span>{% endif %}
-      {% if event.ticket_url %}<br><a href="{{ event.ticket_url }}" target="_blank">🎟 Get Tickets</a>{% endif %}
     </div>
     <p>{{ event.excerpt | strip_html | truncatewords: 25 }}</p>
   </article>
   {% endif %}
 {% endfor %}
 {% if has_upcoming %}
-  <p><a href="{{ site.baseurl }}/events/">All events →</a></p>
+  <p><a href="{{ site.baseurl }}/news-and-events/">All news & events →</a></p>
 </div>
 {% endif %}
-
-<div class="news-feature">
-  <h2>NMTE News</h2>
-  {% for post in site.posts limit:3 %}
-  <article class="news-item">
-    <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
-    <time>{{ post.date | date: "%B %d, %Y" }}</time>
-    <p>{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
-  </article>
-  {% endfor %}
-  <p><a href="{{ site.baseurl }}/news/">View all news →</a></p>
-</div>
-
-<div class="home-cards">
-  <a href="{{ site.baseurl }}/who-we-are/" class="card">
-    <img src="{{ site.baseurl }}/assets/images/card-who.jpg" alt="Who We Are">
-    <h3>Who We Are</h3>
-    <p>The New Musical Theatre Exchange exists to bring together committed musical theatre writers.</p>
-  </a>
-
-  <a href="{{ site.baseurl }}/what-we-do/" class="card">
-    <img src="{{ site.baseurl }}/assets/images/card-what.jpg" alt="What We Do">
-    <h3>What We Do</h3>
-    <p>Learn more about the NMTE.</p>
-  </a>
-
-  <a href="{{ site.baseurl }}/contact/" class="card">
-    <img src="{{ site.baseurl }}/assets/images/card-contact.jpg" alt="Contact">
-    <h3>Contact</h3>
-    <p>Want to know more about NMTE meetings or membership?</p>
-  </a>
-</div>
 
 <div style="text-align: center; margin-top: 3rem; padding-top: 2rem; border-top: 1px solid #333;">
   <img src="{{ '/assets/images/nmte-logo-gold.png' | relative_url }}" alt="New Musical Theatre Exchange" style="max-width: 300px; width: 100%; border: 2px solid #c4a843; border-radius: 10px; padding: 1.5rem; background: transparent;">

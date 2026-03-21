@@ -70,9 +70,9 @@ collections:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Body", name: "body", widget: "markdown" }
 
-      - label: "Events"
-        name: "events"
-        file: "events.md"
+      - label: "About"
+        name: "about"
+        file: "about.md"
         fields:
           - { label: "Layout", name: "layout", widget: "hidden", default: "page" }
           - { label: "Title", name: "title", widget: "string" }
