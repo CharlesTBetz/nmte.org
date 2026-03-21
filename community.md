@@ -16,7 +16,7 @@ The nation's first organization devoted to playwrights and new play development.
 
 ### [Nautilus Music-Theater](https://nautilusmusictheater.org/){:target="_blank"}
 **Location:** 308 Prince St, St. Paul  
-Champions new and innovative music-theater works. Hosts the annual Composer-Librettist Studio and presents cutting-edge productions.
+Champions new and innovative music-theater works. Hosts the annual, influential Composer-Librettist Studio, which many Minnesota musical theater creators and performers have attended, and presents cutting-edge productions.
 
 ### [Theater Latte Da](https://theaterlatteda.com/){:target="_blank"}
 **Location:** 345 13th Ave NE, Minneapolis  
