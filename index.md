@@ -46,13 +46,13 @@ title: Home
       <div class="hero-carousel">
         {% for image in carousel_images %}
           <div class="hero-slide {% if forloop.first %}active{% endif %}">
-            <img src="{{ site.baseurl }}{{ image | strip }}" alt="{{ hero_event.title }}">
+            <img src="{{ site.baseurl }}{{ image | strip }}" alt="{{ hero_event.title | escape }}">
           </div>
         {% endfor %}
         <!-- Navigation removed - auto-advance only -->
       </div>
     {% elsif hero_event.promo_image %}
-      <img src="{{ site.baseurl }}{{ hero_event.promo_image }}" alt="{{ hero_event.title }}">
+      <img src="{{ site.baseurl }}{{ hero_event.promo_image }}" alt="{{ hero_event.title | escape }}">
     {% else %}
       <img src="{{ site.baseurl }}/assets/media/crooners-cabaret-2026/dunsmore-room-performance.jpg" alt="NMTE Event">
     {% endif %}
@@ -104,7 +104,7 @@ document.addEventListener('DOMContentLoaded', () => {
       <article class="feature-card">
         <a href="{{ event.url | relative_url }}">
           {% if event.promo_image %}
-            <img src="{{ site.baseurl }}{{ event.promo_image }}" alt="{{ event.title }}">
+            <img src="{{ site.baseurl }}{{ event.promo_image }}" alt="{{ event.title | escape }}">
           {% endif %}
           <div class="feature-content">
             <h3>{{ event.title }}</h3>
@@ -131,7 +131,7 @@ document.addEventListener('DOMContentLoaded', () => {
               <div class="play-button">▶</div>
             </div>
           {% elsif post.promo_image %}
-            <img src="{{ site.baseurl }}{{ post.promo_image }}" alt="{{ post.title }}">
+            <img src="{{ site.baseurl }}{{ post.promo_image }}" alt="{{ post.title | escape }}">
           {% endif %}
           <div class="feature-content">
             <h3>{{ post.title }}</h3>
