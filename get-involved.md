@@ -51,7 +51,7 @@ Ready to visit? [Contact us]({{ site.baseurl }}/contact/) to:
 - Ask questions about the membership process  
 - Let us know you're planning to attend
 
-You can also join our [Facebook group](https://www.facebook.com/groups/311900578864001/){:target="_blank"} for community updates and discussion.
+You can also follow our [Facebook page](https://www.facebook.com/NewMusicalTheatreExchange/){:target="_blank"} for community updates and comments.
 
 ---
 

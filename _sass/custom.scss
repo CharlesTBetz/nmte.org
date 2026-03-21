@@ -238,6 +238,22 @@ p, li, dd, dt, td, th, label, .page-content {
   }
 }
 
+.social-links {
+  margin-top: 1.5rem;
+  
+  a {
+    color: white !important;
+    text-decoration: none;
+    margin: 0 0.75rem;
+    opacity: 0.9;
+    
+    &:hover {
+      opacity: 1;
+      text-decoration: underline;
+    }
+  }
+}
+
 .cta-button {
   display: inline-block;
   background: #F0C14B;
