@@ -9,7 +9,7 @@ permalink: /news/
 Stay up to date with NMTE member achievements, new demo recordings, industry news, and community updates.
 
 <div class="news-grid">
-{% assign sorted_news = site.posts | where: "type", "news" | sort: 'date' | reverse %}
+{% assign sorted_news = site.posts | sort: 'date' | reverse %}
 {% for item in sorted_news %}
   <article class="news-item">
     <h2><a href="{{ item.url | relative_url }}">{{ item.title }}</a></h2>

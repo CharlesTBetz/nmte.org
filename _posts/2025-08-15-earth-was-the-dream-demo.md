@@ -2,7 +2,6 @@
 layout: post
 title: "NMTE Member Charles Betz Releases \"Earth Was The Dream!\" Demo"
 date: 2025-08-15
-type: news
 permalink: /news/2025/08/15/earth-was-the-dream-demo/
 category: "Demo Release"
 youtube_url: https://youtu.be/epX-xNt6h90

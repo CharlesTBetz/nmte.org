@@ -1,6 +1,6 @@
 ---
 layout: post
-type: event
+event: true
 permalink: /events/2025/09/21/anzhelina-karina-reading/
 date: 2025-09-21
 title: "Anzhelina & Karina — Reading"

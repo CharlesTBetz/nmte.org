@@ -1,6 +1,6 @@
 ---
 layout: post
-type: event
+event: true
 permalink: /events/2026/03/16/rough-cuts-nautilus/
 date: 2026-03-16
 title: "Rough Cuts at Nautilus Music-Theater — March 2026"

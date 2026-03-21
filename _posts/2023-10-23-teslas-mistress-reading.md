@@ -1,6 +1,6 @@
 ---
 layout: post
-type: event
+event: true
 permalink: /events/2023/10/23/teslas-mistress-reading/
 title: "Tesla's Mistress — Staged Reading"
 date: 2023-10-23
