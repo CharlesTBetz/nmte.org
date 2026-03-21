@@ -21,3 +21,6 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - README.md
+
+include:
+  - admin
