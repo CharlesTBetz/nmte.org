@@ -4,12 +4,14 @@ title: Events
 permalink: /events/
 ---
 
-{% assign today = site.time | date: "%Y-%m-%d" %}
-{% assign upcoming = site.events | where_exp: "event", "event.event_date | date: '%Y-%m-%d' >= today" | sort: "event_date" %}
+{% assign today = site.time | date: "%Y%m%d" | plus: 0 %}
 {% assign has_upcoming = false %}
+{% assign sorted_events = site.events | sort: "event_date" %}
 
-{% for event in upcoming %}
-{% assign has_upcoming = true %}
+{% for event in sorted_events %}
+  {% assign event_d = event.event_date | date: "%Y%m%d" | plus: 0 %}
+  {% if event_d >= today %}
+    {% assign has_upcoming = true %}
 <article class="event-item">
   <h2><a href="{{ event.url | relative_url }}">{{ event.title }}</a></h2>
   <div class="event-meta">
@@ -20,6 +22,7 @@ permalink: /events/
   </div>
   <p>{{ event.excerpt | strip_html | truncatewords: 30 }}</p>
 </article>
+  {% endif %}
 {% endfor %}
 
 {% unless has_upcoming %}

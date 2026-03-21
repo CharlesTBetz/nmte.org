@@ -4,16 +4,20 @@ title: Past Events
 permalink: /past-events/
 ---
 
-{% assign today = site.time | date: "%Y-%m-%d" %}
-{% assign past = site.events | where_exp: "event", "event.event_date | date: '%Y-%m-%d' < today" | sort: "event_date" | reverse %}
-
+{% assign today = site.time | date: "%Y%m%d" | plus: 0 %}
+{% assign sorted_events = site.events | sort: "event_date" | reverse %}
 {% assign current_year = nil %}
-{% for event in past %}
-  {% assign event_year = event.event_date | date: "%Y" %}
-  {% if event_year != current_year %}
-    {% assign current_year = event_year %}
+{% assign has_past = false %}
+
+{% for event in sorted_events %}
+  {% assign event_d = event.event_date | date: "%Y%m%d" | plus: 0 %}
+  {% if event_d < today %}
+    {% assign has_past = true %}
+    {% assign event_year = event.event_date | date: "%Y" %}
+    {% if event_year != current_year %}
+      {% assign current_year = event_year %}
 ## {{ current_year }}
-  {% endif %}
+    {% endif %}
 
 <article class="event-item">
   <h3><a href="{{ event.url | relative_url }}">{{ event.title }}</a></h3>
@@ -24,8 +28,9 @@ permalink: /past-events/
   </div>
   <p>{{ event.excerpt | strip_html | truncatewords: 30 }}</p>
 </article>
+  {% endif %}
 {% endfor %}
 
-{% if past.size == 0 %}
+{% unless has_past %}
 No past events yet — we're just getting started!
-{% endif %}
+{% endunless %}
