@@ -20,7 +20,7 @@ title: Home
   </a>
   <a href="{{ site.baseurl }}/events/2026-03-16-rough-cuts-nautilus/" class="grid-card">
     <img src="{{ site.baseurl }}/assets/media/rough-cuts-2026-03/performance.jpg" alt="Rough Cuts at Nautilus">
-    <div class="grid-caption">Rough Cuts at Nautilus — March 2026</div>
+    <div class="grid-caption">Rough Cuts at Nautilus — Betz, Turner, Row, Endres, Long</div>
   </a>
   <a href="{{ site.baseurl }}/events/2023-10-23-teslas-mistress-reading/" class="grid-card">
     <img src="{{ site.baseurl }}/assets/media/teslas-mistress-2023/promo-flyer.png" alt="Tesla's Mistress">

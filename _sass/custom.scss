@@ -458,11 +458,21 @@ table {
     &:hover { background: #e0c850; }
   }
 
+  .event-promo-figure {
+    margin: 1.5rem 0;
+
+    figcaption {
+      color: #a89e8f;
+      font-size: 0.85rem;
+      font-style: italic;
+      margin-top: 0.5rem;
+    }
+  }
+
   .event-promo-image {
     max-width: 100%;
     max-height: 400px;
     border-radius: 8px;
-    margin-top: 1.5rem;
     border: 1px solid #333;
   }
 

@@ -5,6 +5,7 @@ event_date: 2026-03-16
 time: "Monday open rehearsal; Tuesday show"
 venue: "Nautilus Music-Theater, St. Paul"
 promo_image: /assets/media/rough-cuts-2026-03/performance.jpg
+promo_caption: "Charlie Betz (composer), Josiah Thomas Turner (librettist), Josh Row (tenor), Jake Endres (baritone), Norah Long (soprano)"
 program_url: /assets/media/rough-cuts-2026-03/program.pdf
 ---
 
