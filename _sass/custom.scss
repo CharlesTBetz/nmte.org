@@ -32,11 +32,11 @@ p, li, dd, dt, td, th, label, .page-content {
   }
 }
 
-// Featured Blocks Layout
-.featured-blocks {
+// Featured Cards Row — three across
+.featured-cards-row {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 2rem;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1.5rem;
   margin: 3rem 0;
 }
 
@@ -282,7 +282,7 @@ p, li, dd, dt, td, th, label, .page-content {
 
 // Responsive Design
 @media (max-width: 768px) {
-  .featured-blocks {
+  .featured-cards-row {
     grid-template-columns: 1fr;
     gap: 1.5rem;
   }

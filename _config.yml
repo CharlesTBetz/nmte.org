@@ -8,8 +8,7 @@ theme: minima
 # Using unified _posts collection with type field instead of separate collections
 
 header_pages:
-  - events.md
-  - news.md
+  - updates.md
   - about.md
   - blog.md
   - community.md

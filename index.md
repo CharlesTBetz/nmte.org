@@ -93,86 +93,59 @@ document.addEventListener('DOMContentLoaded', () => {
 </script>
 {% endif %}
 
-<!-- Dual Featured Blocks -->
-<div class="featured-blocks">
-  <!-- Featured Event (excluding hero) -->
-  <div class="featured-event">
-    {% assign featured_event = nil %}
-    {% assign event_candidates = site.posts | where: "event", true | sort: "event_date" | reverse %}
-    
-    <!-- First try manually featured events -->
-    {% for event in event_candidates %}
-      {% if event.featured and event != hero_event %}
-        {% assign featured_event = event %}
-        {% break %}
-      {% endif %}
-    {% endfor %}
-    
-    <!-- If no featured flag, use recent (excluding hero) -->
-    {% if featured_event == nil %}
-      {% for event in event_candidates %}
-        {% if event != hero_event %}
-          {% assign featured_event = event %}
-          {% break %}
-        {% endif %}
-      {% endfor %}
-    {% endif %}
-    
-    {% if featured_event %}
+<!-- Three-card featured row -->
+<div class="featured-cards-row">
+  {% assign event_candidates = site.posts | where: "event", true | sort: "event_date" | reverse %}
+  {% assign shown_events = 0 %}
+  
+  <!-- Two recent events (excluding hero) -->
+  {% for event in event_candidates %}
+    {% if event != hero_event and shown_events < 2 %}
       <article class="feature-card">
-        <a href="{{ featured_event.url | relative_url }}">
-          {% if featured_event.promo_image %}
-            <img src="{{ site.baseurl }}{{ featured_event.promo_image }}" alt="{{ featured_event.title }}">
+        <a href="{{ event.url | relative_url }}">
+          {% if event.promo_image %}
+            <img src="{{ site.baseurl }}{{ event.promo_image }}" alt="{{ event.title }}">
           {% endif %}
           <div class="feature-content">
-            <h3>{{ featured_event.title }}</h3>
+            <h3>{{ event.title }}</h3>
             <div class="feature-meta">
-              {{ featured_event.event_date | date: "%B %d, %Y" }}
-              {% if featured_event.venue %} · {{ featured_event.venue }}{% endif %}
+              {{ event.event_date | date: "%B %d, %Y" }}
+              {% if event.venue %} · {{ event.venue }}{% endif %}
+              {% if event.sold_out %} · <strong>SOLD OUT</strong>{% endif %}
             </div>
           </div>
         </a>
       </article>
+      {% assign shown_events = shown_events | plus: 1 %}
     {% endif %}
-  </div>
+  {% endfor %}
   
-  <!-- Featured News (non-event posts) -->
-  <div class="featured-news">
-    {% assign featured_news = nil %}
-    {% assign all_posts = site.posts | sort: 'date' | reverse %}
-    
-    <!-- Find most recent non-event post -->
-    {% for post in all_posts %}
-      {% unless post.event %}
-        {% if featured_news == nil %}
-          {% assign featured_news = post %}
-          {% break %}
-        {% endif %}
-      {% endunless %}
-    {% endfor %}
-    
-    {% if featured_news %}
+  <!-- One recent non-event news item -->
+  {% for post in site.posts %}
+    {% unless post.event %}
       <article class="feature-card">
-        <a href="{{ featured_news.url | relative_url }}">
-          {% if featured_news.youtube_url %}
+        <a href="{{ post.url | relative_url }}">
+          {% if post.youtube_url %}
             <div class="video-thumbnail">
-              <img src="https://img.youtube.com/vi/{{ featured_news.youtube_url | split: '/' | last | replace: 'watch?v=', '' }}/mqdefault.jpg" alt="Video thumbnail">
+              <img src="https://img.youtube.com/vi/{{ post.youtube_url | split: '/' | last | replace: 'watch?v=', '' }}/mqdefault.jpg" alt="Video thumbnail">
               <div class="play-button">▶</div>
             </div>
-          {% elsif featured_news.promo_image %}
-            <img src="{{ site.baseurl }}{{ featured_news.promo_image }}" alt="{{ featured_news.title }}">
+          {% elsif post.promo_image %}
+            <img src="{{ site.baseurl }}{{ post.promo_image }}" alt="{{ post.title }}">
           {% endif %}
           <div class="feature-content">
-            <h3>{{ featured_news.title }}</h3>
+            <h3>{{ post.title }}</h3>
             <div class="feature-meta">
-              {{ featured_news.date | date: "%B %d, %Y" }}
-              {% if featured_news.category %} · {{ featured_news.category }}{% endif %}
+              {{ post.date | date: "%B %d, %Y" }}
+              {% if post.category %} · {{ post.category }}{% endif %}
+              {% if post.composer %} · {{ post.composer }}{% endif %}
             </div>
           </div>
         </a>
       </article>
-    {% endif %}
-  </div>
+      {% break %}
+    {% endunless %}
+  {% endfor %}
 </div>
 
 <!-- CTA Banner -->
