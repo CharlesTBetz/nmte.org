@@ -62,6 +62,3 @@ title: Home
 </div>
 {% endif %}
 
-<div style="text-align: center; margin-top: 3rem; padding-top: 2rem; border-top: 1px solid #333;">
-  <img src="{{ '/assets/images/nmte-logo-gold.png' | relative_url }}" alt="New Musical Theatre Exchange" style="max-width: 300px; width: 100%; border: 2px solid #c4a843; border-radius: 10px; padding: 1.5rem; background: transparent;">
-</div>
