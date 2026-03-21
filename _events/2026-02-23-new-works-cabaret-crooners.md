@@ -6,6 +6,7 @@ time: "5:30 PM doors, 6:30 PM show"
 venue: "Crooners Supper Club — Dunsmore Jazz Room, Minneapolis"
 capacity: 87
 sold_out: true
+hero: true
 promo_image: /assets/media/crooners-cabaret-2026/postcard-front.jpg
 program_url: /assets/media/crooners-cabaret-2026/program-and-bios.pdf
 ---

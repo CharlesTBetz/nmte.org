@@ -3,19 +3,29 @@ layout: home
 title: Home
 ---
 
-<!-- Hero Banner: Auto-selects most recent or upcoming event -->
+<!-- Hero Banner: Manual hero flag takes priority, then auto-select -->
 {% assign today = site.time | date: "%Y%m%d" | plus: 0 %}
 {% assign sorted_events = site.events | sort: "event_date" | reverse %}
 {% assign hero_event = nil %}
 
-<!-- First try upcoming events -->
+<!-- First check for manually flagged hero -->
 {% for event in sorted_events %}
-  {% assign event_d = event.event_date | date: "%Y%m%d" | plus: 0 %}
-  {% if event_d >= today and hero_event == nil %}
+  {% if event.hero and hero_event == nil %}
     {% assign hero_event = event %}
     {% break %}
   {% endif %}
 {% endfor %}
+
+<!-- If no manual hero, try upcoming events -->
+{% if hero_event == nil %}
+  {% for event in sorted_events %}
+    {% assign event_d = event.event_date | date: "%Y%m%d" | plus: 0 %}
+    {% if event_d >= today and hero_event == nil %}
+      {% assign hero_event = event %}
+      {% break %}
+    {% endif %}
+  {% endfor %}
+{% endif %}
 
 <!-- If no upcoming, use most recent -->
 {% if hero_event == nil %}
