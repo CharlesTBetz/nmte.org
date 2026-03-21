@@ -38,7 +38,9 @@ Following your presentation, current members vote on your acceptance to the grou
 - Have goals of getting their work **produced and performed**
 - Can commit to **regular participation** in our monthly meetings
 
-If creating original musicals for performance is your artistic goal, we welcome you to connect with us. Note: you do NOT need to have staged anything or be at any particular point in your professional career! Interest and some evidence of commitment and skill, along with a collaborative attitude, is what we are seeking.
+If creating original musicals for performance is your artistic goal, we welcome you to connect with us.
+
+*Note: you do NOT need to have staged anything or be at any particular point in your professional career! Interest and some evidence of commitment and skill, along with a collaborative attitude, is what we are seeking.*
 
 ## Getting Started
 
