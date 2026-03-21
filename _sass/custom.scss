@@ -188,7 +188,7 @@
 
 .cta-button {
   display: inline-block;
-  background: #DAA520;
+  background: #F0C14B;
   color: #1a1a2e;
   padding: 0.75rem 2rem;
   border-radius: 6px;
@@ -197,7 +197,7 @@
   transition: background 0.2s ease;
   
   &:hover {
-    background: #B8860B;
+    background: #DAA520;
   }
 }
 
@@ -215,11 +215,11 @@
     
     a {
       text-decoration: none;
-      color: #DAA520; // Gold color for visibility on dark background
+      color: #F0C14B; // Gold color for visibility on dark background
       
       &:hover {
         text-decoration: underline;
-        color: #B8860B; // Darker gold on hover
+        color: #DAA520; // Darker gold on hover
       }
     }
   }
@@ -287,11 +287,11 @@
     
     a {
       text-decoration: none;
-      color: #DAA520; // Gold color for visibility on dark background
+      color: #F0C14B; // Gold color for visibility on dark background
       
       &:hover {
         text-decoration: underline;
-        color: #B8860B; // Darker gold on hover
+        color: #DAA520; // Darker gold on hover
       }
     }
   }
@@ -325,13 +325,13 @@
 .read-more {
   display: inline-block;
   margin-top: 1rem;
-  color: #DAA520;
+  color: #F0C14B;
   font-weight: 500;
   text-decoration: none;
   
   &:hover {
     text-decoration: underline;
-    color: #B8860B;
+    color: #DAA520;
   }
 }
 
