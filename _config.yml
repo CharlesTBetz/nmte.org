@@ -5,13 +5,7 @@ baseurl: "/nmte.org"
 
 theme: minima
 
-collections:
-  events:
-    output: true
-    permalink: /events/:path/
-  news:
-    output: true
-    permalink: /news/:path/
+# Using unified _posts collection with type field instead of separate collections
 
 header_pages:
   - events.md

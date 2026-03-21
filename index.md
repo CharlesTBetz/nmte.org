@@ -5,11 +5,11 @@ title: Home
 
 <!-- Hero Banner: Manual hero flag takes priority, then auto-select -->
 {% assign today = site.time | date: "%Y%m%d" | plus: 0 %}
-{% assign sorted_events = site.events | sort: "event_date" | reverse %}
+{% assign all_events = site.posts | where: "type", "event" | sort: "event_date" | reverse %}
 {% assign hero_event = nil %}
 
 <!-- First check for manually flagged hero -->
-{% for event in sorted_events %}
+{% for event in all_events %}
   {% if event.hero and hero_event == nil %}
     {% assign hero_event = event %}
     {% break %}
@@ -18,7 +18,7 @@ title: Home
 
 <!-- If no manual hero, try upcoming events -->
 {% if hero_event == nil %}
-  {% for event in sorted_events %}
+  {% for event in all_events %}
     {% assign event_d = event.event_date | date: "%Y%m%d" | plus: 0 %}
     {% if event_d >= today and hero_event == nil %}
       {% assign hero_event = event %}
@@ -29,7 +29,7 @@ title: Home
 
 <!-- If no upcoming, use most recent -->
 {% if hero_event == nil %}
-  {% for event in sorted_events %}
+  {% for event in all_events %}
     {% assign event_d = event.event_date | date: "%Y%m%d" | plus: 0 %}
     {% if event_d < today and hero_event == nil %}
       {% assign hero_event = event %}
@@ -98,7 +98,7 @@ document.addEventListener('DOMContentLoaded', () => {
   <!-- Featured Event (excluding hero) -->
   <div class="featured-event">
     {% assign featured_event = nil %}
-    {% assign event_candidates = site.events | sort: "event_date" | reverse %}
+    {% assign event_candidates = site.posts | where: "type", "event" | sort: "event_date" | reverse %}
     
     <!-- First try manually featured events -->
     {% for event in event_candidates %}
@@ -139,33 +139,27 @@ document.addEventListener('DOMContentLoaded', () => {
   <!-- Featured News/Blog -->
   <div class="featured-news">
     {% assign featured_news = nil %}
+    {% assign all_posts = site.posts | sort: 'date' | reverse %}
     
-    <!-- First try manually featured news -->
-    {% for item in site.news %}
-      {% if item.featured %}
-        {% assign featured_news = item %}
+    <!-- First try manually featured posts (any type) -->
+    {% for post in all_posts %}
+      {% if post.featured %}
+        {% assign featured_news = post %}
         {% break %}
       {% endif %}
     {% endfor %}
     
-    <!-- If no featured news, try recent news -->
-    {% if featured_news == nil and site.news.size > 0 %}
-      {% assign featured_news = site.news | sort: 'date' | reverse | first %}
-    {% endif %}
-    
-    <!-- If no news, try featured blog posts -->
+    <!-- If no featured, try recent news posts -->
     {% if featured_news == nil %}
-      {% for post in site.posts %}
-        {% if post.featured %}
-          {% assign featured_news = post %}
-          {% break %}
-        {% endif %}
-      {% endfor %}
+      {% assign news_posts = site.posts | where: "type", "news" | sort: 'date' | reverse %}
+      {% if news_posts.size > 0 %}
+        {% assign featured_news = news_posts | first %}
+      {% endif %}
     {% endif %}
     
-    <!-- If no featured blog, use most recent post -->
-    {% if featured_news == nil and site.posts.size > 0 %}
-      {% assign featured_news = site.posts | first %}
+    <!-- If no news, try any recent post -->
+    {% if featured_news == nil and all_posts.size > 0 %}
+      {% assign featured_news = all_posts | first %}
     {% endif %}
     
     {% if featured_news %}
@@ -176,14 +170,14 @@ document.addEventListener('DOMContentLoaded', () => {
               <img src="https://img.youtube.com/vi/{{ featured_news.youtube_url | split: '/' | last | replace: 'watch?v=', '' }}/mqdefault.jpg" alt="Video thumbnail">
               <div class="play-button">▶</div>
             </div>
-          {% elsif featured_news.image %}
-            <img src="{{ site.baseurl }}{{ featured_news.image }}" alt="{{ featured_news.title }}">
+          {% elsif featured_news.promo_image %}
+            <img src="{{ site.baseurl }}{{ featured_news.promo_image }}" alt="{{ featured_news.title }}">
           {% endif %}
           <div class="feature-content">
             <h3>{{ featured_news.title }}</h3>
             <div class="feature-meta">
               {{ featured_news.date | date: "%B %d, %Y" }}
-              {% if featured_news.type %} · {{ featured_news.type }}{% endif %}
+              {% if featured_news.category %} · {{ featured_news.category }}{% endif %}
             </div>
           </div>
         </a>

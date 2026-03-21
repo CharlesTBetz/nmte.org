@@ -1,6 +1,8 @@
 ---
-layout: event
+layout: post
+type: event
 title: "Tesla's Mistress — Staged Reading"
+date: 2023-10-23
 event_date: 2023-10-23
 time: "7:00 PM (Oct 23 & 24)"
 venue: "Unity South Twin Cities, Bloomington MN"

@@ -1,5 +1,7 @@
 ---
-layout: event
+layout: post
+type: event
+date: 2023-07-21
 title: "Foshay! A New Musical — World Premiere"
 event_date: 2023-07-21
 end_date: 2023-07-30

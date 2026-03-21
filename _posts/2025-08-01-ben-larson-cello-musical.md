@@ -2,9 +2,10 @@
 layout: post
 title: "Ben Larson's \"How to Play the Cello (Until You Don't)\" Selected for Theater Latte Da NEXT Festival"
 date: 2025-08-01
+type: news
+category: "Selection Announcement"
 composer: "Benjamin Emory Larson"
 venue: "Theater Latte Da NEXT Festival"
-type: "Selection Announcement"
 ---
 
 Congratulations to NMTE member Benjamin Emory Larson, whose musical *How to Play the Cello (Until You Don't)* has been selected for Theater Latte Da's prestigious NEXT Festival in August 2025.

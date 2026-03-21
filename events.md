@@ -5,7 +5,7 @@ permalink: /events/
 ---
 
 {% assign today = site.time | date: "%Y%m%d" | plus: 0 %}
-{% assign sorted_events = site.events | sort: "event_date" %}
+{% assign sorted_events = site.posts | where: "type", "event" | sort: "event_date" %}
 {% assign has_upcoming = false %}
 
 {% for event in sorted_events %}
@@ -40,7 +40,7 @@ The NMTE meets the **third Sunday of most months** at the <a href="https://www.g
 
 ## Recent Events
 
-{% assign past_events = site.events | sort: "event_date" | reverse %}
+{% assign past_events = site.posts | where: "type", "event" | sort: "event_date" | reverse %}
 {% assign recent_count = 0 %}
 
 {% for event in past_events %}

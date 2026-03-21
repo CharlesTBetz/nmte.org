@@ -1,5 +1,7 @@
 ---
-layout: event
+layout: post
+type: event
+date: 2021-09-17
 title: "MinneFest of New Musicals 2021"
 event_date: 2021-09-17
 end_date: 2021-10-04

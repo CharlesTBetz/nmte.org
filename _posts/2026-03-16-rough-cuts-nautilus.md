@@ -1,5 +1,7 @@
 ---
-layout: event
+layout: post
+type: event
+date: 2026-03-16
 title: "Rough Cuts at Nautilus Music-Theater — March 2026"
 event_date: 2026-03-16
 time: "Monday open rehearsal; Tuesday show"
