@@ -13,4 +13,4 @@ bundle exec jekyll serve
 
 ## Contact Form
 
-The contact form uses [Formspree](https://formspree.io). Replace `PLACEHOLDER` in `contact.md` with your Formspree form ID.
+The contact form uses [Formspree](https://formspree.io){:target="_blank"}. Replace `PLACEHOLDER` in `contact.md` with your Formspree form ID.

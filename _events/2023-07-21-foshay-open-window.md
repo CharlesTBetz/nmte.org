@@ -8,7 +8,7 @@ venue: "Open Window Theatre, Inver Grove Heights, MN"
 description: "NMTE member Kevin Bowen's world premiere musical about Wilbur Foshay, the ambitious businessman who built the Foshay Tower in Minneapolis."
 ---
 
-*→ [Show details at Playwrights' Center](https://pwcenter.org/plays/foshay-a-new-musical/)*
+*→ [Show details at Playwrights' Center](https://pwcenter.org/plays/foshay-a-new-musical/){:target="_blank"}*
 
 NMTE member **Kevin Bowen** premiered his full-length musical *Foshay!* at <a href="https://openwindowtheatre.org/" target="_blank">Open Window Theatre</a> — a world premiere run of 10 performances.
 

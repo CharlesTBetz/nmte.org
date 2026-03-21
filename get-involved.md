@@ -43,14 +43,14 @@ If creating original musicals for performance is your artistic goal, we welcome 
 
 ## Getting Started
 
-We meet on the **third Sunday of most months** at the [Playwrights' Center, 710 Raymond Ave, St. Paul](https://www.google.com/maps/place/710+Raymond+Ave,+St+Paul,+MN).
+We meet on the **third Sunday of most months** at the [Playwrights' Center, 710 Raymond Ave, St. Paul](https://www.google.com/maps/place/710+Raymond+Ave,+St+Paul,+MN){:target="_blank"}.
 
 Ready to visit? [Contact us]({{ site.baseurl }}/contact/) to:
 - Get details about our next meeting
 - Ask questions about the membership process  
 - Let us know you're planning to attend
 
-You can also join our [Facebook group](https://www.facebook.com/groups/311900578864001/) for community updates and discussion.
+You can also join our [Facebook group](https://www.facebook.com/groups/311900578864001/){:target="_blank"} for community updates and discussion.
 
 ---
 

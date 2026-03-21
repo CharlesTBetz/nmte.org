@@ -16,6 +16,6 @@ Lia Peros brings remarkable depth and emotional nuance to the performance, deliv
 
 *Five Minutes on the Low Road* is a musical about a woman's near-death experience and its consequences, currently being developed with book writer Josiah Thomas Turner, whom Betz met at the Nautilus Composer-Librettist Studio.
 
-**Watch:** ["Earth Was The Dream!" on YouTube](https://youtu.be/epX-xNt6h90)
+**Watch:** ["Earth Was The Dream!" on YouTube](https://youtu.be/epX-xNt6h90){:target="_blank"}
 
-**More:** Visit [charlestbetz.com](https://charlestbetz.com) for updates on the full musical development.
+**More:** Visit [charlestbetz.com](https://charlestbetz.com){:target="_blank"} for updates on the full musical development.
