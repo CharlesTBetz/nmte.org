@@ -6,8 +6,6 @@ end_date: 2023-07-30
 time: "10 performances"
 venue: "Open Window Theatre, Inver Grove Heights, MN"
 description: "NMTE member Kevin Bowen's world premiere musical about Wilbur Foshay, the ambitious businessman who built the Foshay Tower in Minneapolis."
-promo_image: /assets/media/foshay-2023/cast-photo.jpg
-promo_caption: "Cast of Foshay! The Musical (Photo: Up North Creative)"
 ---
 
 *→ [Show details at Playwrights' Center](https://pwcenter.org/plays/foshay-a-new-musical/)*
