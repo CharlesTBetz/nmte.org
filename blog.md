@@ -4,8 +4,6 @@ title: Blog
 permalink: /blog/
 ---
 
-# NMTE Blog
-
 In-depth interviews, commentary, and stories from the Twin Cities musical theatre community.
 
 <div class="blog-grid">
