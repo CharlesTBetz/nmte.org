@@ -10,18 +10,6 @@ Founded in 2012, we believe new musicals can — and should — be developed out
 
 We meet on the **third Sunday of most months** at the <a href="https://www.google.com/maps/place/710+Raymond+Ave,+St+Paul,+MN" target="_blank">Playwrights' Center, 710 Raymond Ave, St. Paul</a>.
 
-## How To Get Involved
-
-Interested in joining NMTE? Our membership process is straightforward:
-
-1. **Audit two NMTE meetings** to get a feel for our community and approach
-2. **Present your work** at a third meeting — share a song, scene, or excerpt from your musical theater project
-3. **Membership vote** — the group votes on your acceptance following your presentation
-
-**Our focus** is on developing musical theater for readings, workshops, and eventual staging. If creating original musicals for performance is your artistic goal, we welcome you to connect with us.
-
-The best way to get started is to attend one of our monthly meetings. [Contact us]({{ site.baseurl }}/contact/) for meeting details and to let us know you're coming.
-
 <div class="home-cards" style="margin-top: 2rem;">
   <a href="{{ site.baseurl }}/what-we-do/" class="card">
     <h3>What We Do</h3>
