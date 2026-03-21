@@ -26,4 +26,8 @@ The Allen Street Yiddish Theatre Palace Presents: Cinderesther uses the style an
 
 ---
 
+**Update:** Maureen Kane Berg's *A House Divided* went on to premiere in Philadelphia — a testament to the power of developing new work locally.
+
+---
+
 *This activity was made possible by the voters of Minnesota through a grant from the Metropolitan Regional Arts Council, thanks to a legislative appropriation from the arts and cultural heritage fund.*
