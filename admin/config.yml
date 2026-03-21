@@ -2,8 +2,6 @@ backend:
   name: github
   repo: CharlesTBetz/nmte.org
   branch: main
-  auth_type: pkce
-  app_id: Ov23liXtd3acRCEeInRd
 
 site_url: https://charlestbetz.github.io/nmte.org
 display_url: https://charlestbetz.github.io/nmte.org
