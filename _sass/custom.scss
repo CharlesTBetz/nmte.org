@@ -120,13 +120,14 @@ p, li, dd, dt, td, th, label, .page-content {
   }
 }
 
-// Hero Carousel — break out of content wrapper
+// Hero Carousel — wide but not infinite
 .hero-carousel {
   position: relative;
-  width: 100vw;
-  margin-left: calc(-50vw + 50%);
-  height: 300px;
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 400px;
   overflow: hidden;
+  border-radius: 8px;
   
   .hero-slide {
     position: absolute;
