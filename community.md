@@ -60,6 +60,9 @@ Operates the historic theaters presenting touring Broadway productions and major
 
 ## Resources for Creators
 
+### [New Play Exchange (NPX)](https://newplayexchange.org/){:target="_blank"}
+National platform connecting playwrights, composers, lyricists, and librettists with theaters and producers. Provides script sharing, discovery tools, and networking opportunities for musical theater creators.
+
 ### [American Composers Forum](https://composersforum.org/){:target="_blank"}
 **Location:** 75 W 5th St, St. Paul  
 National organization supporting composers across all genres. Offers grants, professional development, and networking opportunities for composers.
