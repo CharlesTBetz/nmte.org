@@ -16,6 +16,15 @@ h2, h3, h4 {
   color: white;
 }
 
+// Links — bright gold for readability on dark background
+a {
+  color: #F0C14B;
+  
+  &:hover {
+    color: #fff;
+  }
+}
+
 .post-meta {
   color: white !important;
   font-style: italic;
