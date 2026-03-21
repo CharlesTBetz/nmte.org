@@ -5,7 +5,7 @@ permalink: /past-events/
 ---
 
 {% assign today = site.time | date: "%Y%m%d" | plus: 0 %}
-{% assign sorted_events = site.events | sort: "event_date" | reverse %}
+{% assign sorted_events = site.posts | where: "event", true | sort: "event_date" | reverse %}
 {% assign current_year = nil %}
 {% assign has_past = false %}
 
