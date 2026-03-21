@@ -7,8 +7,7 @@ venue: "Crooners Supper Club — Dunsmore Jazz Room, Minneapolis"
 capacity: 87
 sold_out: true
 hero: true
-hero_image: /assets/media/crooners-cabaret-2026/dunsmore-room-performance.jpg
-promo_image: /assets/media/crooners-cabaret-2026/postcard-front.jpg
+promo_image: /assets/media/crooners-cabaret-2026/dunsmore-room-performance.jpg
 program_url: /assets/media/crooners-cabaret-2026/program-and-bios.pdf
 ---
 

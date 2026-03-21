@@ -26,8 +26,7 @@ collections:
       - { label: "Sold Out", name: "sold_out", widget: "boolean", required: false, default: false }
       - { label: "Ticket URL", name: "ticket_url", widget: "string", required: false }
       - { label: "Image", name: "image", widget: "image", required: false }
-      - { label: "Hero Image", name: "hero_image", widget: "image", required: false, hint: "Main photo for homepage hero (takes priority over promo image)" }
-      - { label: "Promo Image", name: "promo_image", widget: "image", required: false, hint: "Promotional flyer or poster" }
+      - { label: "Main Image", name: "promo_image", widget: "image", required: false, hint: "Main image representing this event (used everywhere: hero banner, featured blocks, event page)" }
       - { label: "Program PDF", name: "program_url", widget: "file", required: false, hint: "Upload program PDF" }
       - { label: "Body", name: "body", widget: "markdown" }
 
