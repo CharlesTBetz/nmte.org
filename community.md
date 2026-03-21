@@ -14,8 +14,8 @@ NMTE is part of a vibrant network of organizations supporting musical theatre cr
 **Location:** 710 Raymond Ave, St. Paul  
 The nation's first organization devoted to playwrights and new play development. Offers workshops, fellowships, and readings for emerging and established writers.
 
-### [Nautilus Music-Theater](https://nautilus-music-theater.org/){:target="_blank"}
-**Location:** 1621 W 1st St, Minneapolis  
+### [Nautilus Music-Theater](https://nautilusmusictheater.org/){:target="_blank"}
+**Location:** 308 Prince St, St. Paul  
 Champions new and innovative music-theater works. Hosts the annual Composer-Librettist Studio and presents cutting-edge productions.
 
 ### [Theater Latte Da](https://theaterlatteda.com/){:target="_blank"}
