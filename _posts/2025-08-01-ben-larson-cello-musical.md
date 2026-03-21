@@ -10,7 +10,7 @@ venue: "Theater Latte Da NEXT Festival"
 
 Congratulations to NMTE member Benjamin Emory Larson, whose musical *How to Play the Cello (Until You Don't)* has been selected for Theater Latte Da's prestigious NEXT Festival in August 2025.
 
-The musical tells the story of Jacqueline du Pré, the renowned English cellist whose brilliant career was cut short by multiple sclerosis. Larson's work explores themes of artistic passion, physical limitation, and the relationship between musician and instrument.
+The musical tells the story of Jacqueline du Pré, the renowned English cellist whose brilliant career was cut short by multiple sclerosis. Larson's work explores themes of artistic passion, physical limitation, and the relationship between musician and instrument. Ben developed *How to Play the Cello* over months of NMTE workshops, sharing the work with fellow members who provided feedback throughout the creative process.
 
 *How to Play the Cello* will feature Larson in the lead role of Daniel Barenboim, alongside Hannah Elless as du Pré, Tyler Michaels King as Christopher Finzi, and Dieter Bierbrauer as William Pleeth. The production team includes director Peter Rothstein and music director Denise Prosek.
 
