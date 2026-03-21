@@ -25,7 +25,7 @@ What made this Rough Cuts extraordinary was the format: Monday's open rehearsal 
 - "Our Divided Hearts" — featuring Vanessa Gamble and Daniel Greco
 - "Funeral Scene" — featuring Josh Row and Daniel Greco
 
-**Benjamin Emory Larson** — "You're Not Alone" from *Beneath the Fog*, featuring Daniel Greco
+**Benjamin Emory Larson** — "You're Not Alone" from *Beneath the Ice*, featuring Daniel Greco
 
 **Brenda Varda** — "We Won't Have to Do a Thing," featuring Yvonne Freese and Jake Endres
 
