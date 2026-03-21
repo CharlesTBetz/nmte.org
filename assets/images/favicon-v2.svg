@@ -1,23 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
-  <rect width="64" height="64" rx="8" fill="#111111"/>
-  <!-- Minnesota state silhouette - simplified but recognizable -->
-  <!-- Key features: flat top (Canadian border), NW angle, Lake of the Woods bump, straight west border, jagged NE (Arrowhead), river bluffs SE -->
-  <path d="
-    M13 9 L13 11 L11 11 L11 14 L13 14
-    L13 48
-    L15 50 L17 50 L19 52 L22 52 L24 50 L26 50 L27 52 L30 54 L33 52 L35 52 L37 54 L40 52 L43 50
-    L45 48 L47 46
-    L49 44 L50 42 L50 38
-    L49 36 L50 34 L51 30
-    L50 26 L49 22 L48 18
-    L46 14 L44 12
-    L42 10 L40 9
-    L13 9 Z"
-    fill="#c4a843" />
-  <!-- Musical eighth note knocked out in dark -->
-  <g fill="#111111">
-    <ellipse cx="26" cy="40" rx="5.5" ry="4" transform="rotate(-15 26 40)"/>
-    <rect x="30.5" y="16" width="2.8" height="25" rx="1"/>
-    <path d="M33.3 16 C38 19 38 24 35 28 L33.3 25 C35 22 35.5 19 33.3 16 Z"/>
+  <rect width="64" height="64" rx="8" fill="#1a1a2e"/>
+  <!-- Musical eighth note in gold -->
+  <g fill="#F0C14B">
+    <ellipse cx="24" cy="46" rx="8" ry="5.5" transform="rotate(-20 24 46)"/>
+    <rect x="31" y="12" width="3.5" height="35" rx="1.5"/>
+    <path d="M34.5 12 C42 16 43 24 38 30 L34.5 26 C38 22 39 18 34.5 12 Z"/>
   </g>
 </svg>
