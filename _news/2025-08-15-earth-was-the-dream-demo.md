@@ -2,8 +2,6 @@
 layout: post
 title: "NMTE Member Charles Betz Releases \"Earth Was The Dream!\" Demo"
 date: 2025-08-15
-featured: true
-featured_until: 2026-04-01
 youtube_url: https://youtu.be/epX-xNt6h90
 artist: "Lia Peros"
 composer: "Charles Betz"
