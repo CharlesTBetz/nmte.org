@@ -1,0 +1,41 @@
+{% assign slides = include.images | split: "," %}
+<div class="carousel" id="{{ include.id | default: 'carousel' }}">
+  <div class="carousel-track">
+    {% for image in slides %}
+    <div class="carousel-slide {% if forloop.first %}active{% endif %}">
+      <img src="{{ site.baseurl }}{{ image }}" alt="Photo {{ forloop.index }}">
+    </div>
+    {% endfor %}
+  </div>
+  <button class="carousel-btn carousel-prev" onclick="carouselNav(this, -1)">&#10094;</button>
+  <button class="carousel-btn carousel-next" onclick="carouselNav(this, 1)">&#10095;</button>
+  <div class="carousel-dots">
+    {% for image in slides %}
+    <span class="carousel-dot {% if forloop.first %}active{% endif %}" onclick="carouselGo(this, {{ forloop.index0 }})"></span>
+    {% endfor %}
+  </div>
+</div>
+
+<script>
+function carouselNav(btn, dir) {
+  var c = btn.closest('.carousel');
+  var slides = c.querySelectorAll('.carousel-slide');
+  var dots = c.querySelectorAll('.carousel-dot');
+  var cur = c.querySelector('.carousel-slide.active');
+  var idx = Array.from(slides).indexOf(cur);
+  slides[idx].classList.remove('active');
+  dots[idx].classList.remove('active');
+  idx = (idx + dir + slides.length) % slides.length;
+  slides[idx].classList.add('active');
+  dots[idx].classList.add('active');
+}
+function carouselGo(dot, idx) {
+  var c = dot.closest('.carousel');
+  var slides = c.querySelectorAll('.carousel-slide');
+  var dots = c.querySelectorAll('.carousel-dot');
+  c.querySelector('.carousel-slide.active').classList.remove('active');
+  c.querySelector('.carousel-dot.active').classList.remove('active');
+  slides[idx].classList.add('active');
+  dots[idx].classList.add('active');
+}
+</script>
