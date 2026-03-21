@@ -9,7 +9,7 @@ permalink: /blog/
 In-depth interviews, commentary, and stories from the Twin Cities musical theatre community.
 
 <div class="blog-grid">
-{% assign posts = site.posts | sort: 'date' | reverse %}
+{% assign posts = site.posts | where: "blog", true | sort: 'date' | reverse %}
 {% for post in posts %}
   <article class="blog-item">
     <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
