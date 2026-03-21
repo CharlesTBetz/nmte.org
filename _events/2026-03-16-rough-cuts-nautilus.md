@@ -12,6 +12,8 @@ program_url: /assets/media/rough-cuts-2026-03/program.pdf
 
 This is Minnesota. We don't cancel for snow. Nearly **50 hearty souls** made it out through the storm, and the artists matched their energy with fierce, committed performances of brand-new work.
 
+What made this Rough Cuts extraordinary was the format: Monday's open rehearsal meant the creative teams were coaching performers in real time, in front of the audience — a rare window into the collaborative process of building a new musical. By Tuesday's show, the pieces had been shaped and sharpened. The consensus among everyone involved: this was one of the best Rough Cuts in memory.
+
 ### NMTE Members Featured
 
 **Charles Betz** and Josiah Thomas Turner presented two songs from their musical-in-progress *Five Minutes on the Low Road*:
