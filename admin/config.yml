@@ -147,3 +147,11 @@ collections:
           - { label: "Layout", name: "layout", widget: "hidden", default: "page" }
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Body", name: "body", widget: "markdown" }
+
+      - label: "Get Involved"
+        name: "get-involved-page"
+        file: "get-involved.md"
+        fields:
+          - { label: "Layout", name: "layout", widget: "hidden", default: "page" }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
