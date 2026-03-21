@@ -8,7 +8,7 @@ permalink: /community/
 
 NMTE is part of a vibrant network of organizations supporting musical theatre creators in the Twin Cities and beyond.
 
-## Local Organizations
+## New Work Development & Support
 
 ### [Playwrights' Center](https://pwcenter.org/)
 **Location:** 710 Raymond Ave, St. Paul  
@@ -29,6 +29,30 @@ Specializes in stories from Minnesota and the upper Midwest, often featuring ori
 ### [Mixed Blood Theatre](https://mixedblood.com/)
 **Location:** 1501 S 4th St, Minneapolis  
 Innovative theatre known for radical hospitality and boundary-pushing work, including musical theatre projects.
+
+### [Phoenix Theater](https://phoenixtheatre.org/)
+**Location:** 2605 Hennepin Ave, Minneapolis  
+Community theatre presenting classic and contemporary works, supporting local artists and new musical theater development.
+
+### [Hennepin Center for the Arts](https://hennepinarts.org/)
+**Location:** 824 Hennepin Ave, Minneapolis  
+Multi-use arts facility housing multiple theatre companies and supporting emerging artists with performance and development opportunities.
+
+## Musical Theatre Presenters
+
+These organizations regularly present musical theatre works as part of their programming:
+
+### [Artistry](https://artistryonline.org/)
+**Location:** 1711 W County Rd B, Roseville  
+Presents musicals, plays, and concerts featuring both classic works and contemporary productions.
+
+### [Lyric Arts](https://lyricarts.org/)
+**Location:** 65 2nd St NE, Anoka  
+Community theatre specializing in musicals, from Broadway classics to contemporary works.
+
+### [Guthrie Theater](https://www.guthrietheater.org/)
+**Location:** 818 2nd St S, Minneapolis  
+The Twin Cities' premier regional theatre, regularly featuring musicals in their mainstage and thrust theater programming.
 
 ## Resources for Creators
 
