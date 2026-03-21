@@ -181,7 +181,7 @@ document.addEventListener('DOMContentLoaded', () => {
               <div class="play-button">▶</div>
             </div>
           {% elsif featured_news.image %}
-            <img src="{{ site.baseurl }}/{{ featured_news.image }}" alt="{{ featured_news.title }}">
+            <img src="{{ site.baseurl }}{{ featured_news.image }}" alt="{{ featured_news.title }}">
           {% endif %}
           <div class="feature-content">
             <h3>{{ featured_news.title }}</h3>
