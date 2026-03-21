@@ -27,6 +27,7 @@ collections:
       - { label: "Ticket URL", name: "ticket_url", widget: "string", required: false }
       - { label: "Image", name: "image", widget: "image", required: false }
       - { label: "Main Image", name: "promo_image", widget: "image", required: false, hint: "Main image representing this event (used everywhere: hero banner, featured blocks, event page)" }
+      - { label: "Hero Carousel", name: "hero_carousel", widget: "string", required: false, hint: "Optional: Comma-separated list of image paths for hero banner carousel (e.g. /assets/media/event/img1.jpg,/assets/media/event/img2.jpg)" }
       - { label: "Program PDF", name: "program_url", widget: "file", required: false, hint: "Upload program PDF" }
       - { label: "Body", name: "body", widget: "markdown" }
 

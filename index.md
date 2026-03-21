@@ -41,7 +41,20 @@ title: Home
 {% if hero_event %}
 <div class="hero-banner">
   <a href="{{ hero_event.url | relative_url }}">
-    {% if hero_event.promo_image %}
+    {% if hero_event.hero_carousel %}
+      {% assign carousel_images = hero_event.hero_carousel | split: ',' %}
+      <div class="hero-carousel">
+        {% for image in carousel_images %}
+          <div class="hero-slide {% if forloop.first %}active{% endif %}">
+            <img src="{{ site.baseurl }}{{ image | strip }}" alt="{{ hero_event.title }}">
+          </div>
+        {% endfor %}
+        <div class="carousel-nav">
+          <button class="carousel-btn prev" onclick="heroCarousel.prev()">‹</button>
+          <button class="carousel-btn next" onclick="heroCarousel.next()">›</button>
+        </div>
+      </div>
+    {% elsif hero_event.promo_image %}
       <img src="{{ site.baseurl }}{{ hero_event.promo_image }}" alt="{{ hero_event.title }}">
     {% else %}
       <img src="{{ site.baseurl }}/assets/media/crooners-cabaret-2026/dunsmore-room-performance.jpg" alt="NMTE Event">
@@ -53,6 +66,38 @@ title: Home
     </div>
   </a>
 </div>
+
+<script>
+const heroCarousel = {
+  currentSlide: 0,
+  slides: document.querySelectorAll('.hero-slide'),
+  
+  init() {
+    if (this.slides.length > 1) {
+      setInterval(() => this.next(), 5000); // Auto-advance every 5 seconds
+    }
+  },
+  
+  showSlide(n) {
+    this.slides.forEach(slide => slide.classList.remove('active'));
+    this.currentSlide = (n + this.slides.length) % this.slides.length;
+    this.slides[this.currentSlide].classList.add('active');
+  },
+  
+  next() {
+    this.showSlide(this.currentSlide + 1);
+  },
+  
+  prev() {
+    this.showSlide(this.currentSlide - 1);
+  }
+};
+
+// Initialize carousel when page loads
+document.addEventListener('DOMContentLoaded', () => {
+  heroCarousel.init();
+});
+</script>
 {% endif %}
 
 <!-- Dual Featured Blocks -->
@@ -139,7 +184,7 @@ title: Home
               <div class="play-button">▶</div>
             </div>
           {% elsif featured_news.image %}
-            <img src="{{ site.baseurl }}{{ featured_news.image }}" alt="{{ featured_news.title }}">
+            <img src="{{ site.baseurl }}/{{ featured_news.image }}" alt="{{ featured_news.title }}">
           {% endif %}
           <div class="feature-content">
             <h3>{{ featured_news.title }}</h3>

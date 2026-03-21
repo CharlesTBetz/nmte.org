@@ -77,12 +77,84 @@
 // Hero Banner Enhancements
 .hero-banner {
   margin-bottom: 3rem;
+  position: relative;
   
   .hero-tagline {
     display: block;
     font-style: italic;
     margin-top: 0.5rem;
     opacity: 0.9;
+  }
+}
+
+// Hero Carousel
+.hero-carousel {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+  
+  .hero-slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    
+    &.active {
+      opacity: 1;
+    }
+    
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+}
+
+.carousel-nav {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1rem;
+  pointer-events: none;
+  
+  .carousel-btn {
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    cursor: pointer;
+    pointer-events: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.2s ease;
+    
+    &:hover {
+      background: rgba(0, 0, 0, 0.7);
+    }
+  }
+}
+
+// Responsive Design Updates
+@media (max-width: 768px) {
+  .hero-carousel {
+    height: 250px;
+  }
+  
+  .carousel-nav .carousel-btn {
+    width: 35px;
+    height: 35px;
+    font-size: 1.2rem;
   }
 }
 
