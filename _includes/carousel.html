@@ -38,4 +38,16 @@ function carouselGo(dot, idx) {
   slides[idx].classList.add('active');
   dots[idx].classList.add('active');
 }
+// Auto-advance every 5 seconds, pause on hover
+document.querySelectorAll('.carousel').forEach(function(c) {
+  var timer = setInterval(function() {
+    c.querySelector('.carousel-next').click();
+  }, 5000);
+  c.addEventListener('mouseenter', function() { clearInterval(timer); });
+  c.addEventListener('mouseleave', function() {
+    timer = setInterval(function() { c.querySelector('.carousel-next').click(); }, 5000);
+  });
+  // Also pause on touch for mobile
+  c.addEventListener('touchstart', function() { clearInterval(timer); }, {passive: true});
+});
 </script>
