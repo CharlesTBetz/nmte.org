@@ -16,7 +16,15 @@ The nation's first organization devoted to playwrights and new play development.
 **Location:** 308 Prince St, St. Paul  
 Champions new and innovative music-theater works. Hosts the annual, influential Composer-Librettist Studio, which many Minnesota musical theater creators and performers have attended, and presents cutting-edge productions.
 
-### [Theater Latte Da](https://theaterlatteda.com/){:target="_blank"}
+### [Trademark Theater](https://www.trademarktheater.org/){:target="_blank"}
+**Location:** Minneapolis  
+The only nonprofit in Minnesota solely dedicated to creating, developing, and producing new theatrical works. Founded by Tyler Michaels King. Their In The Works commissioning platform supports emerging playwrights and composer/lyricists through a full year of development, critical feedback, and showcase readings.
+
+### [Park Square Theatre](https://parksquaretheatre.org/){:target="_blank"}
+**Location:** 20 W 7th Place, St. Paul  
+Contemporary theatre on two stages with a strong commitment to new work through their LAB Series, which offers theatre makers of all backgrounds the chance to develop ambitious new productions and take artistic risks.
+
+### [Theater Latté Da](https://theaterlatteda.com/){:target="_blank"}
 **Location:** 345 13th Ave NE, Minneapolis  
 Twin Cities' musical theatre company, featuring both classics and new works. Known for their NEXT Festival of new musicals.
 
