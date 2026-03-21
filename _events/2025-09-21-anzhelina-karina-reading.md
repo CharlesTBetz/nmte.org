@@ -6,7 +6,6 @@ end_date: 2025-09-22
 time: "Sun Sep 21 at 2:30pm, Mon Sep 22 at 7:00pm"
 venue: "Center for Performing Arts, Minneapolis"
 description: "NMTE member Keith Benson's original musical about two Russian cousins reunited in 1919 New York City."
-program_url: /assets/media/anzhelina-karina-2025/promo.pdf
 ---
 
 NMTE member **Keith Benson** presented his original musical *Anzhelina & Karina* in a free public reading — a heart-warming story of two Russian cousins navigating love, loss, and redemption in 1919 New York City.
