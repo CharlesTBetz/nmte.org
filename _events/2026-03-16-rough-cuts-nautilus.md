@@ -9,9 +9,9 @@ promo_caption: "Charlie Betz (composer), Josiah Thomas Turner (librettist), Josh
 program_url: /assets/media/rough-cuts-2026-03/program.pdf
 ---
 
-**Four NMTE members** were featured in Nautilus Music-Theater's **Rough Cuts** program — and they brought the house despite a March blizzard that would have kept lesser audiences home.
+**Four NMTE members** were featured in Nautilus Music-Theater's **Rough Cuts** program — and nearly **50 people** showed up despite a March blizzard.
 
-This is Minnesota. We don't cancel for snow. Nearly **50 hearty souls** made it out through the storm, and the artists matched their energy with fierce, committed performances of brand-new work.
+This is Minnesota. We don't cancel for snow.
 
 What made this Rough Cuts extraordinary was the format: Monday's open rehearsal meant the creative teams were coaching performers in real time, in front of the audience — a rare window into the collaborative process of building a new musical. By Tuesday's show, the pieces had been shaped and sharpened. The consensus among everyone involved: this was one of the best Rough Cuts in memory.
 
