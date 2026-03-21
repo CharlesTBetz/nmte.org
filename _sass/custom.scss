@@ -16,6 +16,12 @@ h2, h3, h4 {
   color: white;
 }
 
+.hero-overlay {
+  h2, p, span {
+    color: white !important;
+  }
+}
+
 // Featured Blocks Layout
 .featured-blocks {
   display: grid;
