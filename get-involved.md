@@ -21,10 +21,9 @@ Attend two of our monthly meetings as an observer. This gives you a chance to:
 
 ### Step 2: Present Your Work
 At a third meeting, present a piece of your musical theater work:
-- A song from a show you're developing
-- A scene with music and lyrics
-- An excerpt that demonstrates your artistic voice
-- **Time limit:** Typically 5-10 minutes
+- A scene with dramatic dialog, music and lyrics
+- An overall outline for a story to be musicalized
+- A song with dramatic context
 
 ### Step 3: Membership Vote
 Following your presentation, current members vote on your acceptance to the group.
