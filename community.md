@@ -4,8 +4,6 @@ title: Community
 permalink: /community/
 ---
 
-## Partners
-
 NMTE is part of a vibrant network of organizations supporting musical theatre creators in the Twin Cities and beyond.
 
 ## New Work Development & Support
