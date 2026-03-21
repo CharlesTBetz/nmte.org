@@ -1,14 +1,14 @@
 ---
 layout: post
-title: "Anzhelina & Karina — Reading"
-date: 2025-09-21
 type: event
+date: 2025-09-21
+title: "Anzhelina & Karina — Reading"
 event_date: 2025-09-21
 end_date: 2025-09-22
 time: "Sun Sep 21 at 2:30pm, Mon Sep 22 at 7:00pm"
 venue: "Center for Performing Arts, Minneapolis"
-description: "NMTE member Keith Benson's original musical about two Russian cousins reunited in 1919 New York City."
 promo_image: /assets/media/anzhelina-karina-2025/promo-image.jpg
+description: "NMTE member Keith Benson's original musical about two Russian cousins reunited in 1919 New York City."
 featured: true
 featured_until: 2026-05-01
 composer: "Keith Benson"
