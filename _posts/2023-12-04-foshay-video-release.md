@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2023-08-01
+date: 2023-12-04
 title: "Watch: FOSHAY! A New Musical — Video Now Available"
-permalink: /news/2023/08/01/foshay-video-release/
+permalink: /news/2023/12/04/foshay-video-release/
 category: "Video Release"
 composer: "Kevin Bowen"
 youtube_url: https://www.youtube.com/watch?v=MkWF960SGWE
