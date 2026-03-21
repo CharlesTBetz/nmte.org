@@ -6,6 +6,7 @@ permalink: /news/2025/08/01/ben-larson-cello-musical/
 category: "Selection Announcement"
 composer: "Benjamin Emory Larson"
 venue: "Theater Latte Da NEXT Festival"
+program_url: /assets/media/how-to-play-cello-2025/next-festival-program.pdf
 ---
 
 Congratulations to NMTE member Benjamin Emory Larson, whose musical *How to Play the Cello (Until You Don't)* has been selected for Theater Latte Da's prestigious NEXT Festival in August 2025.
@@ -19,3 +20,5 @@ Theater Latte Da's NEXT Festival showcases new musicals in development, providin
 The musical has garnered strong audience response, with one attendee noting: "Moving and devastating. Hannah Elless was phenomenal as du Pré. Ben Larson's music was beautiful."
 
 NMTE is proud to support members like Ben as they develop and present original musical theater work in professional venues throughout the Twin Cities.
+
+📄 [NEXT Festival Program (PDF)](/assets/media/how-to-play-cello-2025/next-festival-program.pdf){:target="_blank"} · [Show Program (PDF)](/assets/media/how-to-play-cello-2025/program.pdf){:target="_blank"}
