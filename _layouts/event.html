@@ -11,11 +11,18 @@ layout: default
       {% if page.sold_out %}<span class="event-badge sold-out">SOLD OUT</span>{% endif %}
       {% if page.ticket_url %}<br><a href="{{ page.ticket_url }}" target="_blank" class="event-tickets">🎟 Get Tickets</a>{% endif %}
     </div>
+    {% if page.promo_image %}
+    <img src="{{ page.promo_image | relative_url }}" alt="{{ page.title }}" class="event-promo-image">
+    {% endif %}
   </header>
 
   <div class="event-content">
     {{ content }}
   </div>
+
+  {% if page.program_url %}
+  <p>📄 <a href="{{ page.program_url | relative_url }}" target="_blank">View Program (PDF)</a></p>
+  {% endif %}
 
   <footer class="event-footer">
     <p><a href="{{ site.baseurl }}/events/">← All upcoming events</a> · <a href="{{ site.baseurl }}/past-events/">Past events</a></p>
