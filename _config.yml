@@ -14,7 +14,9 @@ header_pages:
   - blog.md
   - community.md
 
-permalink: /blog/:year/:month/:day/:title/
+# Using custom permalinks based on post type - see _layouts/post.html
+# Events: /events/YYYY/MM/DD/title/  
+# News: /news/YYYY/MM/DD/title/
 
 plugins:
   - jekyll-seo-tag

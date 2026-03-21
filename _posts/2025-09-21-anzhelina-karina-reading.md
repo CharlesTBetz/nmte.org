@@ -1,6 +1,7 @@
 ---
 layout: post
 type: event
+permalink: /events/2025/09/21/anzhelina-karina-reading/
 date: 2025-09-21
 title: "Anzhelina & Karina — Reading"
 event_date: 2025-09-21

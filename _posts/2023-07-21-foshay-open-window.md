@@ -1,6 +1,7 @@
 ---
 layout: post
 type: event
+permalink: /events/2023/07/21/foshay-open-window/
 date: 2023-07-21
 title: "Foshay! A New Musical — World Premiere"
 event_date: 2023-07-21
