@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-The **New Musical Theatre Exchange** is a nonprofit 501(c) bringing together committed librettists, lyricists, and composers of musical theatre in the Twin Cities. We workshop new musicals, find collaborators, share resources, and support efforts to get members' work produced.
+The **New Musical Theatre Exchange** is a nonprofit 501(c) bringing together committed librettists, lyricists, and composers of musical theatre in the Twin Cities and surrounding region. We workshop new musicals, find collaborators, share resources, and support efforts to get members' work produced.
 
 Founded in 2012, we believe new musicals can — and should — be developed outside of New York City. The Twin Cities has a wealth of talent, a thriving theater community, and audiences hungry for original work.
 
