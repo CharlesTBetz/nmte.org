@@ -21,4 +21,4 @@ The musical has garnered strong audience response, with one attendee noting: "Mo
 
 NMTE is proud to support members like Ben as they develop and present original musical theater work in professional venues throughout the Twin Cities.
 
-📄 [NEXT Festival Program (PDF)](/assets/media/how-to-play-cello-2025/next-festival-program.pdf){:target="_blank"} · [Show Program (PDF)](/assets/media/how-to-play-cello-2025/program.pdf){:target="_blank"}
+📄 <a href="{{ site.baseurl }}/assets/media/how-to-play-cello-2025/next-festival-program.pdf" target="_blank">NEXT Festival Program (PDF)</a> · <a href="{{ site.baseurl }}/assets/media/how-to-play-cello-2025/program.pdf" target="_blank">Show Program (PDF)</a>
