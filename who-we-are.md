@@ -10,7 +10,7 @@ The New Musical Theatre Exchange is a nonprofit 501(c) that exists to bring toge
 
 The New Musical Theatre Exchange was founded in 2012 by a diverse group of Twin Cities playwrights, composers, and lyricists dedicated to launching new musicals in the Twin Cities and beyond. We provide a place to develop musicals and foster a community for serious-minded local musical theatre writers who believe that new musicals can be developed outside of New York City and in particular, here in the Twin Cities, where there is a wealth of talent and resources available. Bringing a musical to full fruition is always a long and challenging road, even for the most experienced Broadway veterans; we created our workshop as a first step where writers can receive feedback to refine ideas, identify potential problems, and correct mistakes before a show goes into the difficult and expensive production process.
 
-We meet on the third Sunday of each month, usually at the Playwrights' Center.
+We meet on the third Sunday of each month, usually at the <a href="https://www.google.com/maps/place/710+Raymond+Ave,+St+Paul,+MN" target="_blank">Playwrights' Center, 710 Raymond Ave, St. Paul</a>.
 
 [Meet our members →]({{ site.baseurl }}/members/)
 
