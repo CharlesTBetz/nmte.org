@@ -60,6 +60,10 @@ Operates the historic theaters presenting touring Broadway productions and major
 
 ## Resources for Creators
 
+### [American Composers Forum](https://composersforum.org/)
+**Location:** 75 W 5th St, St. Paul  
+National organization supporting composers across all genres. Offers grants, professional development, and networking opportunities for composers.
+
 ### [Minnesota Association of Songwriters](http://mnmas.org/)
 Supportive community for songwriters across all genres, including those working in musical theatre.
 
