@@ -41,7 +41,9 @@ title: Home
 {% if hero_event %}
 <div class="hero-banner">
   <a href="{{ hero_event.url | relative_url }}">
-    {% if hero_event.promo_image %}
+    {% if hero_event.hero_image %}
+      <img src="{{ site.baseurl }}{{ hero_event.hero_image }}" alt="{{ hero_event.title }}">
+    {% elsif hero_event.promo_image %}
       <img src="{{ site.baseurl }}{{ hero_event.promo_image }}" alt="{{ hero_event.title }}">
     {% else %}
       <img src="{{ site.baseurl }}/assets/media/crooners-cabaret-2026/dunsmore-room-performance.jpg" alt="NMTE Event">
