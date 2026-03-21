@@ -1,9 +1,25 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
-  <rect width="64" height="64" rx="8" fill="#1a1a2e"/>
-  <!-- Musical eighth note in gold -->
-  <g fill="#F0C14B">
-    <ellipse cx="24" cy="46" rx="8" ry="5.5" transform="rotate(-20 24 46)"/>
-    <rect x="31" y="12" width="3.5" height="35" rx="1.5"/>
-    <path d="M34.5 12 C42 16 43 24 38 30 L34.5 26 C38 22 39 18 34.5 12 Z"/>
+  <rect width="64" height="64" rx="8" fill="#111111"/>
+  <!-- Minnesota state silhouette -->
+  <path d="
+    M13 9 L13 11 L11 11 L11 14 L13 14
+    L13 48
+    L15 50 L17 50 L19 52 L22 52 L24 50 L26 50 L27 52 L30 54 L33 52 L35 52 L37 54 L40 52 L43 50
+    L45 48 L47 46
+    L49 44 L50 42 L50 38
+    L49 36 L50 34 L51 30
+    L50 26 L49 22 L48 18
+    L46 14 L44 12
+    L42 10 L40 9
+    L13 9 Z"
+    fill="#c4a843" />
+  <!-- Eighth note knocked out - large sweeping scimitar flag like reference -->
+  <g fill="#111111">
+    <!-- Note head: plump tilted ellipse -->
+    <ellipse cx="24" cy="42" rx="6.5" ry="4" transform="rotate(-30 24 42)"/>
+    <!-- Stem: vertical -->
+    <rect x="29" y="12" width="2.8" height="32" rx="0.5"/>
+    <!-- Flag: big sweeping scimitar - bulges far right, curves back to sharp point well below -->
+    <path d="M31.8 12 C36 13 44 17 44 24 C44 31 38 36 31.8 40 L31.8 35 C36 32 40 28 40 23 C40 18 36 15 31.8 12 Z"/>
   </g>
 </svg>
