@@ -5,17 +5,29 @@ baseurl: "/nmte.org"
 
 theme: minima
 
-# Using unified _posts collection with type field instead of separate collections
+# Collections
+collections:
+  musicals:
+    output: true
+    permalink: /our-work/:path/
 
 header_pages:
-  - updates.md
+  - our-work.md
   - about.md
+  - updates.md
   - blog.md
   - community.md
 
 # Using custom permalinks based on post type - see _layouts/post.html
 # Events: /events/YYYY/MM/DD/title/  
 # News: /news/YYYY/MM/DD/title/
+
+defaults:
+  - scope:
+      path: ""
+      type: "musicals"
+    values:
+      layout: "musical"
 
 plugins:
   - jekyll-seo-tag

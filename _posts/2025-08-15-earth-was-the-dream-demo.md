@@ -1,5 +1,6 @@
 ---
 layout: post
+musicals: [five-minutes]
 tags: [news, media]
 title: "NMTE Member Charles Betz Releases \"Earth Was The Dream!\" Demo"
 date: 2025-08-15

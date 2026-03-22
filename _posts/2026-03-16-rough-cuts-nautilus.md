@@ -1,5 +1,6 @@
 ---
 layout: post
+musicals: [five-minutes]
 tags: [event, news]
 permalink: /events/2026/03/16/rough-cuts-nautilus/
 date: 2026-03-16

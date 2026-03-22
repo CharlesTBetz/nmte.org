@@ -1,5 +1,6 @@
 ---
 layout: post
+musicals: [foshay]
 tags: [event, news]
 permalink: /events/2023/07/21/foshay-open-window/
 date: 2023-07-21

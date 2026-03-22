@@ -1,5 +1,6 @@
 ---
 layout: post
+musicals: [cello]
 tags: [news]
 title: "Ben Larson's \"How to Play the Cello (Until You Don't)\" Selected for Theater Latte Da NEXT Festival"
 date: 2025-08-01

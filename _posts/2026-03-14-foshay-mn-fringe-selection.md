@@ -1,5 +1,6 @@
 ---
 layout: post
+musicals: [foshay]
 tags: [news]
 date: 2026-03-14
 permalink: /news/2026/03/14/foshay-mn-fringe-selection/
