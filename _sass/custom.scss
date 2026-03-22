@@ -36,7 +36,15 @@
 h1, .page-heading, .post-title {
   color: #F0C14B;
   font-weight: 700;
-  font-size: 1.5rem !important;
+  font-size: 1.7rem !important;
+}
+
+h2, .post-content h2 {
+  font-size: 1.3rem !important;
+}
+
+h3, .post-content h3 {
+  font-size: 1.1rem !important;
 }
 
 h2, h3, h4 {
