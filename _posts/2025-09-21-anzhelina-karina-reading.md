@@ -10,7 +10,7 @@ time: "Sun Sep 21 at 2:30pm, Mon Sep 22 at 7:00pm"
 venue: "Center for Performing Arts, Minneapolis"
 promo_image: /assets/media/anzhelina-karina-2025/promo-image.jpg
 description: "NMTE member Keith Benson's original musical about two Russian cousins reunited in 1919 New York City."
-featured: true
+featured: false
 featured_until: 2026-05-01
 composer: "Keith Benson"
 collaborators: "Bob Derus, Marienne Kreitlow, Mike Nilles, Bill Kelm, Eric Heltemes, Brenda Varda"
