@@ -14,6 +14,7 @@ layout: default
         {% elsif page.status == "published" %}🟢 Published
         {% else %}{{ page.status }}{% endif %}
       </span>
+      {% if page.website %}<br><span class="musical-link">🔗 <a href="{{ page.website }}" target="_blank">Official Website</a></span>{% endif %}
     </div>
     {% if page.image %}
     <figure class="musical-hero">
