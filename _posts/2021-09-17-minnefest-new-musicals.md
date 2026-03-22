@@ -1,7 +1,8 @@
 ---
 layout: post
 tags: [event, news]
-musicals: [house-divided, like-water]
+image: /assets/media/minnefest-2021/house-divided.jpg
+musicals: [house-divided, water-from-snow]
 permalink: /events/2021/09/17/minnefest-new-musicals/
 date: 2021-09-17
 title: "MinneFest of New Musicals 2021"
@@ -16,11 +17,17 @@ Five readings of three original musicals, each written by a local playwright, an
 
 ## A House Divided: An Intimate Musical of the Lincoln Presidency
 
+![A House Divided logo]({{ site.baseurl }}/assets/media/minnefest-2021/house-divided.jpg){: .post-image }
+
 *By Maureen Kane Berg & Michael Salmanson*
 
 A House Divided is a play with music that traces Lincoln's development in office from conciliator who tolerated slavery to leader who issued the Emancipation Proclamation. It includes the perspective of Elizabeth Keckley — the formerly enslaved seamstress and entrepreneur who became Mary Lincoln's close friend.
 
 ## Water From Snow
+
+![Water From Snow logo]({{ site.baseurl }}/assets/media/minnefest-2021/water-from-snow.jpg){: .post-image }
+
+*By Janet Preus, Robert Elhai & Fred Steele*
 
 Water from Snow is a contemporary musical set in rural Minnesota that tells the story of a single mom struggling to come to terms with her past, reconnect with old friends, and prove to herself that she deserves true love and peace in her soul at last.
 
