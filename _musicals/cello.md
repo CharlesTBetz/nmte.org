@@ -3,7 +3,7 @@ title: "How to Play the Cello (Until You Don't)"
 code: cello
 composer: "Benjamin Emory Larson"
 image: null
-status: active
+status: public-reading
 year_started: 2024
 ---
 

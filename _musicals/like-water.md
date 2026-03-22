@@ -4,7 +4,7 @@ code: like-water
 composer: "Janet Preus"
 collaborators: "Robert Elhai (music), Fred Steele"
 image: /assets/media/minnefest-2021/water-from-snow.jpg
-status: in-development
+status: public-reading
 year_started: 2021
 ---
 

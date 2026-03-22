@@ -4,7 +4,7 @@ code: five-minutes
 composer: "Charles Betz"
 collaborators: "Josiah Thomas Turner (book)"
 image: /assets/media/five-minutes/logo.png
-status: in-development
+status: developing
 year_started: 2024
 ---
 

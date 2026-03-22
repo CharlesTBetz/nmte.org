@@ -7,10 +7,11 @@ layout: default
     <div class="musical-meta">
       {% if page.composer %}<span class="composer">Music by {{ page.composer }}</span>{% endif %}
       {% if page.collaborators %}<br><span class="collaborators">{{ page.collaborators }}</span>{% endif %}
-      <br><span class="status">Status: 
-        {% if page.status == "active" %}🟢 Active
-        {% elsif page.status == "in-development" %}🔵 In Development
-        {% elsif page.status == "completed" %}✅ Completed
+      <br><span class="status status-{{ page.status }}">
+        {% if page.status == "developing" %}🔵 Developing
+        {% elsif page.status == "public-reading" %}🟡 Public Reading
+        {% elsif page.status == "staged" %}🟣 Staged
+        {% elsif page.status == "published" %}🟢 Published
         {% else %}{{ page.status }}{% endif %}
       </span>
     </div>

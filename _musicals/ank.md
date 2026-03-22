@@ -4,7 +4,7 @@ code: ank
 composer: "Keith Benson"
 collaborators: "Bob Derus, Marienne Kreitlow, Mike Nilles, Bill Kelm, Eric Heltemes, Brenda Varda"
 image: /assets/media/anzhelina-karina-2025/promo-image.jpg
-status: active
+status: public-reading
 year_started: 2024
 ---
 

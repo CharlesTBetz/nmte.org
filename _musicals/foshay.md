@@ -3,7 +3,7 @@ title: "Foshay! A New Musical"
 code: foshay
 composer: "Kevin Bowen"
 image: /assets/media/foshay-2023/foshay-art.jpg
-status: active
+status: staged
 year_started: 2023
 ---
 
