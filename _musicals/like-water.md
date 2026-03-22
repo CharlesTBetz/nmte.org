@@ -1,10 +1,11 @@
 ---
-title: "Like Water from Snow"
+title: "Water from Snow"
 code: like-water
-composer: "Janet Price"
+composer: "Janet Preus"
+collaborators: "Robert Elhai (music), Fred Steele"
 image: null
-status: active
+status: in-development
 year_started: 2021
 ---
 
-A contemporary musical set in rural Minnesota, telling the story of a single mom struggling to come to terms with her past, reconnect with old friends, and prove to herself that she deserves true love and peace in her soul at last. Written by NMTE member Janet Price. First presented at NMTE's MinneFest of New Musicals in 2021.
+A contemporary musical set in rural Minnesota, telling the story of a single mom struggling to come to terms with her past, reconnect with old friends, and prove to herself that she deserves true love and peace in her soul at last. Written by NMTE founding member Janet Preus with Robert Elhai and Fred Steele. First presented at NMTE's MinneFest of New Musicals in 2021 and currently in development.
