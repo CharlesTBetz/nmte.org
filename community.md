@@ -73,7 +73,7 @@ National platform connecting playwrights, composers, lyricists, and librettists 
 **Location:** 75 W 5th St, St. Paul  
 National organization supporting composers across all genres. Offers grants, professional development, and networking opportunities for composers.
 
-### [Minnesota Association of Songwriters](http://mnmas.org/){:target="_blank"}
+### [Minnesota Association of Songwriters](https://www.mnmas.org/){:target="_blank"}
 Supportive community for songwriters across all genres, including those working in musical theatre. *Book writers take note: this is where you might find your composer.*
 
 ---
