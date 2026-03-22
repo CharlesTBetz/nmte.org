@@ -94,35 +94,16 @@ document.addEventListener('DOMContentLoaded', () => {
 {% endif %}
 
 <!-- Three-card featured row -->
+<!-- Featured cards: pinned (featured: true) first, then most recent eligible, max 3 -->
+<!-- Posts with featured: false are excluded. Omitting featured = eligible by recency. -->
+<!-- Hero post is excluded to avoid duplication. -->
 <div class="featured-cards-row">
-  {% assign event_candidates = site.posts | where_exp: "post", "post.tags contains 'event'" | sort: "event_date" | reverse %}
-  {% assign shown_events = 0 %}
-  
-  <!-- Two recent events (excluding hero) -->
-  {% for event in event_candidates %}
-    {% if event != hero_event and shown_events < 2 %}
-      <article class="feature-card">
-        <a href="{{ event.url | relative_url }}">
-          {% if event.promo_image %}
-            <img src="{{ site.baseurl }}{{ event.promo_image }}" alt="{{ event.title | escape }}">
-          {% endif %}
-          <div class="feature-content">
-            <h3>{{ event.title }}</h3>
-            <div class="feature-meta">
-              {{ event.event_date | date: "%B %d, %Y" }}
-              {% if event.venue %} · {{ event.venue }}{% endif %}
-              {% if event.sold_out %} · <strong>SOLD OUT</strong>{% endif %}
-            </div>
-          </div>
-        </a>
-      </article>
-      {% assign shown_events = shown_events | plus: 1 %}
-    {% endif %}
-  {% endfor %}
-  
-  <!-- One recent non-event news item -->
+  {% assign card_count = 0 %}
+
+  <!-- Pass 1: Pinned posts (featured: true) -->
   {% for post in site.posts %}
-    {% unless post.tags contains "event" %}
+    {% if card_count >= 3 %}{% break %}{% endif %}
+    {% if post.featured == true and post != hero_event %}
       <article class="feature-card">
         <a href="{{ post.url | relative_url }}">
           {% if post.youtube_url %}
@@ -137,14 +118,44 @@ document.addEventListener('DOMContentLoaded', () => {
             <h3>{{ post.title }}</h3>
             <div class="feature-meta">
               {{ post.date | date: "%B %d, %Y" }}
-              {% if post.category %} · {{ post.category }}{% endif %}
+              {% if post.venue %} · {{ post.venue }}{% endif %}
               {% if post.composer %} · {{ post.composer }}{% endif %}
+              {% if post.sold_out %} · <strong>SOLD OUT</strong>{% endif %}
             </div>
           </div>
         </a>
       </article>
-      {% break %}
-    {% endunless %}
+      {% assign card_count = card_count | plus: 1 %}
+    {% endif %}
+  {% endfor %}
+
+  <!-- Pass 2: Fill remaining slots with most recent eligible posts -->
+  {% for post in site.posts %}
+    {% if card_count >= 3 %}{% break %}{% endif %}
+    {% if post != hero_event and post.featured != true and post.featured != false %}
+      <article class="feature-card">
+        <a href="{{ post.url | relative_url }}">
+          {% if post.youtube_url %}
+            <div class="video-thumbnail">
+              <img src="https://img.youtube.com/vi/{{ post.youtube_url | split: '/' | last | replace: 'watch?v=', '' }}/mqdefault.jpg" alt="Video thumbnail">
+              <div class="play-button">▶</div>
+            </div>
+          {% elsif post.promo_image %}
+            <img src="{{ site.baseurl }}{{ post.promo_image }}" alt="{{ post.title | escape }}">
+          {% endif %}
+          <div class="feature-content">
+            <h3>{{ post.title }}</h3>
+            <div class="feature-meta">
+              {{ post.date | date: "%B %d, %Y" }}
+              {% if post.venue %} · {{ post.venue }}{% endif %}
+              {% if post.composer %} · {{ post.composer }}{% endif %}
+              {% if post.sold_out %} · <strong>SOLD OUT</strong>{% endif %}
+            </div>
+          </div>
+        </a>
+      </article>
+      {% assign card_count = card_count | plus: 1 %}
+    {% endif %}
   {% endfor %}
 </div>
 
