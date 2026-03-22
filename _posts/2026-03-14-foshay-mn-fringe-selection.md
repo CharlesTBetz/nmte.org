@@ -1,5 +1,6 @@
 ---
 layout: post
+tags: [news]
 date: 2026-03-14
 permalink: /news/2026/03/14/foshay-mn-fringe-selection/
 title: "Kevin Bowen's \"Foshay!\" Headed to Minnesota Fringe Festival 2026 — Now Casting"

@@ -1,6 +1,6 @@
 ---
 layout: post
-event: true
+tags: [event, news]
 permalink: /events/2021/09/17/minnefest-new-musicals/
 date: 2021-09-17
 title: "MinneFest of New Musicals 2021"

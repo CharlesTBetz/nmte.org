@@ -5,7 +5,7 @@ permalink: /events/
 ---
 
 {% assign today = site.time | date: "%Y%m%d" | plus: 0 %}
-{% assign sorted_events = site.posts | where: "event", true | sort: "event_date" %}
+{% assign sorted_events = site.posts | where_exp: "post", "post.tags contains 'event'" | sort: "event_date" %}
 {% assign has_upcoming = false %}
 
 {% for event in sorted_events %}

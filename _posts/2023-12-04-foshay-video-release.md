@@ -1,5 +1,6 @@
 ---
 layout: post
+tags: [news, media]
 date: 2023-12-04
 title: "Watch: FOSHAY! A New Musical — Video Now Available"
 permalink: /news/2023/12/04/foshay-video-release/

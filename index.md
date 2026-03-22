@@ -122,7 +122,7 @@ document.addEventListener('DOMContentLoaded', () => {
   
   <!-- One recent non-event news item -->
   {% for post in site.posts %}
-    {% unless post.event %}
+    {% unless post.tags contains "event" %}
       <article class="feature-card">
         <a href="{{ post.url | relative_url }}">
           {% if post.youtube_url %}

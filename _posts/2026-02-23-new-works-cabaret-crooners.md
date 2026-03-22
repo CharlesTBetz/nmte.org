@@ -1,8 +1,8 @@
 ---
 layout: post
+tags: [event, news]
 title: "NMTE's 2026 New Works Cabaret"
 date: 2026-02-23
-event: true
 permalink: /events/2026/02/23/new-works-cabaret-crooners/
 event_date: 2026-02-23
 time: "5:30 PM doors, 6:30 PM show"
