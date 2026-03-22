@@ -7,7 +7,7 @@ permalink: /blog/
 In-depth interviews, commentary, and stories from the Twin Cities musical theatre community.
 
 <div class="blog-grid">
-{% assign posts = site.posts | where: "blog", true | sort: 'date' | reverse %}
+{% assign posts = site.posts | where_exp: "post", "post.tags contains 'blog'" | sort: 'date' | reverse %}
 {% for post in posts %}
   <article class="blog-item">
     <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
@@ -24,10 +24,10 @@ In-depth interviews, commentary, and stories from the Twin Cities musical theatr
   </article>
 {% endfor %}
 
-{% if site.posts.size == 0 %}
+{% if posts.size == 0 %}
   <div class="coming-soon">
     <h3>Coming Soon</h3>
-    <p>Our first blog post will be an interview with NMTE member Keith Benson about his collaborative musical <em>Anzhelina & Karina</em>. Check back soon!</p>
+    <p>Blog posts coming soon — interviews, commentary, and stories from the Twin Cities musical theatre community.</p>
   </div>
 {% endif %}
 </div>

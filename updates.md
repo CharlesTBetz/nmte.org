@@ -11,6 +11,7 @@ Events, member news, and announcements — all in one place.
   <button class="tab" data-filter="event">Events</button>
   <button class="tab" data-filter="news">News</button>
   <button class="tab" data-filter="media">Media</button>
+  <button class="tab" data-filter="blog">Blog</button>
 </div>
 
 <div class="updates-list">
@@ -22,6 +23,7 @@ Events, member news, and announcements — all in one place.
         {% if tag == "event" %}<span class="badge badge-event">🎭 Event</span>{% endif %}
         {% if tag == "news" %}<span class="badge badge-news">📰 News</span>{% endif %}
         {% if tag == "media" %}<span class="badge badge-media">🎬 Media</span>{% endif %}
+        {% if tag == "blog" %}<span class="badge badge-blog">✍️ Blog</span>{% endif %}
       {% endfor %}
     </div>
     <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
@@ -124,6 +126,7 @@ document.addEventListener('DOMContentLoaded', function() {
 .badge-event { background: rgba(240, 193, 75, 0.2); color: #F0C14B; }
 .badge-news { background: rgba(100, 180, 255, 0.2); color: #64b4ff; }
 .badge-media { background: rgba(180, 100, 255, 0.2); color: #b464ff; }
+.badge-blog { background: rgba(100, 220, 100, 0.2); color: #64dc64; }
 
 .update-item h2 {
   margin: 0 0 0.5rem 0;

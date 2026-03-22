@@ -1,6 +1,6 @@
 ---
 layout: post
-tags: [news]
+tags: [news, blog]
 title: "Member Spotlight: Keith Benson on Anzhelina & Karina"
 date: 2026-03-22
 permalink: /news/2026/03/22/keith-benson-anzhelina-karina-interview/
