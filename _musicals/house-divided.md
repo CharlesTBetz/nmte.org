@@ -3,7 +3,7 @@ title: "A House Divided"
 code: house-divided
 composer: "Maureen Kane Berg"
 collaborators: "Michael J. Salmanson, Thomas C. Berg"
-image: null
+image: /assets/media/minnefest-2021/house-divided.jpg
 status: active
 year_started: 2021
 ---
