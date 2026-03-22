@@ -173,6 +173,10 @@ p, li, dd, dt, td, th, label, .page-content {
 }
 
 // Hero Carousel — wide but not infinite
+.site-nav {
+  z-index: 1000 !important;
+}
+
 .hero-carousel {
   position: relative;
   max-width: 1200px;
