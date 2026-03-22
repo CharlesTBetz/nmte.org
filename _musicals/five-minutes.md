@@ -3,7 +3,7 @@ title: "Five Minutes on the Low Road"
 code: five-minutes
 composer: "Charles Betz"
 collaborators: "Josiah Thomas Turner (book)"
-image: null
+image: /assets/media/five-minutes/logo.png
 status: in-development
 year_started: 2024
 ---
