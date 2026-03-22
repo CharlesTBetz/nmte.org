@@ -10,7 +10,7 @@ The New Musical Theatre Exchange meets the third Sunday of each month, usually a
 
 ## Monthly Workshop
 
-Our monthly meetings are a time to connect, talk shop, and share pieces of work for critique. Members can sign up to share selections from their work for critique by other members and guests. Selections may include songs, sections of a libretto, or stand-alone lyrics.
+Our monthly meetings are a time to connect, talk shop, and share pieces of work for critique. Members can sign up to share selections from their work for reading and critique by other members and guests. Selections may include dramatic musical scenes (tracks are fine for musical components), libretto readings, concept summaries, and so forth.
 
 ## Readings
 
