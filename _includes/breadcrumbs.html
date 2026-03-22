@@ -1,0 +1,22 @@
+{% unless page.url == "/" %}
+<nav class="breadcrumbs" aria-label="Breadcrumb">
+  <a href="{{ site.baseurl }}/">Home</a>
+
+  {% if page.layout == "musical" %}
+    <span class="sep">›</span>
+    <a href="{{ site.baseurl }}/our-work/">Our Work</a>
+    <span class="sep">›</span>
+    <span class="current">{{ page.title }}</span>
+
+  {% elsif page.tags contains "event" or page.tags contains "news" or page.tags contains "media" or page.layout == "post" %}
+    <span class="sep">›</span>
+    <a href="{{ site.baseurl }}/updates/">Updates</a>
+    <span class="sep">›</span>
+    <span class="current">{{ page.title }}</span>
+
+  {% elsif page.title %}
+    <span class="sep">›</span>
+    <span class="current">{{ page.title }}</span>
+  {% endif %}
+</nav>
+{% endunless %}

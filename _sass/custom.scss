@@ -1,5 +1,31 @@
 // NMTE Custom Styles
 
+// Breadcrumbs
+.breadcrumbs {
+  font-size: 0.85rem;
+  margin-bottom: 1.5rem;
+  color: #999;
+
+  a {
+    color: #F0C14B !important;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+      color: #fff !important;
+    }
+  }
+
+  .sep {
+    margin: 0 0.4rem;
+    color: #666;
+  }
+
+  .current {
+    color: #e0e0e0;
+  }
+}
+
 // Typography hierarchy
 .site-title {
   font-size: 2rem !important;
