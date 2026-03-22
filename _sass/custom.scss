@@ -498,3 +498,9 @@ a.cta-button:hover {
     grid-template-columns: 1fr;
   }
 }
+/* Section divider rules */
+hr.section-rule {
+  border: none;
+  border-top: 1px solid #444;
+  margin: 2rem 0;
+}
