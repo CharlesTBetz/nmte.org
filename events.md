@@ -40,7 +40,7 @@ The NMTE meets the **third Sunday of most months** at the <a href="https://www.g
 
 ## Recent Events
 
-{% assign past_events = site.posts | where: "event", true | sort: "event_date" | reverse %}
+{% assign past_events = site.posts | where_exp: "post", "post.tags contains 'event'" | sort: "event_date" | reverse %}
 {% assign recent_count = 0 %}
 
 {% for event in past_events %}

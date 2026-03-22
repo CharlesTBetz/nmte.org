@@ -5,7 +5,7 @@ title: Home
 
 <!-- Hero Banner: Manual hero flag takes priority, then auto-select -->
 {% assign today = site.time | date: "%Y%m%d" | plus: 0 %}
-{% assign all_events = site.posts | where: "event", true | sort: "event_date" | reverse %}
+{% assign all_events = site.posts | where_exp: "post", "post.tags contains 'event'" | sort: "event_date" | reverse %}
 {% assign hero_event = nil %}
 
 <!-- First check for manually flagged hero -->
@@ -95,7 +95,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 <!-- Three-card featured row -->
 <div class="featured-cards-row">
-  {% assign event_candidates = site.posts | where: "event", true | sort: "event_date" | reverse %}
+  {% assign event_candidates = site.posts | where_exp: "post", "post.tags contains 'event'" | sort: "event_date" | reverse %}
   {% assign shown_events = 0 %}
   
   <!-- Two recent events (excluding hero) -->
