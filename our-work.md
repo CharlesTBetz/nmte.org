@@ -7,7 +7,7 @@ permalink: /our-work/
 Original musicals developed through NMTE workshops, readings, and member collaboration.
 
 <div class="musicals-grid">
-{% assign musicals = site.musicals | sort: "year_started" | reverse %}
+{% assign musicals = site.musicals | sort: "title" %}
 {% for musical in musicals %}
   <article class="musical-card">
     <a href="{{ musical.url | relative_url }}">
