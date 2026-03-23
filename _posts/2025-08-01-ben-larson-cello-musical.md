@@ -21,6 +21,6 @@ Theater Latte Da's NEXT Festival showcases new musicals in development, providin
 
 The musical has garnered strong audience response, with one attendee noting: "Moving and devastating. Hannah Elless was phenomenal as du Pré. Ben Larson's music was beautiful."
 
-NMTE is proud to support members like Ben as they develop and present original musical theater work in professional venues throughout the Twin Cities.
+NMTE is proud to support members like Ben as they develop and present original musical theater work in professional venues throughout the Twin Cities and surrounding region.
 
 📄 <a href="{{ site.baseurl }}/assets/media/how-to-play-cello-2025/next-festival-program.pdf" target="_blank">NEXT Festival Program (PDF)</a> · <a href="{{ site.baseurl }}/assets/media/how-to-play-cello-2025/program.pdf" target="_blank">Show Program (PDF)</a>

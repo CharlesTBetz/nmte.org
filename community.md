@@ -4,7 +4,7 @@ title: Community
 permalink: /community/
 ---
 
-NMTE is part of a vibrant network of organizations supporting musical theatre creators in the Twin Cities and beyond.
+NMTE is part of a vibrant network of organizations supporting musical theatre creators in the Twin Cities, surrounding region, and beyond.
 
 ## New Work Development & Support (Twin Cities)
 

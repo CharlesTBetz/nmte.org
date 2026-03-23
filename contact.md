@@ -6,7 +6,7 @@ permalink: /contact/
 
 ## Come Visit Us
 
-If you are in the Twin Cities and looking to check out our monthly workshops or want other information about the NMTE, contact us through the form below.
+If you are in the Twin Cities or surrounding region and looking to check out our monthly workshops or want other information about the NMTE, contact us through the form below.
 
 <form action="https://formspree.io/f/PLACEHOLDER" method="POST" class="contact-form">
 <div class="form-group">

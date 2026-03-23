@@ -4,7 +4,7 @@ title: Blog
 permalink: /blog/
 ---
 
-In-depth interviews, commentary, and stories from the Twin Cities musical theatre community.
+In-depth interviews, commentary, and stories from the Twin Cities and surrounding region musical theatre community.
 
 <div class="blog-grid">
 {% assign posts = site.posts | where_exp: "post", "post.tags contains 'blog'" | sort: 'date' | reverse %}
@@ -27,7 +27,7 @@ In-depth interviews, commentary, and stories from the Twin Cities musical theatr
 {% if posts.size == 0 %}
   <div class="coming-soon">
     <h3>Coming Soon</h3>
-    <p>Blog posts coming soon — interviews, commentary, and stories from the Twin Cities musical theatre community.</p>
+    <p>Blog posts coming soon — interviews, commentary, and stories from the Twin Cities and surrounding region musical theatre community.</p>
   </div>
 {% endif %}
 </div>
