@@ -2,7 +2,7 @@
 title: "Tesla's Mistress"
 code: teslas-mistress
 composer: "Marienne Kreitlow"
-image: /assets/media/teslas-mistress-2023/promo-flyer.png
+image: /assets/media/teslas-mistress-2023/promo-flyer.jpg
 status: public-reading
 year_started: 2023
 ---

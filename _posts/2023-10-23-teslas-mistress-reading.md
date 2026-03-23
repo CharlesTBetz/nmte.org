@@ -8,7 +8,7 @@ date: 2023-10-23
 event_date: 2023-10-23
 time: "7:00 PM (Oct 23 & 24)"
 venue: "Unity South Twin Cities, Bloomington MN"
-promo_image: /assets/media/teslas-mistress-2023/promo-flyer.png
+promo_image: /assets/media/teslas-mistress-2023/promo-flyer.jpg
 program_url: /assets/media/teslas-mistress-2023/program.pdf
 ---
 
