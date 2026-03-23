@@ -6,15 +6,37 @@ permalink: /community/
 
 NMTE is part of a vibrant network of organizations supporting musical theatre creators in the Twin Cities and beyond.
 
-## New Work Development & Support
+## Musical Theater Education & Development
+
+### [Nautilus Music-Theater](https://nautilusmusictheater.org/){:target="_blank"}
+**Location:** 308 Prince St, St. Paul  
+Champions new and innovative music-theater works. Hosts the annual, influential Composer-Librettist Studio, which many Minnesota musical theater creators and performers have attended, and presents cutting-edge productions. A key partner for NMTE.
+
+### [BMI Lehman Engel Musical Theatre Workshop](https://www.bmi.com/theatre_workshop){:target="_blank"}
+**Location:** New York City  
+Founded in 1961, called "The Harvard of Showtunes" by the New York Times. The premiere training ground for musical theater composers, lyricists, and bookwriters. Meets September through June in person in NYC.
+
+### [New Musicals Inc (NMI)](https://nmi.org/){:target="_blank"}
+**Location:** Los Angeles  
+Development programs, workshops, and the Academy for Musical Theatre. Offers classes both online and in-person for professional musical theatre writers. NMTE members Charles Betz and Ben Larson are NMI alumni.
+
+### [Musical Creators' Institute](https://www.musicalcreatorsinstitute.net/){:target="_blank"}
+Founded by Sam Carner, with faculty including Adam Gwon (*Ordinary Days*) and Anna K. Jacobs (*Teeth*). Intensive collaborative training for composers, lyricists, bookwriters, and directors.
+
+### [MusicalWriters.com](https://www.musicalwriters.com/){:target="_blank"}
+**Location:** Dallas-Fort Worth, Texas  
+Development series and annual festival encouraging and equipping musical theatre writers.
+
+### [National Alliance for Musical Theatre (NAMT)](https://namt.org/){:target="_blank"}
+The national umbrella organization for musical theater development. Administers the Frank Young Fund for new musicals, Writers Residency Grants, and the annual Festival of New Musicals.
+
+## New Work Development & Support (Twin Cities)
 
 ### [Playwrights' Center](https://pwcenter.org/){:target="_blank"}
 **Location:** 710 Raymond Ave, St. Paul  
 The nation's first organization devoted to playwrights and new play development. Offers workshops, fellowships, and readings for emerging and established writers. *Composers take note: this is where you might find your book writer.*
 
-### [Nautilus Music-Theater](https://nautilusmusictheater.org/){:target="_blank"}
-**Location:** 308 Prince St, St. Paul  
-Champions new and innovative music-theater works. Hosts the annual, influential Composer-Librettist Studio, which many Minnesota musical theater creators and performers have attended, and presents cutting-edge productions.
+*[Nautilus Music-Theater](https://nautilusmusictheater.org/){:target="_blank"} also develops and presents new musical theater works — see above under Education & Development.*
 
 ### [Trademark Theater](https://www.trademarktheater.org/){:target="_blank"}
 **Location:** Minneapolis  
