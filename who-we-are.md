@@ -24,7 +24,7 @@ We meet on the third Sunday of each month, usually at the <a href="https://www.g
 - <a href="https://pwcenter.org/profile/eric-heltemes/" target="_blank">Eric Heltemes</a>
 - <a href="https://pwcenter.org/profile/maureen-kane-berg/" target="_blank">Maureen Kane Berg</a>
 - <a href="https://pwcenter.org/profile/marienne-kreitlow/" target="_blank">Marienne Kreitlow</a>
-- <a href="https://pwcenter.org/profile/ben-larson/" target="_blank">Ben Larson</a>
+- <a href="https://pwcenter.org/profile/benjamin-emory-larson/" target="_blank">Ben Larson</a>
 - <a href="https://pwcenter.org/profile/mike-nilles/" target="_blank">Mike Nilles</a>
 - <a href="https://pwcenter.org/profile/janet-preus/" target="_blank">Janet Preus</a>
 - <a href="https://pwcenter.org/profile/rd-rhobajt/" target="_blank">R.D. Rhobajt</a>
