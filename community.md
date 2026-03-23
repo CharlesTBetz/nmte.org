@@ -42,7 +42,7 @@ Community theatre presenting classic and contemporary works, supporting local ar
 
 ### [Northern Sky Theater](https://northernskytheater.com/){:target="_blank"}
 **Location:** Fish Creek (Door County), Wisconsin  
-Professional theater dedicated to original musicals — performed outdoors under the stars in Peninsula State Park and indoors at the Gould Theater. Featured in the New York Times. NMTE members have had occasional interactions with Northern Sky.
+Professional theater dedicated to original musicals — performed outdoors under the stars in Peninsula State Park and indoors at the Gould Theater. Featured in the New York Times.
 
 ### [Hennepin Center for the Arts](https://hennepinarts.org/){:target="_blank"}
 **Location:** 824 Hennepin Ave, Minneapolis  
