@@ -80,7 +80,7 @@ Founded in 1961, called "The Harvard of Showtunes" by the New York Times. The pr
 
 ### [New Musicals Inc (NMI)](https://nmi.org/){:target="_blank"}
 **Location:** Los Angeles  
-Development programs, workshops, and the Academy for Musical Theatre. Offers classes both online and in-person for professional musical theatre writers. NMTE members Charles Betz and Ben Larson are NMI alumni.
+Development programs, workshops, and the Academy for Musical Theatre. Offers classes both online and in-person for professional musical theatre writers.
 
 ### [Musical Creators' Institute](https://www.musicalcreatorsinstitute.net/){:target="_blank"}
 Founded by Sam Carner, with faculty including Adam Gwon (*Ordinary Days*) and Anna K. Jacobs (*Teeth*). Intensive collaborative training for composers, lyricists, bookwriters, and directors.
