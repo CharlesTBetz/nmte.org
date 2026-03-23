@@ -40,6 +40,10 @@ Innovative theatre known for radical hospitality and boundary-pushing work, incl
 **Location:** 2605 Hennepin Ave, Minneapolis  
 Community theatre presenting classic and contemporary works, supporting local artists and new musical theater development.
 
+### [Northern Sky Theater](https://northernskytheater.com/){:target="_blank"}
+**Location:** Fish Creek (Door County), Wisconsin  
+Professional theater dedicated to original musicals — performed outdoors under the stars in Peninsula State Park and indoors at the Gould Theater. Featured in the New York Times. NMTE members have had occasional interactions with Northern Sky.
+
 ### [Hennepin Center for the Arts](https://hennepinarts.org/){:target="_blank"}
 **Location:** 824 Hennepin Ave, Minneapolis  
 Multi-use arts facility housing multiple theatre companies and supporting emerging artists with performance and development opportunities.
