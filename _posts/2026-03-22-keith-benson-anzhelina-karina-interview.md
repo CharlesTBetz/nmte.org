@@ -44,4 +44,4 @@ I am very anxious to work on a new project, I gotta say. At some point, one's go
 
 ---
 
-*Keith Benson is a founding member of NMTE. [Anzhelina & Karina](/events/2025/09/21/anzhelina-karina-reading/) had its public reading in September 2025 at the Center for Performing Arts in Minneapolis.*
+*Keith Benson is a member of NMTE. [Anzhelina & Karina](/events/2025/09/21/anzhelina-karina-reading/) had its public reading in September 2025 at the Center for Performing Arts in Minneapolis.*
