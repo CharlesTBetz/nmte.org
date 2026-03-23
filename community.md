@@ -92,7 +92,7 @@ Development series and annual festival encouraging and equipping musical theatre
 ### [National Alliance for Musical Theatre (NAMT)](https://namt.org/){:target="_blank"}
 The national umbrella organization for musical theater development. Administers the Frank Young Fund for new musicals, Writers Residency Grants, and the annual Festival of New Musicals.
 
-## Resources for Creators
+## Other Resources for Creators
 
 ### [New Play Exchange (NPX)](https://newplayexchange.org/){:target="_blank"}
 National platform connecting playwrights, composers, lyricists, and librettists with theaters and producers. Provides script sharing, discovery tools, and networking opportunities for musical theater creators.
