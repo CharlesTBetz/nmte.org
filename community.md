@@ -14,7 +14,7 @@ The nation's first organization devoted to playwrights and new play development.
 
 ### [Nautilus Music-Theater](https://nautilusmusictheater.org/){:target="_blank"}
 **Location:** 308 Prince St, St. Paul  
-Champions new and innovative music-theater works. Hosts the annual, influential Composer-Librettist Studio, and presents cutting-edge productions. A key partner for NMTE. *Also listed under Education & Development below.*
+Champions new and innovative music-theater works. Hosts the annual, influential Composer-Librettist Studio, and presents cutting-edge productions. *Also listed under Education & Development below.*
 
 ### [Trademark Theater](https://www.trademarktheater.org/){:target="_blank"}
 **Location:** Minneapolis  
@@ -68,7 +68,7 @@ Operates the historic theaters presenting touring Broadway productions and major
 
 ### [Nautilus Music-Theater](https://nautilusmusictheater.org/){:target="_blank"}
 **Location:** 308 Prince St, St. Paul  
-Champions new and innovative music-theater works. Hosts the annual, influential Composer-Librettist Studio, which many Minnesota musical theater creators and performers have attended, and presents cutting-edge productions. A key partner for NMTE.
+Champions new and innovative music-theater works. Hosts the annual, influential Composer-Librettist Studio, which many Minnesota musical theater creators and performers have attended, and presents cutting-edge productions. 
 
 ### [BMI Lehman Engel Musical Theatre Workshop](https://www.bmi.com/theatre_workshop){:target="_blank"}
 **Location:** New York City  
