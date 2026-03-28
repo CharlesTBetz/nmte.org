@@ -4,7 +4,35 @@ title: Who We Are
 permalink: /who-we-are/
 ---
 
-<img src="{{ site.baseurl }}/assets/images/who-we-are-photo.jpg" alt="NMTE members" class="who-we-are-photo">
+<div class="photo-banner">
+  <img src="{{ site.baseurl }}/assets/media/crooners-cabaret-2026/folks.png" alt="NMTE members at Crooners">
+  <img src="{{ site.baseurl }}/assets/media/crooners-cabaret-2026/cabaret-05.jpg" alt="New Works Cabaret performance">
+  <img src="{{ site.baseurl }}/assets/media/crooners-cabaret-2026/cabaret-07.jpg" alt="New Works Cabaret performance">
+  <img src="{{ site.baseurl }}/assets/media/teslas-mistress-2023/promo-flyer.jpg" alt="Tesla's Mistress reading">
+  <img src="{{ site.baseurl }}/assets/media/minnefest-2021/house-divided.jpg" alt="A House Divided at Minnefest">
+  <img src="{{ site.baseurl }}/assets/media/anzhelina-karina-2025/promo-image.jpg" alt="Anzhelina & Karina">
+</div>
+
+<style>
+.photo-banner {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 4px;
+  margin-bottom: 2rem;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.photo-banner img {
+  width: 100%;
+  aspect-ratio: 16/10;
+  object-fit: cover;
+}
+@media (max-width: 768px) {
+  .photo-banner {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+</style>
 
 The New Musical Theatre Exchange is a nonprofit 501(c) bringing together committed librettists, lyricists, and composers of musical theatre in the Twin Cities and surrounding region to have their work read and workshopped, find collaborators, share useful information, and support efforts to get members' work produced.
 
