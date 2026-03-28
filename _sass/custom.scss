@@ -79,6 +79,9 @@ p, li, dd, dt, td, th, label, .page-content {
 }
 
 .hero-overlay {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 1rem 1.5rem;
+  
   h2, p, span {
     color: white !important;
   }
