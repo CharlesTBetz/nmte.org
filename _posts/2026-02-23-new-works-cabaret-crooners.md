@@ -11,7 +11,7 @@ capacity: 87
 sold_out: true
 hero: true
 promo_image: /assets/media/crooners-cabaret-2026/dunsmore-room-performance.jpg
-hero_carousel: "/assets/media/crooners-cabaret-2026/dunsmore-room-performance.jpg,/assets/media/crooners-cabaret-2026/cabaret-02.jpg,/assets/media/crooners-cabaret-2026/cabaret-05.jpg,/assets/media/crooners-cabaret-2026/cabaret-07.jpg,/assets/media/crooners-cabaret-2026/cabaret-10.jpg"
+hero_carousel: "/assets/media/crooners-cabaret-2026/dunsmore-room-performance.jpg,/assets/media/crooners-cabaret-2026/cabaret-02.jpg,/assets/media/crooners-cabaret-2026/folks.png,/assets/media/crooners-cabaret-2026/cabaret-05.jpg,/assets/media/crooners-cabaret-2026/cabaret-07.jpg,/assets/media/crooners-cabaret-2026/cabaret-10.jpg"
 program_url: /assets/media/crooners-cabaret-2026/program-and-bios.pdf
 ---
 
