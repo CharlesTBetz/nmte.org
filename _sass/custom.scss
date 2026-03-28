@@ -26,11 +26,75 @@
   }
 }
 
+// Header — logo + nav in one horizontal band
+.header-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.site-logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none !important;
+  flex-shrink: 0;
+}
+
+.logo-img {
+  height: 55px;
+  width: auto;
+}
+
+.site-header {
+  border-top: none !important;
+  border-bottom: 1px solid #ddd;
+  padding: 0.5rem 0;
+  min-height: auto !important;
+}
+
+.site-nav {
+  float: none !important;
+  display: flex;
+  align-items: center;
+  line-height: normal !important;
+}
+
+.site-nav .trigger {
+  display: flex !important;
+  gap: 0.25rem;
+  align-items: center;
+}
+
+.site-nav .page-link {
+  font-size: 0.95rem;
+  font-weight: 500;
+  padding: 0.5rem 0.75rem;
+  color: #000 !important;
+}
+
+.site-nav .page-link:hover {
+  color: #c4a843 !important;
+}
+
+@media (max-width: 600px) {
+  .logo-img {
+    height: 40px;
+  }
+  
+  .site-nav .trigger {
+    display: none;
+    flex-direction: column;
+    gap: 0;
+  }
+  
+  .site-nav input:checked ~ .trigger {
+    display: flex !important;
+  }
+}
+
 // Typography hierarchy
 .site-title {
-  font-size: 2rem !important;
-  color: #000 !important;
-  font-weight: 700 !important;
+  display: none !important; // Hidden — logo replaces text title
 }
 
 h1, .page-heading, .post-title {
