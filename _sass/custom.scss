@@ -1,40 +1,40 @@
-// NMTE Custom Styles
+// NMTE Custom Styles — Light Theme
 
 // Breadcrumbs
 .breadcrumbs {
   font-size: 0.75rem;
   margin-bottom: 1.5rem;
-  color: #999;
+  color: #666;
 
   a {
-    color: #F0C14B !important;
+    color: #c4a843 !important;
     text-decoration: none;
 
     &:hover {
       text-decoration: underline;
-      color: #fff !important;
+      color: #000 !important;
     }
   }
 
   .sep {
     margin: 0 0.4rem;
-    color: #666;
+    color: #999;
   }
 
   .current {
-    color: #e0e0e0;
+    color: #333;
   }
 }
 
 // Typography hierarchy
 .site-title {
   font-size: 2rem !important;
-  color: #F0C14B !important;
+  color: #000 !important;
   font-weight: 700 !important;
 }
 
 h1, .page-heading, .post-title {
-  color: #F0C14B;
+  color: #000;
   font-weight: 700;
   font-size: 1.7rem !important;
 }
@@ -48,34 +48,34 @@ h3, .post-content h3 {
 }
 
 h2, h3, h4 {
-  color: #F0C14B;
+  color: #000;
   
   a {
-    color: #F0C14B !important;
+    color: #000 !important;
     
     &:hover {
-      color: #fff !important;
+      color: #c4a843 !important;
     }
   }
 }
 
-// Links — bright gold for readability on dark background
+// Links
 a, a:visited, a:link {
-  color: #F0C14B !important;
+  color: #c4a843 !important;
   
   &:hover {
-    color: #fff !important;
+    color: #000 !important;
   }
 }
 
 .post-meta {
-  color: white !important;
+  color: #555 !important;
   font-style: italic;
 }
 
-// Body text on dark theme
+// Body text
 p, li, dd, dt, td, th, label, .page-content {
-  color: #e0e0e0;
+  color: #1a1a1a;
 }
 
 .hero-overlay {
@@ -93,14 +93,14 @@ p, li, dd, dt, td, th, label, .page-content {
 }
 
 .feature-card {
-  border: 1px solid #444;
+  border: 1px solid #ddd;
   border-radius: 8px;
   overflow: hidden;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
   
   &:hover {
     transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
   }
   
   a {
@@ -128,7 +128,7 @@ p, li, dd, dt, td, th, label, .page-content {
 
 .feature-meta {
   font-size: 0.9rem;
-  color: white;
+  color: #555;
   font-style: italic;
   margin: 0;
 }
@@ -142,7 +142,7 @@ p, li, dd, dt, td, th, label, .page-content {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background: rgba(0,0,0,0.8);
+    background: rgba(0,0,0,0.7);
     color: white;
     width: 60px;
     height: 60px;
@@ -155,7 +155,7 @@ p, li, dd, dt, td, th, label, .page-content {
   }
   
   &:hover .play-button {
-    background: rgba(0,0,0,0.9);
+    background: rgba(0,0,0,0.85);
   }
 }
 
@@ -172,7 +172,7 @@ p, li, dd, dt, td, th, label, .page-content {
   }
 }
 
-// Hero Carousel — wide but not infinite
+// Hero Carousel
 .site-nav {
   z-index: 1000 !important;
 }
@@ -256,7 +256,7 @@ p, li, dd, dt, td, th, label, .page-content {
   }
 }
 
-// CTA Banner
+// CTA Banner (keeps dark background as contrast element)
 .cta-banner {
   background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
   color: white;
@@ -268,12 +268,14 @@ p, li, dd, dt, td, th, label, .page-content {
   h2 {
     margin: 0 0 1rem 0;
     font-size: 1.8rem;
+    color: white;
   }
   
   p {
     margin: 0 0 2rem 0;
     opacity: 0.9;
     font-size: 1.1rem;
+    color: white;
   }
 }
 
@@ -299,8 +301,8 @@ a.cta-button:link,
 a.cta-button:hover,
 a.cta-button:active {
   display: inline-block;
-  background: #F0C14B;
-  color: #1a1a2e !important;
+  background: #c4a843;
+  color: #fff !important;
   padding: 0.75rem 2rem;
   border-radius: 6px;
   text-decoration: none !important;
@@ -309,12 +311,12 @@ a.cta-button:active {
 }
 
 a.cta-button:hover {
-  background: #DAA520;
+  background: #a8902e;
 }
 
 // Event Styling
 .event-item {
-  border-bottom: 1px solid #333;
+  border-bottom: 1px solid #ddd;
   padding: 1.5rem 0;
   
   &:last-child {
@@ -326,11 +328,11 @@ a.cta-button:hover {
     
     a {
       text-decoration: none;
-      color: #F0C14B; // Gold color for visibility on dark background
+      color: #000 !important;
       
       &:hover {
         text-decoration: underline;
-        color: #DAA520; // Darker gold on hover
+        color: #c4a843 !important;
       }
     }
   }
@@ -338,7 +340,7 @@ a.cta-button:hover {
 
 .event-meta {
   font-size: 0.9rem;
-  color: white;
+  color: #555;
   font-style: italic;
   margin: 0.5rem 0;
   line-height: 1.4;
@@ -391,7 +393,7 @@ a.cta-button:hover {
 
 .news-item, .blog-item {
   padding: 1.5rem;
-  border: 1px solid #444;
+  border: 1px solid #ddd;
   border-radius: 8px;
   
   h2 {
@@ -399,11 +401,11 @@ a.cta-button:hover {
     
     a {
       text-decoration: none;
-      color: #F0C14B; // Gold color for visibility on dark background
+      color: #000 !important;
       
       &:hover {
         text-decoration: underline;
-        color: #DAA520; // Darker gold on hover
+        color: #c4a843 !important;
       }
     }
   }
@@ -414,7 +416,7 @@ a.cta-button:hover {
   gap: 1rem;
   margin: 0.5rem 0;
   font-size: 0.9rem;
-  color: white;
+  color: #555;
   font-style: italic;
 }
 
@@ -438,13 +440,13 @@ a.cta-button:hover {
 .read-more {
   display: inline-block;
   margin-top: 1rem;
-  color: #F0C14B;
+  color: #c4a843;
   font-weight: 500;
   text-decoration: none;
   
   &:hover {
     text-decoration: underline;
-    color: #DAA520;
+    color: #000;
   }
 }
 
@@ -465,23 +467,23 @@ a.cta-button:hover {
     input, textarea {
       width: 100%;
       padding: 0.75rem;
-      border: 1px solid #444;
+      border: 1px solid #ccc;
       border-radius: 6px;
-      background: #2a2a3e;
-      color: white;
+      background: #fff;
+      color: #000;
       font-size: 1rem;
       
       &:focus {
         outline: none;
-        border-color: #F0C14B;
+        border-color: #c4a843;
       }
     }
   }
   
   button {
     display: inline-block;
-    background: #F0C14B;
-    color: #1a1a2e !important;
+    background: #c4a843;
+    color: #fff !important;
     padding: 0.75rem 2rem;
     border: none;
     border-radius: 6px;
@@ -490,7 +492,7 @@ a.cta-button:hover {
     cursor: pointer;
     
     &:hover {
-      background: #DAA520;
+      background: #a8902e;
     }
   }
 }
@@ -510,23 +512,23 @@ a.cta-button:hover {
   .card {
     display: block;
     padding: 1.5rem;
-    border: 1px solid #444;
+    border: 1px solid #ddd;
     border-radius: 8px;
     text-decoration: none;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
     
     &:hover {
       transform: translateY(-2px);
-      box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
     }
     
     h3 {
-      color: #F0C14B;
+      color: #000;
       margin: 0 0 0.5rem 0;
     }
     
     p {
-      color: #e0e0e0;
+      color: #333;
       margin: 0;
     }
   }
@@ -537,9 +539,10 @@ a.cta-button:hover {
     grid-template-columns: 1fr;
   }
 }
+
 /* Section divider rules */
 hr.section-rule {
   border: none;
-  border-top: 1px solid #444;
+  border-top: 1px solid #ddd;
   margin: 2rem 0;
 }
