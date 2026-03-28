@@ -7,12 +7,12 @@
   color: #666;
 
   a {
-    color: #c4a843 !important;
+    color: #000 !important;
     text-decoration: none;
 
     &:hover {
       text-decoration: underline;
-      color: #000 !important;
+      color: #c4a843 !important;
     }
   }
 
@@ -59,12 +59,12 @@ h2, h3, h4 {
   }
 }
 
-// Links
+// Links — black text, gold on hover
 a, a:visited, a:link {
-  color: #c4a843 !important;
+  color: #000 !important;
   
   &:hover {
-    color: #000 !important;
+    color: #c4a843 !important;
   }
 }
 
@@ -440,13 +440,13 @@ a.cta-button:hover {
 .read-more {
   display: inline-block;
   margin-top: 1rem;
-  color: #c4a843;
+  color: #000;
   font-weight: 500;
   text-decoration: none;
   
   &:hover {
     text-decoration: underline;
-    color: #000;
+    color: #c4a843;
   }
 }
 
