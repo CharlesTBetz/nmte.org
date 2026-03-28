@@ -43,6 +43,9 @@
 .logo-img {
   height: 55px;
   width: auto;
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
 }
 
 .site-header {
@@ -50,6 +53,12 @@
   border-bottom: 1px solid #ddd;
   padding: 0.5rem 0;
   min-height: auto !important;
+}
+
+.site-header .wrapper {
+  max-width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .site-nav {
@@ -74,6 +83,11 @@
 
 .site-nav .page-link:hover {
   color: #c4a843 !important;
+}
+
+// Widen content to match header/hero
+.wrapper {
+  max-width: 1200px !important;
 }
 
 @media (max-width: 600px) {
