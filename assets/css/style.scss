@@ -1,13 +1,13 @@
 ---
 ---
 
-// Override minima variables BEFORE import
+// Override minima variables BEFORE import (light theme per board feedback)
 $brand-color: #c4a843;
-$text-color: #e0dcd6;
-$background-color: #111111;
+$text-color: #1a1a1a;
+$background-color: #ffffff;
 $grey-color: #828282;
-$grey-color-light: #333;
-$grey-color-dark: #aaa;
+$grey-color-light: #e0e0e0;
+$grey-color-dark: #555;
 
 @import "minima";
 @import "custom";
