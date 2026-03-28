@@ -189,7 +189,7 @@ p, li, dd, dt, td, th, label, .page-content {
   
   img {
     width: 100%;
-    height: 200px;
+    aspect-ratio: 16/9;
     object-fit: cover;
   }
 }
