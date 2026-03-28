@@ -78,7 +78,7 @@ document.addEventListener('DOMContentLoaded', function() {
 .tab {
   background: none;
   border: none;
-  color: #999;
+  color: #555;
   font-size: 1rem;
   padding: 0.6rem 1.2rem;
   cursor: pointer;
@@ -89,7 +89,7 @@ document.addEventListener('DOMContentLoaded', function() {
 }
 
 .tab:hover {
-  color: #e0e0e0;
+  color: #1a1a1a;
 }
 
 .tab.active {
@@ -150,6 +150,6 @@ document.addEventListener('DOMContentLoaded', function() {
 }
 
 .update-excerpt {
-  color: #e0e0e0;
+  color: #1a1a1a;
 }
 </style>

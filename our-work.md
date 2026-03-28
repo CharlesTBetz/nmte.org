@@ -100,7 +100,7 @@ Original musicals developed through NMTE workshops, readings, and member collabo
 
 .musical-card-content p {
   font-size: 0.9rem;
-  color: #ccc;
+  color: #333;
   margin: 0;
 }
 </style>
