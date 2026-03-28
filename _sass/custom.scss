@@ -26,54 +26,11 @@
   }
 }
 
-// Header — logo + nav in one horizontal band (PWC style)
-.header-bar {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.site-logo {
-  display: flex;
-  align-items: center;
-  text-decoration: none !important;
-  flex-shrink: 0;
-}
-
-.logo-img {
-  height: 50px;
-  width: auto;
-}
-
-.site-header {
-  border-top: none !important;
-  border-bottom: 1px solid #ddd;
-  padding: 0.5rem 0;
-}
-
-.site-nav {
-  float: none !important;
-  display: flex;
-  align-items: center;
-}
-
-.site-nav .trigger {
-  display: flex !important;
-  gap: 0.25rem;
-}
-
-.site-nav .page-link {
-  font-size: 0.95rem;
-  font-weight: 500;
-  padding: 0.5rem 0.75rem;
-}
-
 // Typography hierarchy
 .site-title {
   font-size: 2rem !important;
   color: #000 !important;
   font-weight: 700 !important;
-  display: none; // Hidden — using logo instead
 }
 
 h1, .page-heading, .post-title {
