@@ -43,14 +43,14 @@ Original musicals developed through NMTE workshops, readings, and member collabo
 }
 
 .musical-card {
-  border: 1px solid #333;
+  border: 1px solid #ddd;
   border-radius: 8px;
   overflow: hidden;
   transition: border-color 0.2s;
 }
 
 .musical-card:hover {
-  border-color: #F0C14B;
+  border-color: #000;
 }
 
 .musical-card a {
@@ -80,13 +80,13 @@ Original musicals developed through NMTE workshops, readings, and member collabo
 
 .musical-card-content h3 {
   margin: 0 0 0.3rem 0;
-  color: #F0C14B;
+  color: #000;
   font-size: 1.1rem;
 }
 
 .musical-card-meta {
   font-size: 0.85rem;
-  color: white;
+  color: #555;
   font-style: italic;
   margin-bottom: 0.5rem;
 }

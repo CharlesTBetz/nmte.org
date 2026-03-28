@@ -81,7 +81,7 @@ document.addEventListener('DOMContentLoaded', function() {
   display: block;
   margin-bottom: 0.4rem;
   font-weight: bold;
-  color: #F0C14B;
+  color: #000;
 }
 
 .form-group input[type="text"],
@@ -92,7 +92,7 @@ document.addEventListener('DOMContentLoaded', function() {
   width: 100%;
   padding: 0.6rem;
   background: #1a1a1a;
-  border: 1px solid #444;
+  border: 1px solid #ddd;
   color: #e0e0e0;
   border-radius: 4px;
   font-family: inherit;
@@ -102,7 +102,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 .form-group input:focus,
 .form-group textarea:focus {
-  border-color: #F0C14B;
+  border-color: #000;
   outline: none;
 }
 
@@ -128,7 +128,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 #event-fields {
   padding: 1rem;
-  border: 1px solid #333;
+  border: 1px solid #ddd;
   border-radius: 4px;
   background: rgba(240, 193, 75, 0.05);
 }

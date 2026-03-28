@@ -72,7 +72,7 @@ document.addEventListener('DOMContentLoaded', function() {
   display: flex;
   gap: 0;
   margin: 1.5rem 0;
-  border-bottom: 2px solid #333;
+  border-bottom: 2px solid #ddd;
 }
 
 .tab {
@@ -93,8 +93,8 @@ document.addEventListener('DOMContentLoaded', function() {
 }
 
 .tab.active {
-  color: #F0C14B;
-  border-bottom-color: #F0C14B;
+  color: #000;
+  border-bottom-color: #000;
 }
 
 .updates-list {
@@ -103,7 +103,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 .update-item {
   padding: 1.5rem 0;
-  border-bottom: 1px solid #333;
+  border-bottom: 1px solid #ddd;
 }
 
 .update-item:last-child {
@@ -123,7 +123,7 @@ document.addEventListener('DOMContentLoaded', function() {
   opacity: 0.85;
 }
 
-.badge-event { background: rgba(240, 193, 75, 0.2); color: #F0C14B; }
+.badge-event { background: rgba(240, 193, 75, 0.2); color: #000; }
 .badge-news { background: rgba(100, 180, 255, 0.2); color: #64b4ff; }
 .badge-media { background: rgba(180, 100, 255, 0.2); color: #b464ff; }
 .badge-blog { background: rgba(100, 220, 100, 0.2); color: #64dc64; }
@@ -135,7 +135,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 .update-item h2 a {
   text-decoration: none;
-  color: #F0C14B;
+  color: #000;
 }
 
 .update-item h2 a:hover {
@@ -144,7 +144,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 .update-meta {
   font-size: 0.9rem;
-  color: white;
+  color: #555;
   font-style: italic;
   margin-bottom: 0.5rem;
 }
