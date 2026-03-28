@@ -618,6 +618,32 @@ a.cta-button:hover {
   }
 }
 
+// Footer
+.site-footer {
+  border-top: 1px solid #ddd !important;
+  padding: 1.5rem 0 !important;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.9rem;
+}
+
+.footer-social a {
+  color: #000 !important;
+  font-weight: 500;
+  
+  &:hover {
+    color: #c4a843 !important;
+  }
+}
+
+.footer-copyright {
+  color: #555;
+}
+
 /* Section divider rules */
 hr.section-rule {
   border: none;
