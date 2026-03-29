@@ -653,6 +653,75 @@ a.cta-button:hover {
   color: #555;
 }
 
+// In-page carousel
+.carousel {
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  border-radius: 8px;
+  margin: 2rem 0;
+}
+
+.carousel-track {
+  position: relative;
+  width: 100%;
+  min-height: 400px;
+}
+
+.carousel-slide {
+  display: none;
+}
+
+.carousel-slide.active {
+  display: block;
+}
+
+.carousel-slide img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.carousel-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0,0,0,0.5);
+  color: white;
+  border: none;
+  padding: 1rem 0.75rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+  z-index: 10;
+  border-radius: 4px;
+}
+
+.carousel-btn:hover {
+  background: rgba(0,0,0,0.7);
+}
+
+.carousel-prev { left: 10px; }
+.carousel-next { right: 10px; }
+
+.carousel-dots {
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.carousel-dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #ccc;
+  margin: 0 4px;
+  cursor: pointer;
+}
+
+.carousel-dot.active {
+  background: #000;
+}
+
 /* Section divider rules */
 hr.section-rule {
   border: none;
