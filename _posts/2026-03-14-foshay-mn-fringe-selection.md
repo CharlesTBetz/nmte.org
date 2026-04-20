@@ -29,7 +29,6 @@ If you know actors who may be good candidates, please send their contact informa
 
 ### About the Show
 
-- [Watch the full 2023 production on YouTube](/news/2023/12/04/foshay-video-release/)
 - [Read about the world premiere at Open Window Theatre](/events/2023/07/21/foshay-open-window/)
 
 The Minnesota Fringe Festival is one of the largest performing arts festivals in the United States. This production marks *Foshay!*'s next major milestone — from world premiere to festival stage.
