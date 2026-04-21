@@ -92,7 +92,7 @@
 
 // Dark content area
 .page-content {
-  background-color: #000;
+  background-color: #111;
 }
 
 // Footer links stay dark (footer bg is white)
@@ -139,10 +139,10 @@ h3, .post-content h3 {
 }
 
 h2, h3, h4 {
-  color: #e8e8e8;
+  color: #fff;
 
   a {
-    color: #e8e8e8 !important;
+    color: #fff !important;
 
     &:hover {
       color: #c4a843 !important;
@@ -152,7 +152,7 @@ h2, h3, h4 {
 
 // Links — light text on dark bg, gold on hover
 a, a:visited, a:link {
-  color: #e0e0e0 !important;
+  color: #e8e8e8 !important;
 
   &:hover {
     color: #c4a843 !important;
@@ -166,7 +166,7 @@ a, a:visited, a:link {
 
 // Body text
 p, li, dd, dt, td, th, label {
-  color: #e0e0e0;
+  color: #e8e8e8;
 }
 
 
@@ -458,7 +458,7 @@ a.cta-button:hover {
 
     a {
       text-decoration: none;
-      color: #e0e0e0 !important;
+      color: #e8e8e8 !important;
 
       &:hover {
         text-decoration: underline;
@@ -531,7 +531,7 @@ a.cta-button:hover {
 
     a {
       text-decoration: none;
-      color: #e0e0e0 !important;
+      color: #e8e8e8 !important;
 
       &:hover {
         text-decoration: underline;
@@ -552,7 +552,7 @@ a.cta-button:hover {
 
 .type {
   background: #222;
-  color: #e0e0e0;
+  color: #e8e8e8;
   padding: 0.25rem 0.5rem;
   border-radius: 4px;
   font-weight: 500;
