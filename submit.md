@@ -81,7 +81,7 @@ document.addEventListener('DOMContentLoaded', function() {
   display: block;
   margin-bottom: 0.4rem;
   font-weight: bold;
-  color: #000;
+  color: #e8e8e8;
 }
 
 .form-group input[type="text"],
@@ -91,9 +91,9 @@ document.addEventListener('DOMContentLoaded', function() {
 .form-group textarea {
   width: 100%;
   padding: 0.6rem;
-  background: #1a1a1a;
-  border: 1px solid #ddd;
-  color: #1a1a1a;
+  background: #222;
+  border: 1px solid #444;
+  color: #e8e8e8;
   border-radius: 4px;
   font-family: inherit;
   font-size: 1rem;
@@ -102,12 +102,12 @@ document.addEventListener('DOMContentLoaded', function() {
 
 .form-group input:focus,
 .form-group textarea:focus {
-  border-color: #000;
+  border-color: #c4a843;
   outline: none;
 }
 
 .form-group input[type="file"] {
-  color: #1a1a1a;
+  color: #e8e8e8;
 }
 
 .checkbox-group {
@@ -118,7 +118,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 .checkbox-label {
   font-weight: normal !important;
-  color: #1a1a1a !important;
+  color: #e8e8e8 !important;
   cursor: pointer;
 }
 

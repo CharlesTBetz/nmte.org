@@ -72,13 +72,13 @@ document.addEventListener('DOMContentLoaded', function() {
   display: flex;
   gap: 0;
   margin: 1.5rem 0;
-  border-bottom: 2px solid #ddd;
+  border-bottom: 2px solid #333;
 }
 
 .tab {
   background: none;
   border: none;
-  color: #555;
+  color: #aaa;
   font-size: 1rem;
   padding: 0.6rem 1.2rem;
   cursor: pointer;
@@ -89,12 +89,12 @@ document.addEventListener('DOMContentLoaded', function() {
 }
 
 .tab:hover {
-  color: #1a1a1a;
+  color: #e8e8e8;
 }
 
 .tab.active {
-  color: #000;
-  border-bottom-color: #000;
+  color: #fff;
+  border-bottom-color: #c4a843;
 }
 
 .updates-list {
@@ -103,7 +103,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 .update-item {
   padding: 1.5rem 0;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #333;
 }
 
 .update-item:last-child {
@@ -123,7 +123,7 @@ document.addEventListener('DOMContentLoaded', function() {
   opacity: 0.85;
 }
 
-.badge-event { background: rgba(240, 193, 75, 0.2); color: #000; }
+.badge-event { background: rgba(240, 193, 75, 0.2); color: #f0c14b; }
 .badge-news { background: rgba(100, 180, 255, 0.2); color: #64b4ff; }
 .badge-media { background: rgba(180, 100, 255, 0.2); color: #b464ff; }
 .badge-blog { background: rgba(100, 220, 100, 0.2); color: #64dc64; }
@@ -135,21 +135,22 @@ document.addEventListener('DOMContentLoaded', function() {
 
 .update-item h2 a {
   text-decoration: none;
-  color: #000;
+  color: #e8e8e8;
 }
 
 .update-item h2 a:hover {
+  color: #c4a843;
   text-decoration: underline;
 }
 
 .update-meta {
   font-size: 0.9rem;
-  color: #555;
+  color: #aaa;
   font-style: italic;
   margin-bottom: 0.5rem;
 }
 
 .update-excerpt {
-  color: #1a1a1a;
+  color: #e8e8e8;
 }
 </style>

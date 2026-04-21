@@ -40,7 +40,7 @@ Stay up to date with NMTE member achievements, new demo recordings, industry new
 
 .news-item {
   padding: 1.5rem;
-  border: 1px solid #e1e8ed;
+  border: 1px solid #333;
   border-radius: 8px;
 }
 
@@ -49,11 +49,11 @@ Stay up to date with NMTE member achievements, new demo recordings, industry new
   gap: 1rem;
   margin: 0.5rem 0;
   font-size: 0.9rem;
-  color: #666;
+  color: #aaa;
 }
 
 .type {
-  background: #f0f4f8;
+  background: #222;
   padding: 0.25rem 0.5rem;
   border-radius: 4px;
   font-weight: 500;

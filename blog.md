@@ -50,13 +50,13 @@ In-depth interviews, commentary, and stories from the musical theatre community 
   gap: 1rem;
   margin: 0.5rem 0;
   font-size: 0.9rem;
-  color: #666;
+  color: #aaa;
 }
 
 .read-more {
   display: inline-block;
   margin-top: 1rem;
-  color: #1a1a2e;
+  color: #e8e8e8;
   font-weight: 500;
   text-decoration: none;
 }
@@ -68,6 +68,6 @@ In-depth interviews, commentary, and stories from the musical theatre community 
 .coming-soon {
   text-align: center;
   padding: 3rem;
-  color: #666;
+  color: #aaa;
 }
 </style>
