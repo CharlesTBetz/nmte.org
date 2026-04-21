@@ -69,7 +69,7 @@
 }
 
 .site-nav .trigger {
-  display: flex !important;
+  display: flex;
   gap: 0.25rem;
   align-items: center;
 }
@@ -109,13 +109,22 @@
   .logo-img {
     height: 40px;
   }
-  
+
+  // Mobile nav dropdown: force white bg + dark text so it's readable
+  .site-nav {
+    background-color: #fff !important;
+  }
+
+  .site-nav .page-link {
+    color: #000 !important;
+  }
+
   .site-nav .trigger {
     display: none;
     flex-direction: column;
     gap: 0;
   }
-  
+
   .site-nav input:checked ~ .trigger {
     display: flex !important;
   }
