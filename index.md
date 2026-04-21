@@ -152,9 +152,6 @@ document.addEventListener('DOMContentLoaded', () => {
   <h2>Interested in NMTE?</h2>
   <p>Learn about our mission, meet our members, and discover how to get involved.</p>
   <a href="{{ site.baseurl }}/about/" class="cta-button">About Us</a>
-  <div class="social-links">
-    <a href="https://www.facebook.com/NewMusicalTheatreExchange/" target="_blank">Facebook</a>
-  </div>
 </div>
 
 <!-- Force rebuild Sat Mar 21 11:29:30 CDT 2026 -->
