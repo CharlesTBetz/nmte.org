@@ -90,9 +90,10 @@
   max-width: 1200px !important;
 }
 
-// Dark content area
+// Dark content area — color here cascades to everything inside
 .page-content {
   background-color: #111;
+  color: #e8e8e8;
 }
 
 // Footer links stay dark (footer bg is white)
