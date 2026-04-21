@@ -220,7 +220,6 @@ a:hover {
 
 .feature-meta {
   font-size: 0.9rem;
-  color: #555;
   font-style: italic;
   margin: 0;
 }
@@ -563,10 +562,9 @@ a.cta-button:hover {
 .read-more {
   display: inline-block;
   margin-top: 1rem;
-  color: #000;
   font-weight: 500;
   text-decoration: none;
-  
+
   &:hover {
     text-decoration: underline;
     color: #c4a843;
@@ -623,7 +621,6 @@ a.cta-button:hover {
 .coming-soon {
   text-align: center;
   padding: 3rem;
-  color: #666;
 }
 
 // About page cards
@@ -646,12 +643,10 @@ a.cta-button:hover {
     }
     
     h3 {
-      color: #000;
       margin: 0 0 0.5rem 0;
     }
-    
+
     p {
-      color: #333;
       margin: 0;
     }
   }
