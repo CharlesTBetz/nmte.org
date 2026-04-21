@@ -240,18 +240,19 @@ p, li, dd, dt, td, th, label, .page-content {
 
 // Hero Banner Enhancements
 .hero-banner {
+  margin-top: -30px;
   margin-bottom: 0;
   margin-left: calc(-50vw + 50%);
   width: 100vw;
   max-width: 100vw;
   position: relative;
+  background: #000;
 
   // Single-image hero (non-carousel)
   > a > img {
     width: 100%;
     height: 440px;
-    object-fit: cover;
-    object-position: top;
+    object-fit: contain;
     display: block;
   }
 
@@ -274,6 +275,7 @@ p, li, dd, dt, td, th, label, .page-content {
   height: 440px;
   overflow: hidden;
   border-radius: 0;
+  background: #000;
 
   .hero-slide {
     position: absolute;
@@ -291,8 +293,7 @@ p, li, dd, dt, td, th, label, .page-content {
     img {
       width: 100%;
       height: 100%;
-      object-fit: cover;
-      object-position: top;
+      object-fit: contain;
     }
   }
 }
@@ -338,10 +339,7 @@ p, li, dd, dt, td, th, label, .page-content {
 
 // Responsive Design Updates
 @media (max-width: 768px) {
-  .hero-carousel {
-    height: 220px;
-  }
-
+  .hero-carousel,
   .hero-banner > a > img {
     height: 220px;
   }

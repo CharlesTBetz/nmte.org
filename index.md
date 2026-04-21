@@ -57,9 +57,7 @@ title: Home
       <img src="{{ site.baseurl }}/assets/media/crooners-cabaret-2026/dunsmore-room-performance.jpg" alt="NMTE Event">
     {% endif %}
     <div class="hero-overlay">
-      <h2>{{ hero_event.title }}</h2>
-      <p>{{ hero_event.excerpt | strip_html | truncatewords: 15 }}</p>
-      <span class="hero-tagline">{{ hero_event.hero_tagline | default: "Music and words — storytelling with music" }}</span>
+      <h2>{% if hero_event.hero_title %}{{ hero_event.hero_title }}{% else %}{{ hero_event.title }}{% endif %}</h2>
     </div>
   </a>
 </div>
