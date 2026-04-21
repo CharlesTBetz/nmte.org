@@ -1,13 +1,13 @@
 ---
 ---
 
-// Override minima variables BEFORE import (light theme per board feedback)
-$brand-color: #000000;
-$text-color: #1a1a1a;
-$background-color: #ffffff;
-$grey-color: #828282;
-$grey-color-light: #e0e0e0;
-$grey-color-dark: #555;
+// Minima theme variables — dark theme
+$brand-color:      #e8e8e8;  // base link color
+$text-color:       #e8e8e8;  // body text
+$background-color: #111111;  // page background
+$grey-color:       #aaaaaa;  // secondary/meta text
+$grey-color-light: #333333;  // borders
+$grey-color-dark:  #cccccc;  // nav emphasis
 
 @import "minima";
 @import "custom";

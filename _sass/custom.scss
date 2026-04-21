@@ -90,18 +90,11 @@
   max-width: 1200px !important;
 }
 
-// Dark theme — body sets the base, footer explicitly restored to white
-body {
-  background-color: #111 !important;
-  color: #e8e8e8;
+// Header and footer stay white — explicitly override the dark body
+.site-header {
+  background-color: #fff !important;
 }
 
-.page-content {
-  background-color: #111;
-  color: #e8e8e8;
-}
-
-// Footer stays white
 .site-footer {
   background-color: #fff !important;
   color: #555;
@@ -159,23 +152,13 @@ h2, h3, h4 {
   }
 }
 
-// Links — light text on dark bg, gold on hover
-a, a:visited, a:link {
-  color: #e8e8e8 !important;
-
-  &:hover {
-    color: #c4a843 !important;
-  }
+// Gold hover on all links
+a:hover {
+  color: #c4a843 !important;
 }
 
 .post-meta {
-  color: #aaa !important;
   font-style: italic;
-}
-
-// Body text
-p, li, dd, dt, td, th, label {
-  color: #e8e8e8;
 }
 
 
