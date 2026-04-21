@@ -90,14 +90,22 @@
   max-width: 1200px !important;
 }
 
-// Dark content area — color here cascades to everything inside
+// Dark theme — body sets the base, footer explicitly restored to white
+body {
+  background-color: #111 !important;
+  color: #e8e8e8;
+}
+
 .page-content {
   background-color: #111;
   color: #e8e8e8;
 }
 
-// Footer links stay dark (footer bg is white)
+// Footer stays white
 .site-footer {
+  background-color: #fff !important;
+  color: #555;
+
   a, a:visited, a:link {
     color: #333 !important;
     &:hover { color: #c4a843 !important; }
