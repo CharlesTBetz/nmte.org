@@ -114,12 +114,6 @@ document.addEventListener('DOMContentLoaded', () => {
           {% endif %}
           <div class="feature-content">
             <h3>{{ post.title }}</h3>
-            <div class="feature-meta">
-              {{ post.date | date: "%B %d, %Y" }}
-              {% if post.venue %} · {{ post.venue }}{% endif %}
-              {% if post.composer %} · {{ post.composer }}{% endif %}
-              {% if post.sold_out %} · <strong>SOLD OUT</strong>{% endif %}
-            </div>
           </div>
         </a>
       </article>
@@ -143,12 +137,6 @@ document.addEventListener('DOMContentLoaded', () => {
           {% endif %}
           <div class="feature-content">
             <h3>{{ post.title }}</h3>
-            <div class="feature-meta">
-              {{ post.date | date: "%B %d, %Y" }}
-              {% if post.venue %} · {{ post.venue }}{% endif %}
-              {% if post.composer %} · {{ post.composer }}{% endif %}
-              {% if post.sold_out %} · <strong>SOLD OUT</strong>{% endif %}
-            </div>
           </div>
         </a>
       </article>
