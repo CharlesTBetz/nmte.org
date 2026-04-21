@@ -93,8 +93,6 @@ document.addEventListener('DOMContentLoaded', () => {
 </script>
 {% endif %}
 
-<hr class="section-rule">
-
 <!-- Three-card featured row -->
 <!-- Featured cards: pinned (featured: true) first, then most recent eligible, max 3 -->
 <!-- Posts with featured: false are excluded. Omitting featured = eligible by recency. -->
