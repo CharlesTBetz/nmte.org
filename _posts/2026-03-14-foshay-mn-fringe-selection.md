@@ -27,8 +27,4 @@ Kevin is seeking actors by direct outreach (non-Equity). Video auditions will us
 
 If you know actors who may be good candidates, please send their contact information to Kevin directly.
 
-### About the Show
-
-- [Read about the world premiere at Open Window Theatre](/events/2023/07/21/foshay-open-window/)
-
 The Minnesota Fringe Festival is one of the largest performing arts festivals in the United States. This production marks *Foshay!*'s next major milestone — from world premiere to festival stage.
