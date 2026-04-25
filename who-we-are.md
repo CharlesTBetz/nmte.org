@@ -16,7 +16,7 @@ We meet on the third Sunday of each month, usually at the <a href="https://www.g
 
 <ul class="members-list">
   <li><a href="https://pwcenter.org/profile/keith-benson/" target="_blank">Keith Benson</a> *</li>
-  <li><a href="https://pwcenter.org/profile/charles-betz/" target="_blank">Charles Betz</a> *</li>
+  <li><a href="https://pwcenter.org/profile/charles-betz/" target="_blank">Charles T. Betz</a> *</li>
   <li><a href="https://pwcenter.org/profile/kevin-bowen/" target="_blank">Kevin Bowen</a></li>
   <li><a href="https://pwcenter.org/profile/robert-derus/" target="_blank">Bob Derus</a></li>
   <li><a href="https://pwcenter.org/profile/robert-elhai/" target="_blank">Robert Elhai</a></li>
