@@ -8,7 +8,7 @@ nav_exclude: true
 ## Current Members
 
 - <a href="https://pwcenter.org/profile/keith-benson/" target="_blank">Keith Benson</a>
-- <a href="https://pwcenter.org/profile/charles-betz/" target="_blank">Charles Betz</a>
+- <a href="https://pwcenter.org/profile/charles-betz/" target="_blank">Charles T. Betz</a>
 - <a href="https://pwcenter.org/profile/kevin-bowen/" target="_blank">Kevin Bowen</a>
 - <a href="https://pwcenter.org/profile/robert-derus/" target="_blank">Bob Derus</a>
 - <a href="https://pwcenter.org/profile/robert-elhai/" target="_blank">Robert Elhai</a>
