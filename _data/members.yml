@@ -1,0 +1,69 @@
+# NMTE Members
+# Fields: name, photo (filename in assets/images/members/), pwc_url, board
+# Keep in alphabetical order by last name.
+# Set photo to "" if no headshot yet — placeholder will display.
+
+- name: Keith Benson
+  photo: ""
+  pwc_url: https://pwcenter.org/profile/keith-benson/
+  board: true
+
+- name: Charles T. Betz
+  photo: ""
+  pwc_url: https://pwcenter.org/profile/charles-betz/
+  board: true
+
+- name: Kevin Bowen
+  photo: ""
+  pwc_url: https://pwcenter.org/profile/kevin-bowen/
+  board: false
+
+- name: Bob Derus
+  photo: ""
+  pwc_url: https://pwcenter.org/profile/robert-derus/
+  board: false
+
+- name: Robert Elhai
+  photo: ""
+  pwc_url: https://pwcenter.org/profile/robert-elhai/
+  board: false
+
+- name: Eric Heltemes
+  photo: ""
+  pwc_url: https://pwcenter.org/profile/eric-heltemes/
+  board: false
+
+- name: Maureen Kane Berg
+  photo: ""
+  pwc_url: https://pwcenter.org/profile/maureen-kane-berg/
+  board: true
+
+- name: Marienne Kreitlow
+  photo: ""
+  pwc_url: https://pwcenter.org/profile/marienne-kreitlow/
+  board: true
+
+- name: Ben Larson
+  photo: ""
+  pwc_url: https://pwcenter.org/profile/benjamin-emory-larson/
+  board: false
+
+- name: Mike Nilles
+  photo: ""
+  pwc_url: https://pwcenter.org/profile/mike-nilles/
+  board: false
+
+- name: Janet Preus
+  photo: ""
+  pwc_url: https://pwcenter.org/profile/janet-preus/
+  board: true
+
+- name: R.D. Rhobajt
+  photo: ""
+  pwc_url: https://pwcenter.org/profile/rd-rhobajt/
+  board: false
+
+- name: Brenda Varda
+  photo: ""
+  pwc_url: https://pwcenter.org/profile/brenda-varda/
+  board: false

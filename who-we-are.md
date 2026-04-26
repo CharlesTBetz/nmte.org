@@ -6,25 +6,23 @@ permalink: /who-we-are/
 
 ## Members
 
-<ul class="members-list">
-  <li><a href="https://pwcenter.org/profile/keith-benson/" target="_blank">Keith Benson</a> *</li>
-  <li><a href="https://pwcenter.org/profile/charles-betz/" target="_blank">Charles T. Betz</a> *</li>
-  <li><a href="https://pwcenter.org/profile/kevin-bowen/" target="_blank">Kevin Bowen</a></li>
-  <li><a href="https://pwcenter.org/profile/robert-derus/" target="_blank">Bob Derus</a></li>
-  <li><a href="https://pwcenter.org/profile/robert-elhai/" target="_blank">Robert Elhai</a></li>
-  <li><a href="https://pwcenter.org/profile/eric-heltemes/" target="_blank">Eric Heltemes</a></li>
-  <li><a href="https://pwcenter.org/profile/maureen-kane-berg/" target="_blank">Maureen Kane Berg</a> *</li>
-  <li><a href="https://pwcenter.org/profile/marienne-kreitlow/" target="_blank">Marienne Kreitlow</a> *</li>
-  <li><a href="https://pwcenter.org/profile/benjamin-emory-larson/" target="_blank">Ben Larson</a></li>
-  <li><a href="https://pwcenter.org/profile/mike-nilles/" target="_blank">Mike Nilles</a></li>
-  <li><a href="https://pwcenter.org/profile/janet-preus/" target="_blank">Janet Preus</a> *</li>
-  <li><a href="https://pwcenter.org/profile/rd-rhobajt/" target="_blank">R.D. Rhobajt</a></li>
-  <li><a href="https://pwcenter.org/profile/brenda-varda/" target="_blank">Brenda Varda</a></li>
-</ul>
+<div class="member-gallery">
+{% for member in site.data.members %}
+  {% if member.photo and member.photo != "" %}
+    {% assign photo_src = site.baseurl | append: "/assets/images/members/" | append: member.photo %}
+  {% else %}
+    {% assign photo_src = site.baseurl | append: "/assets/images/members/placeholder.svg" %}
+  {% endif %}
+  <div class="member-tile">
+    <a href="{{ member.pwc_url }}" target="_blank" rel="noopener">
+      <img src="{{ photo_src }}" alt="{{ member.name }}">
+      <span class="member-name">{{ member.name }}{% if member.board %} <span class="board-mark">*</span>{% endif %}</span>
+    </a>
+  </div>
+{% endfor %}
+</div>
 
-\* Board member
-
-*Member bios link to <a href="https://pwcenter.org/member-directory/" target="_blank">Playwrights' Center</a> profiles where available.*
+<p class="members-note">* Board member &nbsp;·&nbsp; <em>Names link to <a href="https://pwcenter.org/member-directory/" target="_blank">Playwrights' Center</a> profiles.</em></p>
 
 ---
 
@@ -56,16 +54,49 @@ We meet on the **third Sunday of most months** at the <a href="https://www.googl
 <img src="{{ site.baseurl }}/assets/images/banner-actors.png" alt="NMTE members" style="width:100%; border-radius:8px; margin-top: 2rem;">
 
 <style>
-.members-list {
-  column-count: 3;
-  column-gap: 2rem;
-  margin: 1rem 0 1.5rem 0;
-  list-style-position: inside;
+.member-gallery {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1.25rem;
+  margin: 1.5rem 0 0.5rem;
+}
+.member-tile a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+}
+.member-tile img {
+  width: 100%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  border-radius: 6px;
+  border: none !important;
+  box-shadow: none !important;
+}
+.member-tile:hover img {
+  opacity: 0.85;
+}
+.member-name {
+  display: block;
+  text-align: center;
+  font-size: 0.85rem;
+  margin-top: 0.4rem;
+  line-height: 1.3;
+}
+.board-mark {
+  color: #c4a843;
+}
+.members-note {
+  font-size: 0.8rem;
+  color: #777;
+  margin-top: 0.75rem;
 }
 @media (max-width: 768px) {
-  .members-list { column-count: 2; }
+  .member-gallery { grid-template-columns: repeat(4, 1fr); }
 }
 @media (max-width: 480px) {
-  .members-list { column-count: 1; }
+  .member-gallery { grid-template-columns: repeat(3, 1fr); }
 }
 </style>
