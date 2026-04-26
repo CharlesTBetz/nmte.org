@@ -151,7 +151,7 @@ document.addEventListener('DOMContentLoaded', () => {
 <div class="cta-banner">
   <h2>Interested in NMTE?</h2>
   <p>Learn about our mission, meet our members, and discover how to get involved.</p>
-  <a href="{{ site.baseurl }}/about/" class="cta-button">About Us</a>
+  <a href="{{ site.baseurl }}/who-we-are/" class="cta-button">About Us</a>
 </div>
 
 <!-- Force rebuild Sat Mar 21 11:29:30 CDT 2026 -->
