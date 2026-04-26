@@ -26,8 +26,6 @@ permalink: /who-we-are/
 
 *Member bios link to <a href="https://pwcenter.org/member-directory/" target="_blank">Playwrights' Center</a> profiles where available.*
 
-<img src="{{ site.baseurl }}/assets/images/banner-actors.png" alt="NMTE members" style="width:100%; border-radius:8px; margin: 1.5rem 0;">
-
 ---
 
 ## About NMTE
@@ -54,6 +52,8 @@ We meet on the **third Sunday of most months** at the <a href="https://www.googl
     <p>Get in touch with us about meetings, membership, or general questions about NMTE.</p>
   </a>
 </div>
+
+<img src="{{ site.baseurl }}/assets/images/banner-actors.png" alt="NMTE members" style="width:100%; border-radius:8px; margin-top: 2rem;">
 
 <style>
 .members-list {
