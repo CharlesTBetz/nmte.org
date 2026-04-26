@@ -4,14 +4,6 @@ title: Who We Are
 permalink: /who-we-are/
 ---
 
-The New Musical Theatre Exchange is a nonprofit 501(c) bringing together committed librettists, lyricists, and composers of musical theatre in the Twin Cities and surrounding region to have their work read and workshopped, find collaborators, share useful information, and support efforts to get members' work produced.
-
-The New Musical Theatre Exchange was founded in 2012 by a diverse group of Twin Cities playwrights, composers, and lyricists dedicated to launching new musicals in the Twin Cities and surrounding region. We provide a place to develop musicals and foster a community for serious-minded local musical theatre writers who believe that new musicals can be developed outside of New York City and in particular, here in the Twin Cities and surrounding region, where there is a wealth of talent and resources available. Bringing a musical to full fruition is always a long and challenging road, even for the most experienced Broadway veterans; we created our workshop as a first step where writers can receive feedback to refine ideas, identify potential problems, and correct mistakes before a show goes into the difficult and expensive production process.
-
-We meet on the third Sunday of each month, usually at the <a href="https://www.google.com/maps/place/710+Raymond+Ave,+St+Paul,+MN" target="_blank">Playwrights' Center, 710 Raymond Ave, St. Paul</a>.
-
----
-
 ## Members
 
 <ul class="members-list">
@@ -34,9 +26,34 @@ We meet on the third Sunday of each month, usually at the <a href="https://www.g
 
 *Member bios link to <a href="https://pwcenter.org/member-directory/" target="_blank">Playwrights' Center</a> profiles where available.*
 
-Interested in learning more? [Contact us →]({{ site.baseurl }}/contact/)
+<img src="{{ site.baseurl }}/assets/images/banner-actors.png" alt="NMTE members" style="width:100%; border-radius:8px; margin: 1.5rem 0;">
 
-<img src="{{ site.baseurl }}/assets/images/banner-actors.png" alt="NMTE members" style="width:100%; border-radius:8px; margin-top:2rem;">
+---
+
+## About NMTE
+
+The **New Musical Theatre Exchange** is a nonprofit 501(c) bringing together committed librettists, lyricists, and composers of musical theatre in the Twin Cities and surrounding region. We workshop new musicals, find collaborators, share resources, and support efforts to get members' work produced.
+
+Founded in 2012, we believe new musicals can — and should — be developed outside of New York City. The Twin Cities and surrounding region has a wealth of talent, a thriving theater community, and audiences hungry for original work.
+
+We meet on the **third Sunday of most months** at the <a href="https://www.google.com/maps/place/710+Raymond+Ave,+St+Paul,+MN" target="_blank">Playwrights' Center, 710 Raymond Ave, St. Paul</a>.
+
+<div class="home-cards" style="margin-top: 2rem;">
+  <a href="{{ site.baseurl }}/what-we-do/" class="card">
+    <h3>What We Do</h3>
+    <p>Monthly workshops, staged readings, cabaret showcases, and partnerships with organizations like Nautilus Music-Theater.</p>
+  </a>
+
+  <a href="{{ site.baseurl }}/get-involved/" class="card">
+    <h3>Get Involved</h3>
+    <p>Learn about our membership process and how to join our community of musical theater creators.</p>
+  </a>
+
+  <a href="{{ site.baseurl }}/contact/" class="card">
+    <h3>Contact</h3>
+    <p>Get in touch with us about meetings, membership, or general questions about NMTE.</p>
+  </a>
+</div>
 
 <style>
 .members-list {
