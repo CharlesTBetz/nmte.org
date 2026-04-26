@@ -4,17 +4,17 @@
 # Set photo to "" if no headshot yet — placeholder will display.
 
 - name: Keith Benson
-  photo: ""
+  photo: "keith-benson.jpg"
   pwc_url: https://pwcenter.org/profile/keith-benson/
   board: true
 
 - name: Charles T. Betz
-  photo: ""
+  photo: "charles-betz.jpg"
   pwc_url: https://pwcenter.org/profile/charles-betz/
   board: true
 
 - name: Kevin Bowen
-  photo: ""
+  photo: "kevin-bowen.jpg"
   pwc_url: https://pwcenter.org/profile/kevin-bowen/
   board: false
 
@@ -34,27 +34,27 @@
   board: false
 
 - name: Maureen Kane Berg
-  photo: ""
+  photo: "maureen-kane-berg.jpg"
   pwc_url: https://pwcenter.org/profile/maureen-kane-berg/
   board: true
 
 - name: Marienne Kreitlow
-  photo: ""
+  photo: "marienne-kreitlow.jpg"
   pwc_url: https://pwcenter.org/profile/marienne-kreitlow/
   board: true
 
 - name: Ben Larson
-  photo: ""
+  photo: "benjamin-emory-larson.jpg"
   pwc_url: https://pwcenter.org/profile/benjamin-emory-larson/
   board: false
 
 - name: Mike Nilles
-  photo: ""
+  photo: "mike-nilles.jpg"
   pwc_url: https://pwcenter.org/profile/mike-nilles/
   board: false
 
 - name: Janet Preus
-  photo: ""
+  photo: "janet-preus.jpg"
   pwc_url: https://pwcenter.org/profile/janet-preus/
   board: true
 
@@ -64,6 +64,6 @@
   board: false
 
 - name: Brenda Varda
-  photo: ""
+  photo: "brenda-varda.jpg"
   pwc_url: https://pwcenter.org/profile/brenda-varda/
   board: false
