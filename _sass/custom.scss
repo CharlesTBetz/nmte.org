@@ -697,10 +697,30 @@ a.cta-button:hover {
 .footer-social a {
   color: #000 !important;
   font-weight: 500;
-  
+
   &:hover {
     color: #c4a843 !important;
   }
+}
+
+a.donate-btn,
+a.donate-btn:visited,
+a.donate-btn:link {
+  display: inline-block;
+  background: #FFD140;
+  color: #111 !important;
+  padding: 0.2rem 0.75rem;
+  border-radius: 4px;
+  font-weight: 600;
+  text-decoration: none !important;
+  font-size: 0.85rem;
+  transition: background 0.2s ease;
+  vertical-align: middle;
+}
+
+a.donate-btn:hover {
+  background: #f0c020 !important;
+  color: #111 !important;
 }
 
 .footer-copyright {
